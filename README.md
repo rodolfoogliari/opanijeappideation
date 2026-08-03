@@ -1,78 +1,181 @@
-Purpose & context
+# Opanijé — the document estate
 
-Rodolfo is the founder of Opanijé, a mobile app for learning and practicing Afro-Brazilian percussion (primarily Candomblé rhythms from the Ketu tradition, rooted in Salvador, Bahia). The app is designed for both Brazilian practitioners and international learners. The core product thesis is that intrinsic motivation — anchored to real named masters, musical groove, and lineage transmission — can outperform extrinsic engagement mechanics, while still selectively using the full engagement toolkit where it doesn't compromise the product's cultural and pedagogical integrity.
+**Opanijé** is a mobile app for learning and practicing Afro-Brazilian percussion — primarily
+Candomblé rhythms of the Ketu tradition, rooted in Salvador, Bahia — for Brazilian practitioners and
+international learners alike.
 
-Key people:
+This repository is not code. It is the company's **document estate**: the charter, the plan of record,
+the registers of every decision and open question, and the session history that produced them.
 
-Junior — co-founder and sole percussion master for Release 1. Governs all sacred material decisions (red line #1). Sole musician for Release 1 (records every drum part himself, layered). Standing resource rule: always choose the option cheaper in people and more expensive in Junior's own hours.
-Vanderson ("Macumbinho") — second master, content and delivery contributor. Confirmed out of Release 1; his inclusion is a future open question.
+**Restructured 2026-08-03 under D83.** Session prose used to be the register of record; it no longer
+is. The registers are.
 
-Red lines (non-negotiable charter constraints):
+---
 
-Sacred material decisions require Junior's sign-off.
-Standing (Caderno attestation) is not currency — the play layer never writes into the Caderno system.
-Nothing gates access to content that was already given (no Duolingo-style hearts).
-No synthetic voice in any asset.
+## Start here
 
-Structural architecture: Two separate ledgers — a resettable play layer (gamification) and the permanent Caderno — so engagement mechanics never touch lineage standing.
+| If you want… | Read |
+|---|---|
+| **What can never change** | [`CHARTER.md`](CHARTER.md) — the one law, six red lines, the partition, the two ledgers, the grading constitution, the vocabulary rule |
+| **What is open right now** | [`BACKLOG.md`](BACKLOG.md) — every open item, door-labelled, by owner |
+| **How the estate works** | [`METHOD.md`](METHOD.md) — epistemic labels, one-way/two-way doors, the monthly decision hour, numbering, session format |
+| **What the game is** | [`plan/THE-GAME.md`](plan/THE-GAME.md) — the assembled specification |
+| **What happens in what order** | [`plan/ROADMAP.md`](plan/ROADMAP.md) |
+| **The current state of any numbered item** | [`registers/`](registers/) |
+| **Why something was decided** | [`sessions/`](sessions/) — history, not the register |
 
-The project operates with a formal document estate using numbered conventions: rulings (A-series), recommendations (R-series), inputs (INPUT-series), deltas (D-series), evidence rows (E-series), and contradictions (C-series). Epistemic labels (RULED, REPORTED, ASSUMPTION, HYPOTHESIS, MEASURED, FOUNDER-FACT, PM-ASSERTION, VERIFIED-EXTERNAL) are applied throughout all documents.
+**Read the Charter before proposing anything.** It is two pages and it is the whole of what cannot be
+traded away.
 
-Current state
+---
 
-The most recent session focused on game mechanics design, working from a formal research review document against the full project estate. Key developments:
+## The product, in one paragraph
 
-Fork A (room advancement) closed: Western notation and tab systems are being replaced product-wide with vocalization. A tap-along mechanic (vocalize + tap simultaneously) will serve as the door mechanic for room advancement. The app opens rooms without ever asserting the student is "ready." This ruling activates a dormant tier in the sacred material partition system and opens catalog expansion possibilities.
-Proposed decisions D52–D56 and INPUT-67–INPUT-68 capture open questions requiring Junior's answer before the production shoot (M0).
-INPUT-36 — previously a side verification — is now the foundational assumption the entire vocalization ruling rests on; flagged for priority confirmation.
-Fork B remains open; its shape was substantially changed by the vocalization ruling and has not yet been resolved.
-Engagement toolkit: The full toolkit (streaks, XP, goals, loss aversion, unlockables, notifications, celebration moments) is open for use within the two-ledger architecture.
-Auto-advancement (D51): The app may advance students through rooms automatically on behavioral facts (time, cycles, sessions) — not inferred quality of play. Manual movement in both directions is preserved.
-Release 1 scope: Mockup and core functionality built first; shoot, lawyer, and external dependencies wait until the mockup clarifies what's needed. Design runs in parallel in a dedicated tool.
-Commerce: Brazilian payment rail (Pix) live before Release 1; full in-app purchasing through Apple and Google store billing included in Release 1. Store account enrollment (Apple Developer and Google Play, under the company CNPJ) and small-business commission program applications are immediate actions.
+The core thesis is that **intrinsic motivation — anchored to real named masters, musical groove, and
+lineage transmission — can outperform extrinsic engagement mechanics.** The student vocalizes a part,
+taps it, then plays it on a screen drum, inside a battery every drum of which is played by one master.
+The app never says the student is ready, correct, or good; it opens rooms on facts, renders musical
+consequences in sound, and reserves every judgment about a person to a human who says their name.
 
-Critical technical findings (from estate audit) that inform product decisions:
+**The one law: access is bought; standing is only earned.**
 
-No audio layer exists in the current estate — multi-track stem playback requires either a specialist native engine or a pre-rendered subtraction ladder of fixed levels.
-Entitlement rail is deployed but dormant, built for only two purchasable courses with no subscription capability.
-No live payment path in BRL exists yet.
-Red line #1 has no operating form in the estate — requires build work.
-Live privacy policy is outdated and a Release 1 blocker for both app stores.
-Single-server infrastructure with no standby — credential escrow is an urgent near-zero-cost action.
+---
 
-On the horizon
+## The people
 
-Fork B resolution (game mechanics session continuation).
-INPUT-36 confirmation from Junior — must happen before vocalization ruling can be treated as settled.
-M0 production shoot — irrecoverability deadline driving sequencing. Pre-shoot inputs from Junior (INPUT-67, INPUT-68 and others) must be locked before shoot.
-IP considerations: Brand name faces examination risk under Brazilian trademark law (religious worship provision) — Junior's sign-off on marking the term is required and has not yet been obtained. Registrable portfolio includes the mark (pending clearance), expressive content copyright, software registration, GUI industrial design (time-critical before any screens go public), and Marco Legal dos Games registration (INPI, first half of 2027). Defensive publication identified as the correct tool for freedom-to-operate concerns.
-Vanderson's inclusion in future releases remains an open input.
-Track B (private 1:1 classes pilot) — recommended as a parallel pre-M0 track to generate the company's first measured numbers at zero capital.
+**Rodolfo** — founder. Decides price, product name, brand and voice, which traditions and masters are
+invited, every business term, and form on secular material. He is here to conceptualize; technical
+decisions go to the build side and surface only when they force a product-level fork.
 
-Key learnings & principles
+**Junior** — co-founder and sole percussion master for Release 1. Governs all sacred material under
+red line #1 — and that is a **governance gate, not a consultation**. He records every drum part
+himself, layered; there is no ensemble at this point (S6). Standing resource rule: always choose the
+option cheaper in people and more expensive in Junior's own hours (S7).
 
-Intrinsic motivation is the strongest asset: Musical groove and entrainment reduce dependence on extrinsic mechanics more than in non-musical apps. Removing contingent extrinsic rewards protects long-term intrinsic motivation (validated by SDT research).
-Identified risks: The "return problem" (nothing pulling wavering beginners back between monthly master cycles) and the "competence-signal vacuum" (no microphone means no performance feedback) are the two biggest structural gaps to design around.
-Irrecoverability drives sequencing: M0 decisions are ranked by what cannot be recovered after the shoot, not by perceived value. Consent scope (covering interactive use and isolated stems) and sacred partition are the least recoverable and cheapest items.
-Junior's formal input is a governance gate, not a consultation — no sacred material ruling moves forward without it.
-One new standing obligation at a time — load-bearing sequencing principle applied when evaluating scope additions.
-The master's ear is never purchasable — enforced as a data-layer invariant.
-No scoring, facts only — judgment is human and monthly (the master's listening cycle and public corrections are the primary engagement driver).
-Beginners and solo players are the primary audience — mechanics must work for someone who cannot yet play to a metronome and wants no peer interaction.
-Depth is the paywall, not breadth — free content demonstrates the bench (one rhythm per master); paid content goes deeper into the same material.
+**Vanderson ("Macumbinho")** — second master, content and delivery contributor. Confirmed out of
+Release 1; his inclusion in later releases is an open question.
 
-Approach & patterns
+---
 
-Rodolfo is present to conceptualize, not answer technical questions. Technical decisions are handled independently and surfaced only when they force a product-level fork.
-Preferred interaction format: plain-language explanation first, then a three-option fork with explicit pros and cons for each. Back-and-forth dialogue, not long monologues.
-Decisions are binding and recorded immediately in the estate's numbering conventions. Changes to ratified material go into a delta register requiring explicit founder ratification.
-The document estate is the source of truth — Claude is expected to hold all governing documents in view before asserting contradictions, and to acknowledge gaps in file access rather than treating absence of evidence as evidence of absence.
-Sessions produce formal named output files continuing the estate's numbering conventions, filed as addenda or superseding documents depending on scope.
-All questions for Rodolfo are framed as multiple-choice with 3 suggested options.
+## Where things stand — 2026-08-03
 
-Tools & resources
+**The game exists now, and it is legible.** Addendum 04 answered the founder's question — how to grade
+students without negative or frustrating classification — by separating four things the estate had
+collapsed into one: *measurement*, *feedback*, *grading*, and *classification*. Only classification
+was ever the danger, and only classification is barred. A game grades the run, never the player.
 
-Project document estate (governing files loaded per session): consolidated product plan, technical audit, operator engagement mandate, experience spec, game mechanics research review, and session addenda — all using the estate's alphanumeric register conventions.
-Apple Developer and Google Play store accounts (enrollment in progress, under company CNPJ).
-Claude Design (dedicated parallel track for design work).
-Junior's real recorded voice, narrated video, and pre-rendered audio at fixed levels and tempo steps — the primary media assets.
+What follows from that:
+
+- **The drum always sounds** (D77). In-window strikes keep the master's correct part alive;
+  out-of-window and wrong-zone strikes fire a real one-shot of the student's actual hit — because a
+  real drum struck off-time still sounds.
+- **There is no fail state anywhere** (D78). The part thins when unfed and returns when fed. You
+  cannot lose; you can only be more or less present in the music.
+- **After the round, three facts and one personal best** (D79 — **RATIFIED**). Self-referenced,
+  monotonic, per-setting. A number that only ever rises cannot humiliate.
+- **The echo loop is the micro-game** (D74) — the teaching voice withdraws and returns, which is the
+  tradition's own method rather than a mechanic invented for it (G20, MASTER-CONFIRMED).
+- **The repertoire arc is the macro-game** (D75). The map is a city of rhythms, not a difficulty grid.
+
+**The business shape moved too.** The commons is free and scarcity is priced (D73). The notation
+system will be published openly as a **standard** for teaching Afro-Brazilian percussion, and Opanijé
+positions as a music-education company (G22) — which reversed the estate's own "free screen drum is
+value leakage" critique: giving the instrument away *is* the distribution strategy. Breaks are
+deferred (G24), freeing shoot capacity that now buys commons rhythms instead (R88). The master's
+monthly listening cycle enters Release 1 as **operations, not build** (D81) — an appointment the app
+carries, with submission over ordinary channels so the no-microphone cut (D26) stays intact.
+
+**What is not true yet.** Nothing in this estate carries the label **MEASURED**. Not one row. The
+ledger exists to keep that fact visible, and Track B — ten hand-booked private classes — is the
+cheapest path to changing it.
+
+---
+
+## The three deadlines that govern sequencing
+
+1. **Escrow, today.** Signing keystore and repository key off-box, backup passphrase restored. One
+   machine currently holds the code, every credential, the backup key and the signing key, with no
+   standby. Hours of work; it outranks everything (D16, risk #16, INPUT-44).
+2. **The M0 shoot.** The cameras stop. Decisions are ranked by what cannot be recovered afterward, not
+   by perceived value. Consent scope and item-by-item partition capture are the least recoverable and
+   the cheapest. See [`plan/M0-SHOOT.md`](plan/M0-SHOOT.md).
+3. **The GUI industrial design filing**, time-critical **before any screens go public** — and a mockup
+   is being built.
+
+---
+
+## What is open, in one glance
+
+- **Junior owes:** the classroom transcription (INPUT-78) and form assent on the rendered echo
+  (INPUT-79) — together these specify and sanction the micro-game; plus the stroke library, the stroke
+  vocabulary, partition capture, the reference-dialect confirmation, and the mockup conversation.
+- **The founder owes:** the commons list (INPUT-80 — **one-way**, red line #5 makes it permanent), the
+  count-in variant count (INPUT-74), the vocabulary sheet (INPUT-81), the cycle's go/no-go (INPUT-82),
+  and confirmation of one derived reading of his own ruling (INPUT-84).
+- **Founder and counsel owe:** publication scope, licence, timing, and the positioning's effect on the
+  trademark strategy (INPUT-83).
+- **One fork is open and instrumented:** Fork L — does visible sustain survive contact with students?
+  Ratified now, tested at the pilot and M1, reversed without cost if ledger row 49 fails.
+
+Full detail, with door labels and blocking gates, in [`BACKLOG.md`](BACKLOG.md).
+
+---
+
+## Repository map
+
+```
+CHARTER.md          what cannot change
+BACKLOG.md          what is open, door-labelled, by owner
+METHOD.md           how the estate works
+
+registers/          the register of record — current state of every numbered series
+  DECISIONS.md        rulings A, session decisions S, game decisions G, experience decisions E
+  DELTAS.md           D1–D83 — proposed changes and their ratification state
+  INPUTS.md           INPUT-1–84 — questions reserved to a named human
+  RECOMMENDATIONS.md  R1–R88 — the PM's advice, and whether it was taken
+  LEDGER.md           rows 1–51 — load-bearing claims and what would convert them
+  RISKS.md            #1–#29
+  FORKS.md            the fork board, A–L
+  CONTRADICTIONS.md   C1–C22 and their dispositions
+  NUMBERING.md        next number in every series; known gaps
+
+plan/               what is being built
+  PRODUCT-GOALS-VNEXT-CONSOLIDATED-V2.md   the plan of record
+  THE-GAME.md                              the assembled game specification
+  M0-SHOOT.md                              the capture manifest — every item one-way
+  PRICING-AND-ACCESS.md                    commons free, scarcity priced, and the cycle
+  THE-STANDARD.md                          the publication workstream
+  ROADMAP.md                               the sequence, and why that sequence
+  RELEASE-1-EXPERIENCE-SPEC-V1.md          the student's path, end to end
+  OPERATOR-MANDATE-01-ENGAGEMENT-*.md      the engagement toolkit, and its four charter boundaries
+
+research/           the evidence base — narrows the design space, does not choose the product
+sessions/           the reasoning that produced all of the above; history, not the register
+```
+
+---
+
+## Working with this estate
+
+**Every claim carries an epistemic label.** RULED, MASTER-CONFIRMED, FOUNDER-FACT, ADOPTED,
+ASSUMPTION, HYPOTHESIS, MEASURED, FALSIFIED and the rest are defined in [`METHOD.md`](METHOD.md) §1.
+**No row upgrades without dated evidence.** Never upgrade a label to make a plan read better.
+
+**Deltas are proposed; the founder ratifies.** Operator mandates are the one exception — founder-issued
+and operative on issue.
+
+**Open inputs are reserved.** Never resolve one unilaterally. Where a terse answer must be interpreted,
+write the interpretation down as a confirm-or-correct row with the cost of being wrong stated.
+
+**Questions to the founder come as three options with pros and cons.** Plain language, and plainer when
+asked.
+
+**Nothing should be built because it worked in a paper.** The research base narrows the design space
+and does not choose the product; gamification effects are positive on average, heterogeneous, and often
+small. There is almost no high-quality evidence for a single-player, microphone-free, culturally
+governed percussion practice product. The product still has to be measured.
+
+---
+
+*Estate restructured 2026-08-03 under D83 (Game Addendum 04 §7). Nothing in this repository is measured
+evidence unless a ledger row says MEASURED — and as of this date, none does.*
