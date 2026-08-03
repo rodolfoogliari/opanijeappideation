@@ -20,7 +20,7 @@ collision.
 | Experience decisions | E21 | **E22** | `DECISIONS.md` |
 | Game decisions | G26 | **G27** | `DECISIONS.md` |
 | Forks | L | **M** | `FORKS.md` |
-| Contradictions | C22 | **C23** | `CONTRADICTIONS.md` |
+| Contradictions | C23 | **C24** | `CONTRADICTIONS.md` |
 | Founder rulings | A17 | **A18** | `DECISIONS.md` |
 | Session decisions | S9 | **S10** | `DECISIONS.md` |
 

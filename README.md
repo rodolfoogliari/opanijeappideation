@@ -114,8 +114,12 @@ cheapest path to changing it.
   and confirmation of one derived reading of his own ruling (INPUT-84).
 - **Founder and counsel owe:** publication scope, licence, timing, and the positioning's effect on the
   trademark strategy (INPUT-83).
-- **One fork is open and instrumented:** Fork L — does visible sustain survive contact with students?
-  Ratified now, tested at the pilot and M1, reversed without cost if ledger row 49 fails.
+- **Two forks are open:** Fork L — does visible sustain survive contact with students? Ratified now,
+  tested at the pilot and M1, reversed without cost if ledger row 49 fails. And Fork E's free half —
+  where on the dial the free door sits, blocked on INPUT-69.
+- **One contradiction is open: C23.** E2's named presence was voided by D38 (Junior alone, layered),
+  its replacement left open at INPUT-61 — and Addendum 04's presence lamp then builds on E2 as though
+  it were live. Found during this restructure; recorded, not resolved.
 
 Full detail, with door labels and blocking gates, in [`BACKLOG.md`](BACKLOG.md).
 
@@ -136,8 +140,9 @@ registers/          the register of record — current state of every numbered s
   LEDGER.md           rows 1–51 — load-bearing claims and what would convert them
   RISKS.md            #1–#29
   FORKS.md            the fork board, A–L
-  CONTRADICTIONS.md   C1–C22 and their dispositions
+  CONTRADICTIONS.md   C1–C23 and their dispositions
   NUMBERING.md        next number in every series; known gaps
+  CHARTER-PROVENANCE.md  exact sources behind the Charter, and what the estate cites but no longer holds
 
 plan/               what is being built
   PRODUCT-GOALS-VNEXT-CONSOLIDATED-V2.md   the plan of record

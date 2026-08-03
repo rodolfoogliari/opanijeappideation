@@ -88,7 +88,7 @@ three-option treatment.**
 
 ### 3.1 · Junior — sacred material, pedagogy, form
 
-Junior's formal input is a **governance gate, not a consultation** (`CHARTER.md` §7).
+Junior's formal input is a **governance gate, not a consultation** (`CHARTER.md` §8).
 
 | # | Question | Door | Blocks |
 |---|---|---|---|
@@ -107,7 +107,8 @@ Junior's formal input is a **governance gate, not a consultation** (`CHARTER.md`
 | **INPUT-12** | The three-way monthly hours budget: confirmations · cycle listening · private classes | Two-way | 1:1 scale-up, M3 |
 | **INPUT-62** | Form assent on the engagement layer over his material. *Urgency fell under G15* — ask it about whatever runs past the door | Two-way | — |
 | **INPUT-68** | What the hand does while the mouth does the part — unison, pulse, or reference. Pedagogy, not product | Two-way | — |
-| **INPUT-30** | (with Vanderson) Confirmation of the part-subtraction pedagogy. *Largely closed by G21's "proven through real students"* | Two-way | — |
+| **INPUT-57** | Junior's acceptance of the shoot day as now constituted — askable since C21 closed and the day settled | Two-way | The shoot date |
+| **INPUT-32** | Is marking the name acceptable at all under red line #1? Zero cost, unrecoverable if skipped, prior to and independent of legality | **ONE-WAY** | Any filing or further public use of the name |
 | **INPUT-18** | Does a "Witnessed" tier exist? Non-blocking | Two-way | — |
 | **INPUT-17** | Private self-facing timing feedback — deferred; only if ever proposed | Two-way | — |
 
@@ -135,6 +136,11 @@ INPUT-79. One sitting, one working object, not five descriptions.
 | **INPUT-1, -5, -6, -7, -10, -11, -14, -15, -19, -24, -26, -28** | List size and quality; immersion window and capacity; B2B pipeline; grant calendar; price parity; private-class prices in both worlds; subtitling in M0; standing room in M0; the narrow no-digital-skill reading; tier 3 as base; Vanderson's role per A12; the A14 reading | Two-way | Various — see `registers/INPUTS.md` |
 | **INPUT-43** | Mobile-audio specialist budget — **only if INPUT-41 forbids the ladder** | Two-way | Conditional |
 | **INPUT-45** | Repository migration to an Opanijé org; ACF Pro seats | Two-way | — |
+| **INPUT-53** | Which toque is the free rhythm — extends INPUT-27; its content now passes into **INPUT-80** | **ONE-WAY** | The free tier |
+| **INPUT-55 / -56** | Carried open from the second 2026-07-31 session — see `registers/INPUTS.md` | Two-way | — |
+| **INPUT-59** | The tempo steps, which now also set the solfejo's speeds. **Provisional — must be confirmed pre-shoot** (R82) | **ONE-WAY** | The M0 shoot |
+| **INPUT-60** | What goes on the play screen now that E2's named presence is void under D38 | Two-way | The play screen; bears on **C23** |
+| **INPUT-61** | Junior's co-founder terms, and the replacement for E2's named presence | Two-way | **C23** |
 | **INPUT-48** | Storage, bandwidth, capacity; media to object storage and CDN | Two-way | **M1 cannot be costed until this returns a number** |
 | **INPUT-49** | Does the app ever listen? A (no ears), B (ears, description only), C (ears that gate — advised against). R45 recommends A | Two-way | Release 2's audio and permissions scope |
 | **INPUT-50** | Offline protection posture. Moot for Release 1 under D27 | Two-way | Release 2's offline design |
@@ -162,15 +168,43 @@ INPUT-79. One sitting, one working object, not five descriptions.
 
 ---
 
-## 4 · Open forks
+## 4 · The fork board
+
+Full questions, closures and door labels in `registers/FORKS.md`. State as of Addendum 04 §15.
 
 | Fork | Question | State |
 |---|---|---|
-| **L** | **Does D79's visible sustain survive contact with students?** | **OPEN, instrumented.** Ratified now, tested at the pilot and M1, reversed **without cost** if ledger row 49 fails — visibility is a two-way door and the underlying facts are collected either way |
-| **K** | What pulls the student back on day 7 | **ANSWERED contingent on INPUT-82** — the repertoire arc pulls across the week, the appointment with a human who might say your name pulls across the month, the count-in opens the day |
-| **H** | *(carried)* — see `registers/FORKS.md`. Deferred at Addendum 03 §10 with its M1 cost stated | Deferred, cost known |
-| **A, B, C, D** | Closed — G1, Addendum 03 §4, G24, D80 | Closed |
-| **E, F, G, I, J** | As Addendum 03 §18 | See `registers/FORKS.md` |
+| **L** | Does D79's visible sustain survive contact with students | **OPEN, instrumented.** Ratified now, tested at the pilot and M1, reversed **without cost** if ledger row 49 fails — the underlying facts are collected either way |
+| **E** | Where the screen drum sits on the dial, and whether it is free | **OPEN in its free half.** Zone half closed by G14/D65 — three zones on hand instruments, two on stick instruments, labelled by the syllables. The free half is *derived, not ruled*. Blocked on **INPUT-69** |
+| **K** | What pulls the student back on day 7 | **ANSWERED contingent on INPUT-82** — the count-in opens the day, the repertoire arc pulls across the week, the appointment with a human who might say your name pulls across the month |
+| **I** | Does the app ever listen | **DEFERRED to Release 2.** D26 takes the microphone out of Release 1. Revisit against R45/INPUT-49 with M1 data |
+| **J** | Does the app ever remove support, and who fires it | **DEFERRED — G12/D62.** No app-fired dropout in Release 1. If a toque carries a musically-native dropout, rendering it stays Junior's form decision — said in words, not inferred from a take |
+| **C** | Breaks at M0 | **CLOSED for Release 1 — G24.** Returns as material allows |
+| **F** | Sharing and export | **CLOSED for Release 1 — G18/D69.** INPUT-71 stays open and non-urgent, held in the counsel brief by R78 |
+| **G** | Comparison between students | **CLOSED for Release 1 — G17/D68.** "Not yet, maybe never" |
+| **H** | Does the engagement layer run on the free tier | **CLOSED for Release 1 — G15/D66. No.** Nothing given for now, because red line #5 ratchets. Its scope is what **INPUT-84** re-puts to the founder |
+| **A** | Room advancement | **CLOSED — G1/D52.** The app opens rooms; it never moves the student into one |
+| **B** | Where the first session ends | **CLOSED — G13/D63.** The whole sequence at its simplest setting |
+| **D** | Celebration | **CLOSED — D80.** The new personal best |
+
+**Next fork letter: M.**
+
+---
+
+## 4.1 · One open contradiction
+
+**C23 — E2's named presence, voided and then relied upon.** D38 voided E2 (the real musicians lighting
+up as each joins) because S6 puts Junior alone on every drum, layered; the replacement was opened as
+**INPUT-61** and never closed. Addendum 04 §3.3 then builds **E21, the presence lamp**, on E2 as
+though it were live.
+
+Two readings, and they build differently: either E21's lamp *is* the answer to INPUT-61 — one slot,
+the student's own, no other named musicians on screen — or E2 is genuinely revived and the estate must
+say who the named musicians are when the battery is one man layered.
+
+**Found during this restructure, not in session. Recorded, not resolved** — routed to INPUT-61, which
+is the founder's. It is why `CHARTER.md` §5 states credit at red line #6's wording only and stops
+short of a play-surface credit rule.
 
 ---
 
@@ -220,6 +254,8 @@ consented material.
 | **INPUT-27** · The free tier's permanent set | **D73** gave it its rule — the commons is free, scarcity is priced. The *list* moves to INPUT-80 | 2026-08-03 |
 | **INPUT-67** · Does the app fix one syllable set as its standard | **Reframed, not closed** (§6). Junior's set is the *reference dialect* inside a frame that lets other masters carry their own | 2026-08-03 |
 | **C22** · Does the stroke sample library survive D60 | **D77.** Yes — the library exists so the drum is honest, which re-justifies D58 on solid ground | 2026-08-03 |
+| **INPUT-30** · Confirmation of the part-subtraction pedagogy | **G21**, via D71's first reclassification pass — proven through real students | 2026-08-03 |
+| **INPUT-76** · Does the stroke sample library stay in the shoot given C22 | **D77** (derived — Addendum 04 §11 does not name it among the closed). Yes; the library exists so the drum is honest | 2026-08-03 |
 | **INPUT-66** · Does the engagement layer run on the free tier | **G15.** No — not on the free tier | 2026-08-01 |
 | **INPUT-64** · Comparison between students | **G17.** Out for Release 1 | 2026-08-01 |
 | **INPUT-63** · Does the room auto-advance | **RULED 2026-07-31.** Yes; narrowed by D52 from *moving* to *opening* | 2026-07-31 |

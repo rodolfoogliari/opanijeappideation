@@ -106,7 +106,48 @@ when the game's records were designed against it (D75).
 
 ---
 
-## 5 · The grading constitution
+## 5 · Consent and credit
+
+Red line #6 states the rule. This is its operating form, and it is charter because a consent failure
+is not recoverable by any amount of later care.
+
+**Consent is captured before the cameras roll.** Every consent instrument is recorded **in the
+teller's own voice**, and every rights document is executed before the shoot — not after, not
+alongside.
+
+**The hold condition, verbatim (v2.0 §7.2):**
+
+> **Any recording without an executed consent instrument does not ship. No exceptions; red line #6
+> in operating form.**
+
+**The scope question is the cheapest irreversible item in the estate.** Whether the M0 consent
+instruments as drafted license **interactive and game use** is **INPUT-22** — rank 1 of six by
+irrecoverability, near-zero cost to fix now, and not recoverable later without re-consenting masters
+and reopening commercial terms from a weak position. Isolated per-instrument stems are **INPUT-23**,
+rank 3, and impossible without re-recording.
+
+**Credit is permanent, and it is structural.** Credit survives the material: a Caderno entry is
+**withdrawal-proof** — it survives the disappearance of the material it points at, because material
+comes down and credit does not. Masters carry permanent structural credit alongside production done
+for them.
+
+**Withdrawal must actually reach everything.** Red line #6's operating form is a **cross-system
+takedown** — short-lived signed tokens, asset removal at the CDN, entitlement revocation — proven by
+a drill, and it must reach the play layer's caches and records too. A takedown that stops at the CDN
+is not a takedown.
+
+**This does not exist yet.** There is no cross-system takedown anywhere in the estate (ledger row 30,
+**FALSIFIED**). It is a hard requirement before Release 1 ships any consented material, and whether
+the promise must reach copies already on devices is **INPUT-47**, the founder's and counsel's.
+
+**One thing this Charter deliberately does not state: a play-surface credit rule.** E2 put the real
+named musicians on screen, lighting up as each joins. D38 voided it — under S6 the battery is Junior
+alone, layered, and "the real musicians" cannot light up one at a time when one man was recorded four
+times. The replacement is **INPUT-61**, still open. Addendum 04's presence lamp (E21) then builds on
+E2 as though it were live. That conflict is registered as **C23** and routed to INPUT-61; until it is
+settled, the Charter carries credit at red line #6's wording only.
+
+## 6 · The grading constitution
 
 **D76 — ADOPTED 2026-08-03.** One principle replaces every prior per-surface rule on evaluation.
 
@@ -140,10 +181,10 @@ D26 (no microphone). It stays true if a microphone ever ships.
 
 ---
 
-## 6 · The vocabulary rule
+## 7 · The vocabulary rule
 
 **R86 — the wording is where classification would leak back in, so the wording is specified.**
-Approved at **INPUT-81**; the working sheet is `METHOD.md` §5.
+The working sheet is `METHOD.md` §5. Founder approval is **owed at INPUT-81, which is open** — the rule binds as plan-of-record meanwhile.
 
 Play-layer words are **spatial and musical**: rooms, visits, holds, bests, cycles, presence.
 
@@ -153,7 +194,7 @@ a master's acknowledgment.
 
 ---
 
-## 7 · Authority — who decides what
+## 8 · Authority — who decides what
 
 **The founder (RULED, v2.0 §12).** Every price, product name, brand and voice; which shape leads;
 which traditions and masters are invited; every business term; and form decisions on **secular**
@@ -173,7 +214,7 @@ confirmed by the tradition's named authority. It sits above FOUNDER-FACT for tra
 
 ---
 
-## 8 · What must not be built
+## 9 · What must not be built
 
 Cumulative and consolidated. Every line traces to a red line or to a ruling, never to taste.
 Items 1–7 from Operator Mandate 01 §10; 8–10 from Game Addendum 01 §11; 11 from Game Addendum 02 §15,
@@ -211,7 +252,7 @@ mockup, and take it to Junior — not to the product manager.
 
 ---
 
-## 9 · Two standing rules that are not red lines but bind sequencing
+## 10 · Two standing rules that are not red lines but bind sequencing
 
 **The standing resource rule.** Always choose the option cheaper in people and more expensive in
 Junior's own hours.
@@ -222,7 +263,7 @@ are evaluated. It is genuinely strained by the monthly cycle (D81) and that stra
 
 ---
 
-## 10 · How this document changes
+## 11 · How this document changes
 
 The Charter changes only by explicit founder ratification, and — where sacred material's form is
 touched — only with Junior's sign-off under red line #1.

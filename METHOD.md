@@ -93,7 +93,7 @@ rather than on a deadline.
 4. Anything not reached is carried, dated, and reported as carried — never silently.
 
 **What the hour is not.** It is not a status meeting and it is not consultation. Junior's formal input
-is a governance gate (`CHARTER.md` §7). An input answered in the hour is a ruling; an input not asked
+is a governance gate (`CHARTER.md` §8). An input answered in the hour is a ruling; an input not asked
 is not an assumption.
 
 ---
@@ -114,6 +114,7 @@ decision, which the register rows deliberately do not carry.
 | # | `registers/RISKS.md` | Risks and their stated mitigations |
 | Forks | `registers/FORKS.md` | The open product questions, lettered |
 | C | `registers/CONTRADICTIONS.md` | Places two documents said incompatible things, and the disposition |
+| — | `registers/CHARTER-PROVENANCE.md` | The audit trail behind `CHARTER.md`: exact quoted sources, plus the register of documents the estate cites but no longer holds |
 
 **Rows are appended, never rewritten.** A row's *status* may change; its *claim* may not. A superseded
 row stays, marked superseded, pointing at what replaced it. A falsified row stays, marked falsified,
