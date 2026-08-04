@@ -118,7 +118,7 @@ cheapest path to changing it.
   tested at the pilot and M1, reversed without cost if ledger row 49 fails. And Fork E's free half —
   where on the dial the free door sits, blocked on INPUT-69.
 - **One contradiction is open: C23.** E2's named presence was voided by D38 (Junior alone, layered),
-  its replacement left open at INPUT-61 — and Addendum 04's presence lamp then builds on E2 as though
+  its replacement left open at INPUT-60 — and Addendum 04's presence lamp then builds on E2 as though
   it were live. Found during this restructure; recorded, not resolved.
 
 Full detail, with door labels and blocking gates, in [`BACKLOG.md`](BACKLOG.md).

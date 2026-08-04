@@ -340,7 +340,7 @@ Addendum 04 §3.3 (2026-08-03) then builds E21 on E2 as though it were live:
 | CH-36 | Permanent structural credit to masters, alongside production done for him | ADOPTED | — | v2.0 §5 |
 | CH-37 | Cross-system takedown as red line #6's operating form — signed tokens, CDN removal, entitlement revocation; proven by drill | ADOPTED; ledger row 30 FALSIFIED until built | ONE-WAY (derived — gates publication of consented material) | v2.0 §4.1; §7.4 |
 | CH-38 | Takedown must reach the play layer's caches and records | FOUNDER-DECIDED | — | Mandate 01 §4.4 |
-| CH-39 | Named-musician credit on the play surface — E2 voided by D38, replacement open at INPUT-61, yet relied on by E21 | CONFLICT — see §10 | TWO-WAY (derived) | Experience Spec §1 E2; R1 Addendum S2 §5, D38; Addendum 04 §3.3 |
+| CH-39 | Named-musician credit on the play surface — E2 voided by D38, replacement open at **INPUT-60** (Session 2 §5 miscites it as INPUT-61; the §9 register governs), yet relied on by E21 | CONFLICT — see §10 | TWO-WAY (derived) | Experience Spec §1 E2; R1 Addendum S2 §5, D38; Addendum 04 §3.3 |
 | CH-40 | Consent-and-credit architecture is forward-compatible with the TCE direction of travel (R44) | HYPOTHESIS | — | v2.0 §11.7 |
 | CH-41 | No share or export of any recording containing a master's material until INPUT-71 is answered | FOUNDER-DECIDED (Addendum 01 §11 item 9); G18 closes share/export for Release 1 | ONE-WAY (derived — a takedown that stops at the CDN is not a takedown) | Addendum 01 §11; Addendum 03 §1 G18 |
 
@@ -707,11 +707,12 @@ a standing commitment on the two people who have the least slack."
 **Conflicts.**
 
 1. **E2's named presence — voided and then relied upon.** D38 (2026-07-31) records "E2's named
-   presence is void and needs a replacement", with the replacement open at INPUT-61, because S6 puts
+   presence is void and needs a replacement", with the replacement open at **INPUT-60** — Session 2 §5
+   miscites the number as INPUT-61, and its own §9 register governs — because S6 puts
    Junior alone on every drum. Addendum 04 §3.3 (2026-08-03) builds E21's presence lamp on E2 as
    live — "E2 already lights the named musicians as each joins… The student joins the named
    musicians on screen." Under the authority order the later document governs, but Addendum 04 gives
-   no notice that it is reviving a voided decision, and INPUT-61 is not recorded as closed. **This
+   no notice that it is reviving a voided decision, and INPUT-60 is not recorded as closed. **This
    bears directly on the credit rule for named musicians and must be settled before the Charter
    states one.**
 2. **"Four boundaries" vs six red lines.** Mandate 01 §4's title and the README's four-item summary
