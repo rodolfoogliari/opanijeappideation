@@ -100,7 +100,7 @@ Junior's formal input is a **governance gate, not a consultation** (`CHARTER.md`
 | **INPUT-21** | The five-value partition, per item, at the shoot, with the vocalization tier live | **ONE-WAY** | The M0 shoot |
 | **INPUT-67** | The reference dialect confirmation | **ONE-WAY** | The standard's publication |
 | **INPUT-52** | The free rhythm's partition value | **ONE-WAY** | The free tier |
-| **INPUT-72** | Who may hear the rough prototype audio — internal only, internal + Track B, or internal + separately recruited beginners | Two-way | **The usability pilot** (R87) |
+| **INPUT-72** | Who may hear the rough prototype audio — internal only, internal + Track B, or internal + separately recruited beginners | **ONE-WAY** — touches consent scope | **The usability pilot** (R87) |
 | **INPUT-41** | Is a fixed subtraction **ladder** pedagogically adequate, or is live part-by-part muting required? *Tempo half reported closed; confirm the relay* | Two-way, but expensive | **Release 1's shape** — the highest-leverage schedule question in the estate |
 | **INPUT-20** | Reading A assent (or B) — determines how much catalog the game has | Two-way | Catalog scope |
 | **INPUT-16** | Is the asynchronous monthly cycle acceptable as a roda? | Two-way | M3 |
@@ -139,8 +139,8 @@ INPUT-79. One sitting, one working object, not five descriptions.
 | **INPUT-53** | Which toque is the free rhythm — extends INPUT-27; its content now passes into **INPUT-80** | **ONE-WAY** | The free tier |
 | **INPUT-55 / -56** | Carried open from the second 2026-07-31 session — see `registers/INPUTS.md` | Two-way | — |
 | **INPUT-59** | The tempo steps, which now also set the solfejo's speeds. **Provisional — must be confirmed pre-shoot** (R82) | **ONE-WAY** | The M0 shoot |
-| **INPUT-60** | What goes on the play screen now that E2's named presence is void under D38 | Two-way | The play screen; bears on **C23** |
-| **INPUT-61** | Junior's co-founder terms, and the replacement for E2's named presence | Two-way | **C23** |
+| **INPUT-60** | What goes on the play screen now that E2's named presence is void under D38 | Two-way | The play screen; **carries C23** |
+| **INPUT-61** | Junior's co-founder terms — does S7 change INPUT-3's instrument? (Session 2 §5 miscites the play-screen question as this number; the §9 register governs) | Two-way | The cash model |
 | **INPUT-48** | Storage, bandwidth, capacity; media to object storage and CDN | Two-way | **M1 cannot be costed until this returns a number** |
 | **INPUT-49** | Does the app ever listen? A (no ears), B (ears, description only), C (ears that gate — advised against). R45 recommends A | Two-way | Release 2's audio and permissions scope |
 | **INPUT-50** | Offline protection posture. Moot for Release 1 under D27 | Two-way | Release 2's offline design |
@@ -195,14 +195,14 @@ Full questions, closures and door labels in `registers/FORKS.md`. State as of Ad
 
 **C23 — E2's named presence, voided and then relied upon.** D38 voided E2 (the real musicians lighting
 up as each joins) because S6 puts Junior alone on every drum, layered; the replacement was opened as
-**INPUT-61** and never closed. Addendum 04 §3.3 then builds **E21, the presence lamp**, on E2 as
+**INPUT-60** and never closed. Addendum 04 §3.3 then builds **E21, the presence lamp**, on E2 as
 though it were live.
 
-Two readings, and they build differently: either E21's lamp *is* the answer to INPUT-61 — one slot,
+Two readings, and they build differently: either E21's lamp *is* the answer to INPUT-60 — one slot,
 the student's own, no other named musicians on screen — or E2 is genuinely revived and the estate must
 say who the named musicians are when the battery is one man layered.
 
-**Found during this restructure, not in session. Recorded, not resolved** — routed to INPUT-61, which
+**Found during this restructure, not in session. Recorded, not resolved** — routed to INPUT-60, which
 is the founder's. It is why `CHARTER.md` §5 states credit at red line #6's wording only and stops
 short of a play-surface credit rule.
 

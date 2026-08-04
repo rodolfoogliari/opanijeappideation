@@ -24,7 +24,7 @@ delta, recommendation, input, risk or ledger row, and carries its source.
 
 **Authority.** Later documents govern earlier ones; Game Addendum 04 (2026-08-03) is the plan of
 record for anything it touches. Where this file and `../CHARTER.md` disagree, the Charter governs
-(Charter §10). Epistemic labels are carried verbatim from the issuing document and nothing is
+(Charter §11). Epistemic labels are carried verbatim from the issuing document and nothing is
 upgraded.
 
 **Door labels** (D83 item 2). **ONE-WAY** — expensive or impossible to reverse: consent scope,

@@ -10,7 +10,7 @@ derivation history but are no longer the register.
 does not delete the losing statement — it records which one governs and why. Every contradiction
 therefore carries a **disposition**, and the disposition is the thing of record.
 
-**Contradictions are always C + a number** (C1 … C22). They are unrelated to the forks, which are
+**Contradictions are always C + a number** (C1 … C23). They are unrelated to the forks, which are
 bare letters — **Fork C is a fork, not C3** — and to the founder rulings, which are A + number. See
 `NUMBERING.md`.
 
@@ -23,8 +23,8 @@ out-of-window and wrong-zone strikes fire a one-shot of the real stroke, because
 off-time still sounds. That restates D58's justification on solid ground and **re-justifies the
 stroke sample library** that D60 had left without a reason. The library stays in the M0 shoot.
 
-**Door labels.** Under D83 item 2 every OPEN item carries one. **No row in this series is open** — all
-twenty-two are disposed — so the table carries none. Where a disposition still hangs on an item that
+**Door labels.** Under D83 item 2 every OPEN item carries one. **One row is open — C23**, and it carries
+its label on the row. C1–C22 are all disposed and carry none. Where a disposition still hangs on an item that
 is open elsewhere in the estate, that item and its door are named in *Dispositions that still hang on
 an open item*, below.
 
@@ -57,7 +57,7 @@ an open item*, below.
 | C21 | **D57 and D58 — decided or proposed?** The FORK-B continuation §3 lists them under "decided and not up for renegotiation"; Addendum 01 §12 lists them as proposed and operative only on ratification. They are the two items that add to Junior's shoot day — roughly eight solfejo passes and 20–40 minutes of samples | **Closed: they are decided, not proposed** — G19 (FOUNDER-DECIDED), written as D61. The two estate documents no longer disagree | CLOSED 2026-08-01 — and the reason it had to close first is discharged: **INPUT-57 is "now askable"**, put to Junior against a settled day rather than a day whose contents are not yet settled. The FORK-J continuation §3, §8 still carries C21 as open and is the earlier state | Opened — Addendum 02 §9, §11; closed — Addendum 03 §1 (G19), §6.3, §13 (D61); earlier state — FORK-J continuation §3, §8 |
 | C22 | **Does the stroke sample library survive D60?** D58 put the library on the M0 pre-shoot list justified by Addendum 01 §6.4 — "the screen produces no sound when struck, so the app must". D60 replaced that architecture: under scheduled playback the app plays Junior's correct part in time from the render and the strike keeps it alive; it does not fire a sample per strike. The justification D58 was written on no longer holds | **Resolved — D77 (ADOPTED): the drum always sounds.** In-window strikes keep Junior's correct part alive (G10 unchanged); out-of-window and wrong-zone strikes fire a one-shot of the **real stroke** — the student's actual hit, audible, off the groove — because a real drum struck off-time still sounds. "The sample library exists so the drum is honest." D58 is re-justified on solid ground | RESOLVED 2026-08-03 — **the most recent disposition in this series.** The library is kept in the M0 shoot; INPUT-76 ANSWERED (derived — Addendum 04 §11 does not name it among the closed). R80 held the item in scope across the gap precisely so it could not be cut later on a superseded premise. INPUT-70 is unaffected and still Junior's: whether any stroke or drum is off-limits to isolated sampling under the partition | Opened — Addendum 03 §8, §14, §12; R80 at §15; resolved — Addendum 04 §3.3, §8, §10 (D77) |
 
-| C23 | **E2's named presence — voided, then relied upon.** D38 (2026-07-31) records "E2's named presence is void and needs a replacement", because S6 puts Junior alone on every drum, layered — "the real musicians, lighting up as each one joins" cannot work with one man recorded four times. The replacement was opened as **INPUT-61** and has never been closed. Addendum 04 §3.3 (2026-08-03) then builds **E21, the presence lamp**, on E2 as though it were live: "E2 already lights the named musicians as each joins… The student joins the named musicians on screen, which is also the product's promise made visible" | **OPEN — not resolved here.** Under the authority order the later document governs, so E21 stands as PM-RECOMMENDED. But Addendum 04 gives no notice that it is reviving a voided decision, and INPUT-61 is not recorded as closed anywhere in the estate. Two readings are available and they differ in what gets built: either E21's lamp is the answer to INPUT-61 — one slot, the student's own, with no other named musicians on screen — or E2 is genuinely revived and the estate must say who the named musicians are when the battery is one man layered | **OPEN as of 2026-08-03.** Identified during the D83 restructure, not in session. Routed to **INPUT-61** (open, founder's) rather than disposed. It bears directly on the credit rule for named musicians, which is why the Charter states credit at red line #6's wording only and does not yet state a play-surface credit rule | Opened — this restructure, from Experience Spec §1 (E2, FOUNDER-DECIDED); R1 Addendum S2 §5 (D38, INPUT-61); Addendum 04 §3.3 (E21) |
+| C23 | **E2's named presence — voided, then relied upon.** D38 (2026-07-31) records "E2's named presence is void and needs a replacement", because S6 puts Junior alone on every drum, layered — "the real musicians, lighting up as each one joins" cannot work with one man recorded four times. The replacement was opened as **INPUT-60** and has never been closed. Addendum 04 §3.3 (2026-08-03) then builds **E21, the presence lamp**, on E2 as though it were live: "E2 already lights the named musicians as each joins… The student joins the named musicians on screen, which is also the product's promise made visible" | **OPEN — not resolved here.** Under the authority order the later document governs, so E21 stands as PM-RECOMMENDED. But Addendum 04 gives no notice that it is reviving a voided decision, and INPUT-61 is not recorded as closed anywhere in the estate. Two readings are available and they differ in what gets built: either E21's lamp is the answer to INPUT-61 — one slot, the student's own, with no other named musicians on screen — or E2 is genuinely revived and the estate must say who the named musicians are when the battery is one man layered | **OPEN as of 2026-08-03. Door: TWO-WAY** — nothing is built or shot on either reading; the cost of deciding late is a play-screen redesign, not a re-shoot. Identified during the D83 restructure, not in session. Routed to **INPUT-60** (open, founder's) rather than disposed. It bears directly on the credit rule for named musicians, which is why the Charter states credit at red line #6's wording only and does not yet state a play-surface credit rule | Opened — this restructure, from Experience Spec §1 (E2, FOUNDER-DECIDED); R1 Addendum S2 §5, §9 (D38, INPUT-60 — §5 miscites the number as INPUT-61; the §9 register governs); Addendum 04 §3.3 (E21) |
 
 **Twenty-three numbers, twenty-three rows. No gaps in C1–C23.**
 
@@ -127,7 +127,8 @@ disposition is one disposition and is stated in full on both rows. Neither numbe
 
 ## Gaps and irregularities in this series
 
-**No gaps.** Every number from C1 to C22 is located in the estate and carried above. **C23 was opened by this restructure** and is the series' only open row.
+**No gaps.** Every number from C1 to C22 is located in the estate and carried above. **C23 was opened by
+this restructure** — it is the series' only open row and the only one not opened in a session.
 
 **One merged row expanded** — C10/C13, above. Expansion is presentational; nothing is renumbered.
 
@@ -135,10 +136,25 @@ disposition is one disposition and is stated in full on both rows. Neither numbe
 
 **One contradiction in this series is open: C23.** C1–C20 were disposed at v2.0 on 2026-07-30, C21
 closed on 2026-08-01, C22 resolved on 2026-08-03, and C23 was opened on 2026-08-03 by the D83
-restructure and routed to INPUT-61. The series has never carried an undisposed row for longer
+restructure and routed to INPUT-60. Every earlier row was disposed inside the session that opened it;
+C23 is the first that was not, because it was found by reading across documents rather than in session. The series has never carried an undisposed row for longer
 than the session that opened it — C21 for one session, C22 for two.
 
 ---
+
+---
+
+## A note on the retired continuation prompts
+
+Rows in this file cite `GAME-CONVERSATION-CONTINUATION-PROMPT-FORK-B-ONWARD.md` and
+`…-FORK-J-ONWARD.md`. **Both were retired in the D83 restructure** — they were session-opening
+scaffolding, duplicated between the two files, whose three jobs now live in `FORKS.md`,
+`NUMBERING.md` and `../METHOD.md`.
+
+The citations are kept as written because they record *where a claim came from*, and a citation that
+is quietly rewritten stops being auditable. The documents remain recoverable from git history at
+commit `1bab3bb`. Where they are cited as an **earlier state** — C21 in particular — that is exactly
+the point of the citation: the prompt disagreed with the addendum, and the disagreement is the record.
 
 *Contradiction register, 2026-08-03. Register of record under D83. Next number: **C24**
 (`NUMBERING.md`). Contradictions are C + number; forks are bare letters; founder rulings are

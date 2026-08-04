@@ -108,4 +108,18 @@ specific commitment D81 makes against it. Both stay.
 
 ---
 
+---
+
+## A note on the retired continuation prompts
+
+Rows in this file cite `GAME-CONVERSATION-CONTINUATION-PROMPT-FORK-B-ONWARD.md` and
+`…-FORK-J-ONWARD.md`. **Both were retired in the D83 restructure** — they were session-opening
+scaffolding, duplicated between the two files, whose three jobs now live in `FORKS.md`,
+`NUMBERING.md` and `../METHOD.md`.
+
+The citations are kept as written because they record *where a claim came from*, and a citation that
+is quietly rewritten stops being auditable. The documents remain recoverable from git history at
+commit `1bab3bb`. Where they are cited as an **earlier state** — C21 in particular — that is exactly
+the point of the citation: the prompt disagreed with the addendum, and the disagreement is the record.
+
 *Risk register, 2026-08-03. Register of record under D83. Next number: **#30** (`NUMBERING.md`).*

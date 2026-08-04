@@ -130,7 +130,7 @@ INPUT-28, INPUT-40, INPUT-42, INPUT-43, INPUT-44, INPUT-45, INPUT-48, INPUT-49, 
 INPUT-53, INPUT-55, INPUT-56, INPUT-59, INPUT-60, INPUT-61, INPUT-75.
 
 **Counsel.** INPUT-9, INPUT-25, INPUT-31, INPUT-33, INPUT-34, INPUT-35, INPUT-37, INPUT-38,
-INPUT-39, INPUT-46, INPUT-54, INPUT-65 — of which INPUT-31, -35, -37, -38, -39, -46, -47, -54 and
+INPUT-39, INPUT-46, INPUT-47, INPUT-54, INPUT-65 — of which INPUT-31, -35, -37, -38, -39, -46, -47, -54 and
 -65 travel as one combined brief, updated once pre-shoot with INPUT-83.
 
 **Founder + Counsel.** **INPUT-83** (publication scope, licence, timing, trademark effect) ·

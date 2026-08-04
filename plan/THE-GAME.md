@@ -21,7 +21,7 @@ delta or recommendation, and every row carries its source. Where the estate has 
 something, this file says so and names the open item rather than filling the gap. Where two
 documents disagree, §12 records the disagreement instead of resolving it silently.
 
-**Authority.** Where this file and `CHARTER.md` disagree, the Charter governs (Charter §10). Where
+**Authority.** Where this file and `CHARTER.md` disagree, the Charter governs (Charter §11). Where
 this file and any session document disagree, the later document governs, and Game Addendum 04
 (2026-08-03) is the plan of record for anything it touches.
 
@@ -51,17 +51,17 @@ same student's own earlier count.
 
 **What the app may not do.** Express an evaluation in words, numbers, meters, tiers, stars, letters
 or percentages about the quality of playing — and say anything at all about the player. (Addendum
-04 §3.2; Charter §5.)
+04 §3.2; Charter §6.)
 
 **The four things the estate had collapsed into one banned category.** Keeping them apart is what
 made a game possible without touching the charter.
 
 | # | Thing | What it is | Permitted | Source |
 |---|---|---|---|---|
-| 1.1 | Measurement | A strike occurred at time *t* in zone *z* — a fact | Yes | Addendum 04 §3.1; Charter §5 |
-| 1.2 | Feedback | What that meant, musically — information | Yes, in the audible channel | Addendum 04 §3.1; Charter §5 |
-| 1.3 | Grading | How this round went — a summary of play | Yes, post-round, self-referenced (D79) | Addendum 04 §3.1, §3.3; Charter §5 |
-| 1.4 | Classification | What this student *is* — a claim about a person | **Never** — machine claims of readiness, correctness, mastery or standing | Addendum 04 §3.1; Charter §5 |
+| 1.1 | Measurement | A strike occurred at time *t* in zone *z* — a fact | Yes | Addendum 04 §3.1; Charter §6 |
+| 1.2 | Feedback | What that meant, musically — information | Yes, in the audible channel | Addendum 04 §3.1; Charter §6 |
+| 1.3 | Grading | How this round went — a summary of play | Yes, post-round, self-referenced (D79) | Addendum 04 §3.1, §3.3; Charter §6 |
+| 1.4 | Classification | What this student *is* — a claim about a person | **Never** — machine claims of readiness, correctness, mastery or standing | Addendum 04 §3.1; Charter §6 |
 
 **The three assumptions the refactor found overextended**, recorded because the reasoning has to
 survive the decision.
@@ -96,11 +96,11 @@ sentence about the player.
 | 2.1.2 | Strike outside the window | A one-shot of the **real stroke** fires — the student's actual hit, audible, off the groove — because a real drum struck off-time still sounds | ADOPTED (D77) | Addendum 04 §3.3 |
 | 2.1.3 | Strike in the wrong zone | Likewise: an audibly wrong stroke at the right time. Already designed before D77 | ADOPTED (D77); channel from Addendum 02 §5 | Addendum 04 §3.3; Addendum 02 §5 |
 | 2.1.4 | The part goes unfed | It **fades** — thins, does not stop. The battery never stops for you | ADOPTED (D78) | Addendum 04 §3.3 |
-| 2.1.5 | The part is fed again | It **returns**. You cannot lose; you can only be more or less present in the music | ADOPTED (D78) | Addendum 04 §3.3; Charter §5 |
-| 2.1.6 | Fail state | **None exists anywhere in the product** | ADOPTED (D78) | Addendum 04 §3.3, §3.4; Charter §5 |
+| 2.1.5 | The part is fed again | It **returns**. You cannot lose; you can only be more or less present in the music | ADOPTED (D78) | Addendum 04 §3.3; Charter §6 |
+| 2.1.6 | Fail state | **None exists anywhere in the product** | ADOPTED (D78) | Addendum 04 §3.3, §3.4; Charter §6 |
 | 2.1.7 | The presence lamp | The student's own slot glows while their part is fed and dims as it fades — a one-to-one visual mirror of the audio, no numbers. E2 already lights the named musicians as each joins; the student joins them on screen | **PM-RECOMMENDED (E21)** — the one open item at this level | Addendum 04 §3.3 |
 | 2.1.8 | Everything else on screen | Nothing else appears mid-play. E3 stands: propped phone, arm's length, no menus | FOUNDER-DECIDED (E3); restated ADOPTED (R85) | Addendum 04 §3.3, §12 (R85); Experience Spec §1 (E3) |
-| 2.1.9 | The voice | **Never measured, in any mode.** Unchanged, absolute — structurally true today under D26 (no microphone) and it stays true if a microphone ever ships | RULED, charter-level | Addendum 04 §3.3; Charter §8 item 8 |
+| 2.1.9 | The voice | **Never measured, in any mode.** Unchanged, absolute — structurally true today under D26 (no microphone) and it stays true if a microphone ever ships | RULED, charter-level | Addendum 04 §3.3; Charter §9 item 8 |
 
 **Why the error channel is the right one.** Under G3 the syllable names the sound and under G6 the
 syllable names the zone, so striking the slap zone where the part wants bass produces an audibly
@@ -142,7 +142,7 @@ visible. Accuracy-style readouts remain barred on every surface. G9's device-fai
 not reach cycle-granular sustain through a generous window; its FF3 argument is answered by
 self-reference and monotonic display; its surface argument is answered by the sentence ban. This is
 the one place the plan amends a founder ruling's scope; it was put to the founder separately and
-**ratified 2026-08-03 (RULED)** (Addendum 04 §3.3, §10; Charter §8 item 11).
+**ratified 2026-08-03 (RULED)** (Addendum 04 §3.3, §10; Charter §9 item 11).
 
 ### 2.3 · Level 3 — across rounds: the map lights, never dims (D75 + R65 carried)
 
@@ -152,7 +152,7 @@ the one place the plan amends a founder ruling's scope; it was put to the founde
 | 2.3.2 | The map's form | The map **is** the state space, lit — one object, not a progress display beside a difficulty grid | R65 carried | Addendum 04 §3.3, §4.2; Addendum 01 §14 |
 | 2.3.3 | The play ledger | Stays **resettable by design**. The two-ledger architecture was built for exactly this and is finally load-bearing; the play layer never writes into the Caderno's tables | Architecture, charter-level | Addendum 04 §3.3; Charter §4 |
 | 2.3.4 | How doors open | **On facts.** D52 untouched: the app opens, never promotes, never asserts readiness | D52 | Addendum 04 §3.3; Addendum 01 §3 |
-| 2.3.5 | The vocabulary rule | Play-layer words are **spatial and musical** — rooms, visits, holds, bests — and never borrow the Caderno's. No "received," "confirmed," "mastered," "level," "rank," "graduate." The wording is where classification would leak back in, so the wording is specified | R86, Strong; sheet at `METHOD.md` §5; approval at INPUT-81 | Addendum 04 §3.3, §12; Charter §6 |
+| 2.3.5 | The vocabulary rule | Play-layer words are **spatial and musical** — rooms, visits, holds, bests — and never borrow the Caderno's. No "received," "confirmed," "mastered," "level," "rank," "graduate." The wording is where classification would leak back in, so the wording is specified | R86, Strong; sheet at `METHOD.md` §5; approval at INPUT-81 | Addendum 04 §3.3, §12; Charter §7 |
 
 **The sentence test**, from the vocabulary sheet: if a string can be read as a statement *about the
 student* rather than *about the round*, it is wrong, however friendly it sounds (`METHOD.md` §5).
@@ -261,7 +261,7 @@ first-ever session and every session after it. Both are given, because a builder
 | 5.3.9 | What it cannot encode | **How hard.** Touch velocity is unreliable across devices and must not be relied on — which keeps the screen drum a *transcription* device rather than a simulation of playing | Addendum 01 §6.2 |
 | 5.3.10 | Audio architecture | **Scheduled, not triggered** (G10): the app plays Junior's correct part in time with the battery; the strike keeps it alive rather than firing each sample. Out-of-window and wrong-zone strikes are the exception, and they fire one-shots (D77) | Addendum 02 §1; Addendum 04 §3.3 |
 | 5.3.11 | The timing window | **Binary and generous** (G9): inside it the stroke lands in the groove, outside it it does not. No tiers, no labels, no per-strike marks. Per-device calibration is out of Release 1 | Addendum 02 §1, §3, §4 |
-| 5.3.12 | The gate on shipping it | **No screen-drum surface ships without Junior having seen it** (Mandate 01 §10 item 10, red line #1). Building it unshown is permitted and expected; shipping it unshown is not. Under G13 this now gates the free first session | Charter §8; Addendum 03 §4 |
+| 5.3.12 | The gate on shipping it | **No screen-drum surface ships without Junior having seen it** (Mandate 01 §10 item 10, red line #1). Building it unshown is permitted and expected; shipping it unshown is not. Under G13 this now gates the free first session | Charter §9; Addendum 03 §4 |
 
 ---
 
@@ -294,7 +294,7 @@ Unchanged, all of it. Nothing in this file relaxes any line below.
 
 | # | Barred | Source |
 |---|---|---|
-| 7.1 | Accuracy percentages | Addendum 04 §3.5; Charter §8 item 11 |
+| 7.1 | Accuracy percentages | Addendum 04 §3.5; Charter §9 item 11 |
 | 7.2 | Stars | Addendum 04 §3.5 |
 | 7.3 | Letters | Addendum 04 §3.5 |
 | 7.4 | Tiers | Addendum 04 §3.5; Addendum 02 §1 (G9) |
@@ -302,13 +302,13 @@ Unchanged, all of it. Nothing in this file relaxes any line below.
 | 7.6 | Fail screens | Addendum 04 §3.5; §3.3 (D78) |
 | 7.7 | Streaks with loss | Addendum 04 §3.5 |
 | 7.8 | Person-levels | Addendum 04 §3.5; §3.3 (R86) |
-| 7.9 | Readiness or mastery claims | Addendum 04 §3.5; Charter §5 |
+| 7.9 | Readiness or mastery claims | Addendum 04 §3.5; Charter §6 |
 | 7.10 | Public rank | Addendum 04 §3.5; Addendum 03 §6.1 (G17) |
 | 7.11 | Comparison between students | Addendum 04 §3.5; Addendum 03 §6.1 (G17) |
 | 7.12 | Purchasable repair | Addendum 04 §3.5; Addendum 01 §14 (R66) |
 | 7.13 | Synthetic voice | Addendum 04 §3.5; Charter §2 red line #4 |
 | 7.14 | Any game result touching the Caderno | Addendum 04 §3.5; Charter §4 |
-| 7.15 | Any measurement of the voice | Addendum 04 §3.5, §3.3; Charter §8 item 8 |
+| 7.15 | Any measurement of the voice | Addendum 04 §3.5, §3.3; Charter §9 item 8 |
 
 Also standing, from the consolidated prohibition list: anything purchasable that confers,
 accelerates or implies standing; anything that gates access to what was given (hearts, lives,
@@ -418,7 +418,7 @@ with the later document's reading marked.
 | # | Conflict | The two positions | Reading carried here | Source |
 |---|---|---|---|---|
 | 12.1 | **Who advances the student** | Experience Spec §2 and §3 invariant 4: the student pulls every lever, "never when the app decides (D28/R51)." Mandate 01 §2 and §9 **withdraw D28/R51 (D51)** — the app may advance the student — and Addendum 01 §3 **narrows D51 to D52**: the app *opens* rooms, it never *moves* the student into one | The later state: **D52.** Doors open on facts; the app opens, never promotes, never asserts readiness (restated untouched at Addendum 04 §3.3) | Experience Spec §2, §3; Mandate 01 §2, §9; Addendum 01 §3; Addendum 04 §3.3 |
-| 12.2 | **E2, named presence** | E2 was **voided** by D38 under S6 — one man recorded four times cannot light up as four musicians, replacement question at INPUT-60. Addendum 04 §3.3 nonetheless states "E2 already lights the named musicians as each joins" and builds E21's presence lamp on it | Under the authority order the 2026-08-03 document governs and **E2 stands**; the void is recorded as what it was. E21 inherits the unresolved S6/D38 question | Session 2 §5, §8 (D38); Addendum 04 §3.3; `registers/DECISIONS.md` E2 |
+| 12.2 | **E2, named presence** | E2 was **voided** by D38 under S6 — one man recorded four times cannot light up as four musicians, replacement question at INPUT-60. Addendum 04 §3.3 nonetheless states "E2 already lights the named musicians as each joins" and builds E21's presence lamp on it | **Registered as C23; not resolved.** E21 inherits the unresolved S6/D38 question, and until INPUT-60 is answered it is open whether the lamp *is* that answer (one slot, the student's own) or E2 is genuinely revived | Session 2 §5, §8 (D38); Addendum 04 §3.3; `registers/CONTRADICTIONS.md` C23 |
 | 12.3 | **E9, the quiet count** | Experience Spec E9: a session closes with a quiet count. Mandate 01 §2 **revises it (D46)** — a session may close with celebration, a goal met, a streak advanced; quiet remains an option, not a rule. Addendum 04 §3.3 and §4.3 restore the quiet count as the ending and **upgrade** it to three facts plus the best | The later state: **the quiet count, upgraded** — three facts, one personal best, monotonic display. D46's celebration survives only as D80's non-vocal best moment, and streaks stay off the free tier under G15 | Experience Spec §1; Mandate 01 §2; Addendum 04 §3.3, §4.3 |
 | 12.4 | **Door labels on three inputs** | `registers/INPUTS.md` labels INPUT-78, INPUT-79 and INPUT-84 **ONE-WAY (derived)**; `BACKLOG.md` §1 and §3.1 label the same three **two-way** | Carried as ONE-WAY at §9.1, §9.2 and §9.12 — the conservative reading, since each shapes either M0 material or what runs at the free door. The divergence is flagged, not resolved | `registers/INPUTS.md`; `BACKLOG.md` §1, §3.1 |
 | 12.5 | **G15 against the grading layer** | G15 bars engagement mechanics on the free tier. Addendum 04 §2 reading 2 holds that round facts, personal bests and the lit map are the **game's own legibility**, not engagement mechanics, and run wherever the game runs | Carried as Addendum 04 states it — **and flagged by that file itself as "Medium — interprets a founder ruling," awaiting INPUT-84.** If the founder reads G15 the other way, §2.2 and §2.3 do not run at the free door | Addendum 03 §10 (G15); Addendum 04 §2, §11 |
@@ -463,7 +463,7 @@ of record for the series.
 | G23 | Junior records any Bahian rhythm he is authorised to teach — Candomblé and popular | MASTER-CONFIRMED | §4.2 | — | Addendum 04 §1 |
 | G24 | Breaks are deferred. Not every rhythm has one; introducing them now is difficult. Fork C closes for Release 1 as "later" | MASTER-CONFIRMED; INPUT-58 answered | §10.5, §9.20 — and it is why §3's echo loop had to carry the in-room event | — | Addendum 04 §1 |
 | G25 | Rhythms already readily available online (e.g. Ijexá) are free. The commons is free; scarcity is priced | FOUNDER-DECIDED | §4.3 | ONE-WAY — the free tier, red line #5; the list is INPUT-80 | Addendum 04 §1, §5 |
-| G26 | The screen drum may resemble a real drum viewed from above | MASTER-CONFIRMED (direction); mockup assent INPUT-69 remains, now small | §5.3.6 | ONE-WAY (derived — the surface ships inside the free first session and needs Junior's sight under Charter §8 item 10) | Addendum 04 §1 |
+| G26 | The screen drum may resemble a real drum viewed from above | MASTER-CONFIRMED (direction); mockup assent INPUT-69 remains, now small | §5.3.6 | ONE-WAY (derived — the surface ships inside the free first session and needs Junior's sight under Charter §9 item 10) | Addendum 04 §1 |
 
 ---
 

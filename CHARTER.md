@@ -143,8 +143,8 @@ the promise must reach copies already on devices is **INPUT-47**, the founder's 
 **One thing this Charter deliberately does not state: a play-surface credit rule.** E2 put the real
 named musicians on screen, lighting up as each joins. D38 voided it — under S6 the battery is Junior
 alone, layered, and "the real musicians" cannot light up one at a time when one man was recorded four
-times. The replacement is **INPUT-61**, still open. Addendum 04's presence lamp (E21) then builds on
-E2 as though it were live. That conflict is registered as **C23** and routed to INPUT-61; until it is
+times. The replacement is **INPUT-60**, still open. Addendum 04's presence lamp (E21) then builds on
+E2 as though it were live. That conflict is registered as **C23** and routed to INPUT-60; until it is
 settled, the Charter carries credit at red line #6's wording only.
 
 ## 6 · The grading constitution

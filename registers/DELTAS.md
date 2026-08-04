@@ -91,8 +91,8 @@ estate's own reasoning where it states one; otherwise marked "(derived)". Closed
 | D54 | Voice before drum. Every room's entry runs voice → voice-over-battery → battery. Revises E4's door sequence | E4 | §5.1 | PROPOSED — records a ruling made in session; E4 revised again by D63 | TWO-WAY (derived) | Addendum 01 §12; §5.1 |
 | D55 | Tap-along ships in Release 1 as the door mechanic. The app measures the tap, never the voice | Not in scope | §5.2 | PROPOSED — records a ruling made in session; the tap door is free on-ramp under D73 | ONE-WAY (derived — given to the free tier, red line #5) | Addendum 01 §12; §5.2 |
 | D56 | Advanced mode: the screen drum — landscape, two hands, vocalize and strike, zones named by the syllables | Not in scope | §6 | PROPOSED — records a ruling made in session; "advanced" removed by D64; free under D73 | ONE-WAY (derived — free tier, and the zone labels are the reference dialect) | Addendum 01 §12; §6 |
-| D57 | Solfejo joins the M0 pre-shoot list, recorded locked to the battery | Not in scope | §9.1 | RATIFIED — "D57 and D58 are decided, not proposed" (G19, FOUNDER-DECIDED, 2026-08-01; C21 closed by D61); "Unchanged, decided" at Addendum 04 §8 | ONE-WAY (derived — M0 capture; eight shoot passes) | Addendum 01 §12; Addendum 03 §6.3; Addendum 04 §8 |
-| D58 | The stroke sample library joins the M0 pre-shoot list as a new irrecoverable item | Not in scope | §9.2 | RATIFIED — "decided, not proposed" (G19/D61); justification restated by D77, C22 resolved | ONE-WAY (derived — M0 capture; named irrecoverable in the delta itself) | Addendum 01 §12; Addendum 03 §6.3, §8; Addendum 04 §3.3, §8 |
+| D57 | Solfejo joins the M0 pre-shoot list, recorded locked to the battery | Not in scope | §9.1 | FOUNDER-DECIDED — "D57 and D58 are decided, not proposed" (G19, FOUNDER-DECIDED, 2026-08-01; C21 closed by D61); "Unchanged, decided" at Addendum 04 §8 | ONE-WAY (derived — M0 capture; eight shoot passes) | Addendum 01 §12; Addendum 03 §6.3; Addendum 04 §8 |
+| D58 | The stroke sample library joins the M0 pre-shoot list as a new irrecoverable item | Not in scope | §9.2 | FOUNDER-DECIDED — "decided, not proposed" (G19/D61); justification restated by D77, C22 resolved | ONE-WAY (derived — M0 capture; named irrecoverable in the delta itself) | Addendum 01 §12; Addendum 03 §6.3, §8; Addendum 04 §3.3, §8 |
 | D59 | Timing feedback is binary. A generous window; no tiers, labels, or accuracy readout on any surface. Per-device calibration leaves Release 1 | Grading tightness open; Addendum 01 §10 flagged it as the cost-deciding decision | §1, §3, §4 | PROPOSED — Addendum 02 §10 "Proposed. Operative on founder ratification"; records G9 (FOUNDER-DECIDED); G9's scope amended by D79 — per-strike stays binary, post-round sustain becomes visible | TWO-WAY (derived) | Addendum 02 §10; §3; Addendum 04 §3.3 |
 | D60 | The screen drum is scheduled, not triggered. The app plays the correct part in time; the strike keeps it alive. The native low-latency engine leaves Release 1's critical path | Triggered sample playback assumed by Addendum 01 §6.4 | §1, §4 | PROPOSED — records G10 (FOUNDER-DECIDED); "G10 unchanged" at Addendum 04 §3.3 | TWO-WAY (derived) | Addendum 02 §10; §4 |
 | D61 | C21 closed. D57 and D58 are decided, not proposed | Two documents in disagreement | §6.3 | PROPOSED — Addendum 03 §13 "Proposed. Operative on founder ratification"; records G19 (FOUNDER-DECIDED) | — | Addendum 03 §13; §6.3 |
@@ -143,6 +143,20 @@ estate's own reasoning where it states one; otherwise marked "(derived)". Closed
   interprets a founder ruling" and put to the founder at INPUT-84. Unconfirmed as of 2026-08-03.
 
 ---
+
+---
+
+## A note on the retired continuation prompts
+
+Rows in this file cite `GAME-CONVERSATION-CONTINUATION-PROMPT-FORK-B-ONWARD.md` and
+`…-FORK-J-ONWARD.md`. **Both were retired in the D83 restructure** — they were session-opening
+scaffolding, duplicated between the two files, whose three jobs now live in `FORKS.md`,
+`NUMBERING.md` and `../METHOD.md`.
+
+The citations are kept as written because they record *where a claim came from*, and a citation that
+is quietly rewritten stops being auditable. The documents remain recoverable from git history at
+commit `1bab3bb`. Where they are cited as an **earlier state** — C21 in particular — that is exactly
+the point of the citation: the prompt disagreed with the addendum, and the disagreement is the record.
 
 *Issued 2026-08-03 under D83 (Addendum 04 §7). Numbering state: last used D83, next D84
 (Addendum 04 §16). Nothing in this register is measured evidence; no delta here touches a red line.*
