@@ -1,9 +1,9 @@
-# Opanijé — Input Register (INPUT-1–INPUT-84)
+# Opanijé — Input Register (INPUT-1–INPUT-92)
 
 **Status.** Register of record for this series as of 2026-08-03, under D83 (Addendum 04 §7).
 **Supersedes.** The per-session tables in `sessions/` for this series, which remain readable as
 derivation history but are no longer the register.
-**Range.** INPUT-1 through INPUT-84.
+**Range.** INPUT-1 through INPUT-92. INPUT-1–84 issued to 2026-08-03; INPUT-85–92 added 2026-08-05.
 **Rule.** Rows are appended, never rewritten. A row's status may change; its claim may not.
 
 An input is a question reserved to a named human — the founder, Junior, counsel, or the operator.
@@ -106,6 +106,14 @@ publication of the standard, and anything shot at M0 — and marked "(derived)".
 | INPUT-82 | The cycle's go/no-go, format, submission channel and price, against the one-obligation rule, eyes open — §5 puts it to the founder and Junior together | Founder | OPEN | mockup; Release 1 | ONE-WAY (derived — a standing monthly commitment, sold as membership from day one; risk #29) | Addendum 04 §5, §9, §11, §14 |
 | INPUT-83 | Publication scope, licence, timing relative to the design filing and the defensive-publication plan, and the music-education positioning's effect on the trademark strategy | Founder + Counsel | OPEN | counsel brief | ONE-WAY — publication of the standard | Addendum 04 §6, §9, §11 |
 | INPUT-84 | Confirm §2 reading 2 — G15 bars the extrinsic toolkit, not the game's own legibility | Founder | OPEN | Release 1 | ONE-WAY (derived — it governs what runs at the free door, which red line #5 makes permanent) | Addendum 04 §2, §11 |
+| INPUT-85 | The repository is **GPL v3** (`LICENSE.txt`), repo-wide, covering both apps. Is the app intended to be GPL, or is the app subtree relicensed before store submission? Opanijé appears to hold all copyright, so relicensing is available — but it is a founder-and-counsel call, not a build call | Founder + counsel | **ROUTED 2026-08-05** — the founder ruled it goes to counsel inside the single combined brief, week 1, alongside the privacy policy and the consent instrument | Store submission | TWO-WAY, sharply more expensive late | PLAN-00 §5; VERIFICATION; BUILD-LOG 2026-08-05; risk #31 |
+| INPUT-86 | Confirm the free set's contents — what is given away permanently under red line #5 | Founder | **ANSWERED 2026-08-05 — Ijexá, two parts (agogô + one drum part), two speeds, with the play layer on.** The play-layer clause is contingent on D94, which is PENDING; if D94 is rejected the free set stands without it and this row is re-put | The free door; Stage 3 | **ONE-WAY — red line #5. Everything given free is given forever** | PLAN-00 §5; BUILD-LOG 2026-08-05; ratifies INPUT-80 in concrete form |
+| INPUT-87 | `make-placeholder-audio.py:287-289` hard-fails while an arrangement gate is closed. Which arrangement is authoritative for the free rhythm? Settle it so the pipeline can run on Capture Day's output the same afternoon | Junior (form) + founder | OPEN — **before Capture Day**, by voice note if it is a form question | Capture Day's output reaching the app; Day 9 of the runbook; risk #32 | TWO-WAY | PLAN-00 §5; VERIFICATION Claim 8 |
+| INPUT-88 | C23 is still open: E2's named on-screen presence was voided by D38, and E21's presence lamp builds on it. With the battery being Junior layered four times, what does the presence surface show? | Junior + founder | OPEN — the Stage 2 sitting, with a phone in hand | Low if deferred — the lamp can ship dark | TWO-WAY | PLAN-00 §5; C23 |
+| INPUT-89 | Capture Day consent scope: does the instrument license **interactive and game use**, and **isolated stems plus one-shot sampling**? INPUT-22/-23 in operating form | Counsel drafts, Junior signs | OPEN — **Capture Day morning, on paper and in his own voice, before anything rolls** | Everything downstream of Capture Day | **ONE-WAY — the highest irrecoverability in the estate.** Not recoverable without re-consenting a master and reopening commercial terms from a weak position | PLAN-00 §5; v2.0 §7.2 rank 1 |
+| INPUT-90 | **D96 was rejected**, removing the web room as both the iOS strategy and the primary distribution surface. What is Release 1's iOS answer? And what does Junior's voice note point at, if not a tap-to-play link — or is Android-install-only accepted for Release 1? | Founder | OPEN — **before Stage 3 distribution is planned** | Stage 3's four distribution acts; ledger row 57; risk #36 | TWO-WAY | BUILD-LOG 2026-08-05; D96 |
+| INPUT-91 | **D98 was deferred.** When does the credential and backup-key escrow happen, and when is the production release keystore generated? The two halves are separable — the D16 escrow closes most of the exposure without generating a keystore | Founder | OPEN — **no store upload is possible until the keystore half closes**, and the total-loss exposure stands until the escrow half does | Any store upload; Stage 3; risk #37 | **ONE-WAY in consequence** | BUILD-LOG 2026-08-05; D98; D16 |
+| INPUT-92 | **Row 59 is FALSIFIED**: a first-time user on a device did not understand what to do or how to interact, 0/10. Redesigning the door is a build decision and does not need a founder ruling — but *how much* of Release 1's scope is spent on it before Stage 2 does. Is the door redesigned to the point where an unaided beginner reaches the screen drum, even if that delays Capture Day? | Founder | OPEN — **before Stage 2**, and it is the sequencing question the 0/10 forces | Stage 2's ten testers; Gate 1; risk #35 | TWO-WAY | BUILD-LOG 2026-08-05; row 59 |
 
 ---
 
@@ -180,6 +188,20 @@ INPUT-71 (sharing and export, non-urgent, held in the brief by R78).
    rhythm he is authorised to teach; no document states that this discharges INPUT-20's Reading A
    assent. It stays OPEN.
 
+
+**INPUT-85 through INPUT-92 were added on 2026-08-05** with the D84–D103 ratification. Five came
+from `plans/PLAN-00-DECISIONS.md` §5. **Three did not:** INPUT-90 and INPUT-91 were opened by the
+founder's own rulings on D96 and D98, and INPUT-92 was opened by a measured failure (ledger row 59).
+An input opened by a ruling is not a challenge to it — it is the estate recording the question the
+ruling leaves behind, so that it is answered deliberately rather than rediscovered.
+
+**INPUT-86 is answered and one-way, and it carries a dependency.** Its play-layer clause presumes
+D94, which is PENDING. If D94 is rejected, the free set stands as Ijexá / two parts / two speeds
+without the play layer, and the row is re-put to the founder rather than quietly reinterpreted.
+
+Under D88 this register **freezes** with these rows. Later questions reserved to a named human are
+recorded in `../BUILD-LOG.md`.
+
 ---
 
 *Register of record under D83, 2026-08-03. Sources are cited as document plus section: "v2.0" is
@@ -188,4 +210,5 @@ INPUT-71 (sharing and export, non-urgent, held in the brief by R78).
 `sessions/RELEASE-1-ADDENDUM-SESSION-2-2026-07-31.md`; "Experience Spec" is
 `plan/RELEASE-1-EXPERIENCE-SPEC-V1.md`; "Mandate 01" is
 `plan/OPERATOR-MANDATE-01-ENGAGEMENT-2026-07-31.md`; "Addendum 01–04" are the four game addenda in
-`sessions/`. Next number: INPUT-85.*
+`sessions/`. Next number: INPUT-93 — but under D88 this register is frozen and later
+inputs are recorded in `../BUILD-LOG.md`.*

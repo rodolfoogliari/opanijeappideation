@@ -1,6 +1,7 @@
 # Opanijé — Numbering State
 
-**Status.** Register of record, as of 2026-08-03 (Game Addendum 04 §16).
+**Status.** Register of record, as of **2026-08-05** (the D84–D103 ratification; previously
+2026-08-03, Game Addendum 04 §16).
 
 **Rule.** Continue the estate's numbering. **Never reuse a number** — not for a withdrawn item, not
 for a superseded one, not for a number that turned out to be a duplicate. A gap is cheaper than a
@@ -12,11 +13,11 @@ collision.
 
 | Series | Last used | **Next** | Register |
 |---|---|---|---|
-| Deltas | D83 | **D84** | `DELTAS.md` |
-| Inputs | INPUT-84 | **INPUT-85** | `INPUTS.md` |
-| Recommendations | R88 | **R89** | `RECOMMENDATIONS.md` |
-| Ledger rows | 51 | **52** | `LEDGER.md` |
-| Risks | #29 | **#30** | `RISKS.md` |
+| Deltas | **D103** | — *frozen under D88; use `../BUILD-LOG.md`* | `DELTAS.md` |
+| Inputs | **INPUT-92** | — *frozen under D88; use `../BUILD-LOG.md`* | `INPUTS.md` |
+| Recommendations | R88 | — *frozen under D88* | `RECOMMENDATIONS.md` |
+| Ledger rows | **59** | **60** | `LEDGER.md` — **the only register still taking new rows** |
+| Risks | **#37** | **#38** | `RISKS.md` |
 | Experience decisions | E21 | **E22** | `DECISIONS.md` |
 | Game decisions | G26 | **G27** | `DECISIONS.md` |
 | Forks | L | **M** | `FORKS.md` |
@@ -67,6 +68,7 @@ are drawn from the table above rather than from the last session file.
 | D59–D60, INPUT-72, R73–R76, rows 44–45, #25, G9–G10, C21 | `sessions/GAME-ADDENDUM-02-…-2026-08-01.md` |
 | D61–D70, INPUT-73–77, R77–R82, rows 46–47, #26, G11–G19, E20, C22, Fork K | `sessions/GAME-ADDENDUM-03-…-2026-08-01.md` |
 | D71–D83, INPUT-78–84, R83–R88, rows 48–51, #27–#29, G20–G26, E21, Fork L | `sessions/GAME-ADDENDUM-04-…-2026-08-03.md` |
+| D84–D103, INPUT-85–92, rows 52–59, #30–#37 | `plans/PLAN-00-DECISIONS.md`, ratified 2026-08-05 — see `BUILD-LOG.md`. Rows 59, #35–#37 and INPUT-90–92 were **not** in the issuing document: they came from a device test and from the founder's rulings on D96 and D98 |
 
 Block boundaries are as each document states them. Where a document's own accounting disagreed with
 the next document's "continuing from", the discrepancy is noted in the relevant register rather than
@@ -74,4 +76,21 @@ resolved by preference.
 
 ---
 
-*Numbering state, 2026-08-03. Update this file at the close of every session (`METHOD.md` §7).*
+## What D88 changes about this file
+
+**Most of the series above are now closed.** D88 (ratified 2026-08-05) puts the register apparatus
+into maintenance mode: `DELTAS.md`, `RECOMMENDATIONS.md`, `CONTRADICTIONS.md`, `FORKS.md` and
+`sessions/` freeze. A build decision that would once have drawn the next D-number becomes **one line
+in `../BUILD-LOG.md`** instead.
+
+Two series stay open, because they are how the estate learns rather than how it deliberates:
+**`LEDGER.md`** (next row **60**) and **`RISKS.md`** (next **#38**).
+
+The no-reuse rule survives the freeze and applies to the frozen series too. **Ledger row 56 is
+withdrawn on issue** under D96 and its number is retired, not reassigned — the first entry in this
+file's gap list that was created by a founder ruling rather than by a lost document.
+
+---
+
+*Numbering state, 2026-08-05. Under D88, update this file when a ledger row or risk is added; the
+frozen series no longer advance.*

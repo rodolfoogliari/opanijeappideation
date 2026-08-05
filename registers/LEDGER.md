@@ -1,16 +1,17 @@
-# Opanijé — Evidence Ledger (rows 1–51)
+# Opanijé — Evidence Ledger (rows 1–59)
 
 **Status.** Register of record for this series as of 2026-08-03, under D83 (Addendum 04 §7).
 **Supersedes.** The per-session tables in `sessions/` for this series, which remain readable as
 derivation history but are no longer the register.
-**Range.** rows 1 through 51.
+**Range.** rows 1 through 59. Rows 1–51 issued to 2026-08-03; rows 52–59 added 2026-08-05.
 **Rule.** Rows are appended, never rewritten. A row's status may change; its claim may not.
 
 ---
 
 The ledger is the estate's discipline against wishful thinking: every load-bearing claim carries a
 status and the event that would convert it. **Nothing in this ledger is measured evidence unless the
-row says MEASURED — and as of 2026-08-03, no row does.** Rows 48–51 exist specifically so that the
+row says MEASURED — and as of 2026-08-03, no row did. As of 2026-08-05 exactly one does: row 59,
+and it is FALSIFIED.** Rows 48–51 exist specifically so that the
 usability pilot and M1 are read as *tests* rather than as verdicts.
 
 **Rule of the ledger, carried verbatim from v2.0 §14.** No row's status upgrades without a dated
@@ -106,6 +107,32 @@ here are ledger rows and are unrelated to the R-series and the D-series.
 | 49 | Visible sustain and personal bests increase voluntary replay without pressure or guilt | HYPOTHESIS | Pilot + M1 — replays *after* the best is secure; the pressure and guilt items | TWO-WAY — estate-stated at Fork L: D79's visible sustain is reversed without cost if this row fails, because the underlying facts are collected either way | Addendum 04 §13; §3.3, §3.6 (D79, RULED 2026-08-03), §15 |
 | 50 | The fade reads as honest information, not punishment | HYPOTHESIS | Pilot — the fade-comprehension items (R87) | TWO-WAY (derived — D78's fade is a display rule on the same instrumented layer as row 49) | Addendum 04 §13; §3.3 (D78), §9 |
 | 51 | The commons-free / scarcity-priced boundary converts free players to the paid line | HYPOTHESIS | M2, first paid cohort | ONE-WAY — the commons list (INPUT-80) is given to the free tier, and D73 makes the free commons permanent under red line #5 | Addendum 04 §13; §5 (D73) |
+| 52 | The play layer, shipped on, reads as musical information and not as a verdict on the player | ASSUMPTION | Junior's verdict in the Stage 2 sitting, in his words, written down | ONE-WAY (derived — D94 puts the play layer at the free door, which red line #5 makes permanent) | PLAN-00 §6; PLAN-03 §1. **Contingent on D94, PENDING as of 2026-08-05** |
+| 53 | The binary fade is sufficient — students perceive thinning as consequence without a decay curve | ASSUMPTION | Stage 2: asked directly of 10 testers, with the discarded `tap.ts:82-83` feeding measure logged alongside | TWO-WAY (derived — D95 is a display rule on an already-instrumented layer) | PLAN-00 §6; D95 (RATIFIED 2026-08-05) |
+| 54 | Scheduled pre-rendered audio feels like *playing*, not like miming | HYPOTHESIS | Runbook Day 9: two humans, separately, dated, in writing, before anyone else sees it; then 10 humans at Stage 2 | TWO-WAY (derived) | PLAN-00 §6; PLAN-03 §1; est. row 45 |
+| 55 | A beginner goes voice → screen drum in one sitting, unaided | HYPOTHESIS | Stage 2, 10 testers, observed, yes/no each. **Target ≥7/10 — this gate can halt the launch** | TWO-WAY (derived) | PLAN-00 §6; PLAN-03 §2 Gate 1; est. row 46. **Not converted by row 59** — 59 is n=1 on a play-layer-off build |
+| 56 | The web room converts a WhatsApp forward into a completed first session | **WITHDRAWN ON ISSUE** — D96 REJECTED 2026-08-05 removes the surface this row exists to measure. The number is retired, never reused (`NUMBERING.md`) | — | — | PLAN-00 §6; BUILD-LOG 2026-08-05; D96 |
+| 57 | Junior's former-student network forwards the link when he asks | ASSUMPTION | Stage 3, one voice note, measured in sessions within 7 days | TWO-WAY (derived) | PLAN-00 §6. **Amended on issue by D96's rejection: the link now points at a Play listing requiring an install rather than a tap-to-play surface, which changes what is being measured. Risk #36; INPUT-90** |
+| 58 | The real Android device distribution supports the generous binary window | ASSUMPTION | R75's two latency flags logged free from every Stage 2 tester device and from the first public build | TWO-WAY (derived) | PLAN-00 §6; R75 |
+| 59 | The Release 1 door is self-explanatory to an unaided first-time user | **FALSIFIED — MEASURED 2026-08-05, n=1.** A first-time user on a physical device did not understand what to do, reported that there was no gamified mechanic, and did not understand how to interact at all. Scored 0/10 | A redesigned door re-tested on unaided first-time users; row 55's ten-tester cohort is the formal test | TWO-WAY | BUILD-LOG 2026-08-05, founder-reported device test. **The first MEASURED row in this register.** The build tested had `playLayerEnabled` false, so it measures the play-layer-off product |
+
+
+**Rows 52–59 arrive with the build, and one of them is measured.** Rows 52–58 were issued by
+`plans/PLAN-00-DECISIONS.md` §6 on 2026-08-05 as the rows the build produces, written unmeasured with
+the evidence that would convert each. **Row 59 is different**: it was not planned, it came back from
+a physical-device test the same day, and it is **FALSIFIED**. After 51 rows and 145,680 words, the
+estate's first MEASURED row is a negative one — which under METHOD's honesty rules is worth more
+than a hopeful ASSUMPTION, and is the register working rather than failing.
+
+**Row 59 does not convert row 55, and the distinction is load-bearing.** Row 55 is defined as ten
+beginners, observed, on a play-layer-**on** build, target ≥7/10. Row 59 is one tester on a
+play-layer-**off** build. It is a precursor signal on Gate 1 (`PLAN-03` §2), not Gate 1 firing.
+Recording it as though row 55 had been measured would be exactly the label upgrade METHOD forbids —
+and dismissing it because n=1 would be the other half of the same error.
+
+**Row 56 is withdrawn on issue and its number is retired.** D96 was rejected by the founder on
+2026-08-05, removing the web room as the primary distribution surface. A row whose measuring surface
+does not exist is not carried as OPEN; it is withdrawn, and the number is never reassigned.
 
 ---
 
@@ -140,11 +167,13 @@ baseline, dated, before the numbers exist.
 measured evidence; rows 48–51 exist so the pilot and M1 are read as tests rather than verdicts.*
 Row 49 is the one that governs Fork L.
 
-**Numbering.** This register ends at row 51; the next ledger row is **52** (`NUMBERING.md`). No
-number in 1–51 is missing and none is reused. Row 21 appears as 21a and 21b by D12 and is counted
-once.
+**Numbering.** This register ends at row 59; the next ledger row is **60** (`NUMBERING.md`). No
+number in 1–59 is missing and none is reused. Row 21 appears as 21a and 21b by D12 and is counted
+once. Row 56 is **withdrawn on issue** under D96 and its number is retired, not reassigned.
 
 ---
 
-*Evidence ledger, register of record, 2026-08-03. Issued under D83 (Game Addendum 04 §7). Statuses
-are as issued; no row on this page has been upgraded, and as of this date no row carries MEASURED.*
+*Evidence ledger, register of record, extended 2026-08-05 by the D84–D103 ratification. Statuses
+are as issued; no row on this page has been upgraded to make a plan read better. **Row 59 carries
+MEASURED and is FALSIFIED** — the first measured row in the company's history. Under D88 this is the
+only register the build side adds rows to.*

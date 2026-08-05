@@ -10,12 +10,23 @@ the registers of every decision and open question, and the session history that 
 **Restructured 2026-08-03 under D83.** Session prose used to be the register of record; it no longer
 is. The registers are.
 
+**The estate stopped being the work on 2026-08-05.** D84–D103 were put to the founder and returned
+the same day — seventeen ratified, one rejected, one deferred, one held. D88 puts the register
+apparatus into maintenance mode: most of `registers/` is now frozen history, and build decisions go
+to [`BUILD-LOG.md`](BUILD-LOG.md). On the same day the company's **first MEASURED ledger row**
+arrived from a physical-device test, and it is **FALSIFIED** — a first-time user could not work out
+what to do (row 59). Start at [`plans/`](plans/), not here.
+
 ---
 
 ## Start here
 
 | If you want… | Read |
 |---|---|
+| **What to actually do next** | [`plans/`](plans/) — five documents: the ratified decisions, the five-stage build plan, a day-by-day runbook, and the scoreboard. **Written 2026-08-05, and the only part of this estate that is a plan of execution.** |
+| **What has been decided since the freeze** | [`BUILD-LOG.md`](BUILD-LOG.md) — the ratification record, the founder's rulings, and the first device evidence |
+| **What the estate says, compacted** | [`MASTER-BRIEF.md`](MASTER-BRIEF.md) — all 32 documents in one, or [`compacted/`](compacted/) sliced into nine themes |
+| **Whether a plan's claims are true of the code** | [`VERIFICATION.md`](VERIFICATION.md) — 17 claims read line-by-line against the repository; nine were wrong or overstated |
 | **What can never change** | [`CHARTER.md`](CHARTER.md) — the one law, six red lines, the partition, the two ledgers, the grading constitution, the vocabulary rule |
 | **What is open right now** | [`BACKLOG.md`](BACKLOG.md) — every open item, door-labelled, by owner |
 | **How the estate works** | [`METHOD.md`](METHOD.md) — epistemic labels, one-way/two-way doors, the monthly decision hour, numbering, session format |
