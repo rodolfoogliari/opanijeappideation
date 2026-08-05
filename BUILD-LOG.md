@@ -140,5 +140,100 @@ not the same fix.
 
 ---
 
+
+---
+
+## 2026-08-05 (later) — The tester programme is suspended and the tester-facing surface is redone
+
+**Founder ruling, following ledger row 59.**
+
+> The feedback was so negative that we are not going to test now. The interface, the UI/UX and all
+> tester-facing parts of the app are going to be redone and deeply reviewed.
+
+**This answers INPUT-92** — the question of how much Release 1 scope the door redesign gets. The
+answer is: whatever it needs, and it precedes testing rather than fitting around it. INPUT-92 is
+closed by this ruling.
+
+### What is suspended
+
+| | Status |
+|---|---|
+| **Stage 2's ten-tester cohort** | **SUSPENDED**, not cancelled. No hand-picked tester receives a build until the redesigned surface exists |
+| **Ledger row 55** (≥7/10 to the screen drum) | Cannot be measured. It was always defined on ten testers; there are now none scheduled. **It stays HYPOTHESIS — do not mark it blocked, it is simply not yet testable** |
+| **Rows 48, 50, 53, 58** | Same — all Stage 2 instruments |
+| **D103** (ten testers before the design filing) | Ratified and unspent. The accepted risk stands; nothing is currently drawing on it |
+| **D99's second handset** | Not urgent while nobody is testing. The founder's own device remains the build-check surface |
+
+### What is not suspended, and this is the important half
+
+**Capture Day and the audio pipeline proceed.** They are governed by Junior's availability and by
+irrecoverability, not by the interface. Audio is independent of the surface being redone, and
+deferring the shoot to wait for a redesign would spend the one resource that cannot be recovered
+(INPUT-89's consent scope, the partition in his words) to protect one that can. **Stages 0 and 1 run
+unchanged.**
+
+**D94a keeps its purpose and gains urgency.** The redesigned surface must be designed *with* the play
+layer on, not with it off and the layer added afterwards — the whole finding of row 59 is that the
+product without it reads as nothing. The gate-separation work (`EXPO_PUBLIC_ROOM_DEMO` setting both
+`playLayerEnabled` and the review route tree) is now a precondition of the redesign rather than of a
+tester handout.
+
+**D94b is unaffected.** It was already scheduled for Stage 3, and it now waits on a redesigned
+surface as well as on rows 52 and 55.
+
+### Junior is inside the redesign, not a reviewer after it
+
+Charter §9 item 10 — no screen-drum surface ships without Junior having seen it — is a **ship** gate,
+not a design gate, so it does not compel a sitting during the redesign. But `ACCEPTANCE.md:39` and
+the estate's own repeated finding is that **he answers around working objects, not around
+documents**. Showing him a surface that is about to be discarded spends his scarcest resource on a
+throwaway; showing him nothing until it is finished risks discovering at the end that the form is
+wrong.
+
+**The build-side call, recorded here rather than put to the founder:** Junior sees the redesign at
+the point where it is playable but still cheap to change — not the current build, and not a finished
+one. His Day 10 sitting in `PLAN-02-RUNBOOK.md` moves with the redesign rather than staying on its
+original date. INPUT-69, 79, 41, 62 and 88 travel with it.
+
+### The plan gains a stage
+
+**Stage R — the tester-facing surface**, between Stage 1 and Stage 2. It is lettered rather than
+numbered deliberately: inserting a "Stage 2" would renumber every stage after it, and `NUMBERING.md`'s
+rule that a gap is cheaper than a collision applies to plan structure as much as to registers.
+
+Recorded as **ledger row 60** (the redesigned door is self-explanatory — the row that replaces 59's
+falsification when it is re-measured) and **risk #38** (a redesign with no measurement loop repeats
+the failure it exists to fix).
+
+---
+
+## 2026-08-05 (later) — The estate is compacted
+
+**Founder instruction.** The 2026-08-05 recon and verification set was folded into the base documents
+so a planner or refactor consumes fewer tokens.
+
+**Removed — twelve files, 96,089 words:** `MASTER-BRIEF.md`, `FABLE-PLAN.md`, `VERIFICATION.md`, and
+`compacted/A`–`I`. **They are recoverable from git history at commit `e38917a`.**
+
+**Why it is safe.** `MASTER-BRIEF.md` and `compacted/A`–`G` were compactions of documents that sit in
+this same repository — they duplicated `README`, `CHARTER`, `plan/`, `registers/`, `sessions/` and
+`research/` rather than adding to them. `FABLE-PLAN.md`'s surviving conclusions are already carried by
+`plans/`, which was written from it and then corrected against the code. Only three of the twelve held
+original material: `VERIFICATION.md` and `compacted/H`–`I`.
+
+**Added — one file:** **`AS-BUILT.md`**, 4,771 words, carrying every unique finding from those three
+plus the nine wrong claims, so that no future plan re-derives them.
+
+**Net: the estate goes from 267,697 words across 50 documents to 176,379 across 39 — a 34% cut —
+and loses nothing that was not duplicated elsewhere in it or preserved in git.** Measured, not
+estimated: 96,089 words removed, 4,771 added. `AS-BUILT.md` is not a register and takes no numbered rows.
+
+*A caution for whoever reads this next:* the deleted set is where the estate's own compaction lived.
+If a future session wants the 32-document estate summarised again, **it should not regenerate it** —
+it should read `CHARTER.md` (two pages), `AS-BUILT.md` (what exists), `BUILD-LOG.md` (what was
+decided) and `plans/` (what to do). That is the whole working set, and it is 26885 words.
+
+---
+
 *Opened 2026-08-05. Under D88 this is the only register the build side writes to; `LEDGER.md` is the
 only one it adds rows to.*

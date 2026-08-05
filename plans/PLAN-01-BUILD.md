@@ -28,11 +28,23 @@ they assume roughly 20 focused hours a week, not 40.
 ```
 STAGE 0  Hygiene + the ask            week 0–1     ships nothing public
 STAGE 1  Capture Day + the pipeline   week 1–3     ships owned audio, internally
-STAGE 2  Ten humans                   week 3–5     ships a sideloaded APK to 10 people
-STAGE 3  Public: the free instrument  week 5–9     ships opanije.com/toca + Play listing
-STAGE 4  First money                  week 9–17    ships accounts + entitlements + the rail live
-STAGE 5  Compound                     month 5+     shaped by whatever Stage 3–4 measured
+STAGE R  The tester-facing surface    week 1–?     ships a door a beginner can walk through   ← NEW
+STAGE 2  Ten humans                   SUSPENDED    resumes when Stage R exits
+STAGE 3  Public: the free instrument  after R      Play listing only — D96 rejected the web room
+STAGE 4  First money                  +5–7 wks     accounts + entitlements + the rail live
+STAGE 5  Compound                     later        shaped by whatever Stage 3–4 measured
 ```
+
+**Stage R is lettered, not numbered, on purpose.** Inserting a "Stage 2" would renumber every stage
+after it, and `NUMBERING.md`'s rule — a gap is cheaper than a collision — applies to plan structure
+as much as to registers. Stages 0 and 1 run in parallel with it; Stage 2 waits for it.
+
+> **AMENDED 2026-08-05 (later) — the timeline below is no longer claimable, and saying so is the
+> point.** The founder suspended the tester programme and ordered the tester-facing surface redone
+> after row 59 measured it at 0/10. **Stage R has no estimate**, because nobody yet knows how much of
+> the surface is wrong — one unaided tester established that it does not work, not what it would take
+> to make it work. Any week-count published before Stage R has scoped itself would be invented. The
+> stage *sequence* below stands; the *arithmetic* does not, until Stage R exits.
 
 > **AMENDED 2026-08-05.** Three changes to the shape above, none of which move the stage boundaries
 > but all of which change what happens inside them:
@@ -180,7 +192,68 @@ cheapest.
 
 ---
 
-# Stage 2 — Ten humans
+# Stage R — The tester-facing surface
+
+**Weeks:** unknown, and deliberately not invented. **Ships:** a door an unaided beginner can walk
+through. **Junior:** one sitting, timed as below. **Runs in parallel with Stage 1** — audio capture
+and surface work do not contend for the same hours.
+
+### Why this stage exists
+
+Ledger row 59. One unaided first-time user, on a real device, could not tell what to do, saw no game
+mechanic, and could not work out how to interact. **0/10.** That is the only measured fact the
+company has about its own product, and it is about the surface.
+
+### What it is not
+
+It is **not** a visual refresh, and it is not a re-skin of the current screens. The finding was not
+*"it looks wrong"* — it was *"I could not tell what to touch"*. The thing being redesigned is the
+**first ninety seconds**: what a person sees, what they are asked to do, and how they discover that
+the screen is a drum. A prettier version of an illegible door is still an illegible door.
+
+### What must be true when it exits
+
+1. An unaided first-time user reaches the screen drum and plays, without being told how. **Measured,
+   not assumed** — row 60.
+2. **The play layer is on while the surface is being designed** (D94a), not added afterwards. Row 59's
+   tester described the play-layer-off build as having no mechanic; designing the door around that
+   build would design the door around the wrong product.
+3. `EXPO_PUBLIC_ROOM_DEMO`'s two gates are separated first, so a play-layer build does not also carry
+   `/review` and `/past-the-door`. That is D94a's scope and it is a precondition of everything else
+   here.
+
+### The trap this stage carries — risk #38
+
+**A redesign with no measurement loop repeats the failure it exists to fix.** Row 59 came from
+handing a build to one unaided human. The tester *programme* is suspended, but the *act* that
+produced the estate's only measured fact costs one person and an hour. **Run the cheapest honest
+version of it continuously** — one or two people, informally, repeatedly, throughout Stage R — rather
+than waiting for the ten-tester cohort to resume. A redesign that reaches Stage 2 without ever having
+been watched by a beginner is the same bet that produced the 0/10.
+
+### Junior sits inside this stage, not after it
+
+Charter §9 item 10 is a *ship* gate, not a design gate, so nothing compels a sitting during a
+redesign. But the estate's own repeated finding is that he answers around working objects rather than
+documents. **Show him the redesign at the point where it is playable but still cheap to change** —
+not the current build, and not a finished one. INPUT-69, 79, 41, 62 and 88 travel with that sitting,
+and `PLAN-02-RUNBOOK.md` Day 10 moves with it.
+
+### Continue when
+
+**Row 60 measured** — the redesigned door is self-explanatory to an unaided first-time user. Then,
+and only then, Stage 2 resumes and spends the ten hand-picked testers on a surface that has already
+been shown to work on somebody.
+
+---
+
+# Stage 2 — Ten humans  ·  **SUSPENDED 2026-08-05**
+
+> **SUSPENDED, not cancelled.** No hand-picked tester receives a build until Stage R exits. Rows 48,
+> 50, 53, 55 and 58 are all Stage 2 instruments and none of them can be measured meanwhile — they
+> stay HYPOTHESIS/ASSUMPTION rather than being marked blocked, because they are not blocked, they are
+> simply not yet testable. **D103's accepted risk stands and is currently unspent.** Everything below
+> is the stage as it will run when it resumes.
 
 **Weeks:** 3–5.
 **Ships:** a sideloaded APK to ten hand-picked testers. Debug-signed is fine here; the production

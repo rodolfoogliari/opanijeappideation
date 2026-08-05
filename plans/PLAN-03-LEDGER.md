@@ -35,7 +35,8 @@ Nothing here is measured by instinct or by feeling good about a demo. Each row n
 | **Day 2** | *primary evidence* | What the app feels like in a hand | You, one dated written note in `BUILD-LOG.md`, after playing twice on a real phone | No target — the first honest note in company history |
 | **Day 9** | **54** | Scheduled pre-rendered audio feels like **playing**, not miming | Two humans (you + Junior), separately, dated, in writing, before anyone else sees it | Both say playing, unprompted |
 | **Day 10** | **52** | The play layer reads as musical information, not a verdict on the player | Junior's words, written verbatim, phone in his hand | His assent, in his register |
-| **Stage 2** | **55** *(est. 46)* | A beginner goes voice → screen drum in one sitting, unaided | 10 testers, observed, yes/no each | **≥7/10 — this gate can halt the launch** |
+| **Stage R** | **60** | The **redesigned** door is self-explanatory to an unaided first-time user | One or two unaided first-time users, watched, repeatedly, throughout the redesign — the cheapest honest version of the act that produced row 59 | Reached the screen drum unaided. **This is Stage R's exit condition** |
+| ~~Stage 2~~ | **55** *(est. 46)* | A beginner goes voice → screen drum in one sitting, unaided | 10 testers, observed, yes/no each. **SUSPENDED 2026-08-05 — resumes when Stage R exits** | **≥7/10 — this gate can halt the launch** |
 | **Stage 2** | **48** | The echo loop reads as teaching, not as a test | Asked directly, 10 testers | Majority "teaching" |
 | **Stage 2** | **50, 53** | When the part thinned, the student understood why | Asked directly; `tap.ts` feeding measure logged alongside | Majority comprehension |
 | **Stage 2** | **58** | The real Android device distribution supports the generous binary window | R75's two latency flags logged from every tester device, free | Distribution known, no target |
@@ -54,6 +55,13 @@ Nothing here is measured by instinct or by feeling good about a demo. Each row n
 Most of the plan is reversible. These three are not, and each has the authority to halt what follows.
 
 ### Gate 1 — Stage 2, row 55. *Can halt the launch.*
+
+> **AMENDED 2026-08-05 (later) — the gate did not fire, but the founder acted as though it had.**
+> Row 59 was one tester, not ten, on a play-layer-off build — formally a precursor, not Gate 1. The
+> founder nonetheless suspended the tester programme and ordered the surface redone. **That is the
+> gate working better than written:** the whole hazard PLAN-03 names below is that a bad first-session
+> number gets rationalized away, and instead a single bad one was acted on immediately. The formal
+> gate still stands for when Stage 2 resumes.
 
 > **AMENDED 2026-08-05 — the precursor has already fired.** Row 59 is one unaided beginner on a real
 > device scoring **0/10**. That is **not** Gate 1: row 55 is defined as ten testers on a
@@ -99,7 +107,7 @@ of build capacity closes them.
 | Ten testers before the design filing (D103) | **Founder** | ~~Before Stage 2~~ **ANSWERED 2026-08-05 — risk accepted, D103 RATIFIED** | — |
 | **The iOS path and the no-install surface, after D96's rejection** | **Founder** | **Before Stage 3 is planned** | INPUT-90. Release 1 currently has neither, and Junior's voice note has nothing to point at that does not require an Android install. Risk #36. |
 | **When the escrow and the production keystore happen, after D98's deferral** | **Founder** | **Before any store upload** | INPUT-91. The two halves are separable; the D16 escrow half closes most of the exposure without a keystore. Risk #37. |
-| **How much Release 1 scope the door redesign gets, after row 59's 0/10** | **Founder** | **Before Stage 2** | INPUT-92. It may delay Capture Day, which is why it is a founder call and not a build call. Risk #35. |
+| ~~How much Release 1 scope the door redesign gets~~ | **Founder** | **ANSWERED 2026-08-05** | INPUT-92 closed: the redesign gets whatever it needs and precedes testing. Capture Day is **not** delayed — it runs in parallel, because Junior's hours are the irrecoverable resource, not the surface. |
 | GUI design filing vs the R$5k floor | **Founder** | Stage 3 | The plan recommends accepting the risk and shipping. |
 
 ---

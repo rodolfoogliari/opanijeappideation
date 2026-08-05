@@ -10,12 +10,23 @@ the registers of every decision and open question, and the session history that 
 **Restructured 2026-08-03 under D83.** Session prose used to be the register of record; it no longer
 is. The registers are.
 
+**The working set is four documents, not thirty-two.** `CHARTER.md` (two pages, what cannot change),
+[`AS-BUILT.md`](AS-BUILT.md) (what exists), [`BUILD-LOG.md`](BUILD-LOG.md) (what was decided) and
+[`plans/`](plans/) (what to do). That is roughly 30,000 words and it is everything a planner needs.
+Everything else on this page is history, kept because it is auditable — not because it must be read.
+
 **The estate stopped being the work on 2026-08-05.** D84–D103 were put to the founder and returned
 the same day — seventeen ratified, one rejected, one deferred, one held. D88 puts the register
 apparatus into maintenance mode: most of `registers/` is now frozen history, and build decisions go
 to [`BUILD-LOG.md`](BUILD-LOG.md). On the same day the company's **first MEASURED ledger row**
 arrived from a physical-device test, and it is **FALSIFIED** — a first-time user could not work out
-what to do (row 59). Start at [`plans/`](plans/), not here.
+what to do (row 59). The founder then **suspended the tester programme and ordered the tester-facing
+surface redone** (`BUILD-LOG.md`). Start at [`plans/`](plans/), not here.
+
+**Compacted the same day.** Twelve documents of 2026-08-05 recon and compaction (96,089 words) were
+folded into `AS-BUILT.md` and removed; they are recoverable from git history at `e38917a`. The estate
+went from **267,697 words across 50 documents to 176,379 across 39** and lost nothing that was not
+duplicated elsewhere in it.
 
 ---
 
@@ -25,8 +36,7 @@ what to do (row 59). Start at [`plans/`](plans/), not here.
 |---|---|
 | **What to actually do next** | [`plans/`](plans/) — five documents: the ratified decisions, the five-stage build plan, a day-by-day runbook, and the scoreboard. **Written 2026-08-05, and the only part of this estate that is a plan of execution.** |
 | **What has been decided since the freeze** | [`BUILD-LOG.md`](BUILD-LOG.md) — the ratification record, the founder's rulings, and the first device evidence |
-| **What the estate says, compacted** | [`MASTER-BRIEF.md`](MASTER-BRIEF.md) — all 32 documents in one, or [`compacted/`](compacted/) sliced into nine themes |
-| **Whether a plan's claims are true of the code** | [`VERIFICATION.md`](VERIFICATION.md) — 17 claims read line-by-line against the repository; nine were wrong or overstated |
+| **What actually exists — the code, the site, the assets** | [`AS-BUILT.md`](AS-BUILT.md) — verified 2026-08-05. **Read this before planning anything.** It also lists the nine claims a plan got wrong, so nobody re-derives them |
 | **What can never change** | [`CHARTER.md`](CHARTER.md) — the one law, six red lines, the partition, the two ledgers, the grading constitution, the vocabulary rule |
 | **What is open right now** | [`BACKLOG.md`](BACKLOG.md) — every open item, door-labelled, by owner |
 | **How the estate works** | [`METHOD.md`](METHOD.md) — epistemic labels, one-way/two-way doors, the monthly decision hour, numbering, session format |

@@ -11,6 +11,19 @@
 > Passages superseded by that ruling are marked **AMENDED** inline. Where this document and
 > `../BUILD-LOG.md` disagree, **`BUILD-LOG.md` governs.**
 
+
+> ### ⚠️ Amended 2026-08-05 (later) — the tester programme is suspended
+>
+> Following ledger row 59's **0/10**, the founder ruled that **the interface, the UI/UX and every
+> tester-facing part of the app are redone and deeply reviewed before any human sees it again.**
+> Stage 2 is suspended, a new **Stage R** sits between Stage 1 and Stage 2, and Capture Day proceeds
+> unchanged. `../BUILD-LOG.md` governs.
+
+> **What this means for the ten days below.** Days 1–9 stand: escrow (part-deferred), the code
+> hygiene, the gate split, the pipeline, the rehearsal, Capture Day, and Junior's battery in your
+> hands are all independent of the surface being redone. **Day 5 and Day 10 change** — see each.
+> Stage R's surface work runs alongside them; it is not a tenth day, it is a parallel track.
+
 **Who this is for.** You, at 09:00, alone, with a terminal and Claude Code open. You are not an
 engineer and you do not need to be. Every command below is real and was checked against the actual
 repo on this machine. Every Claude prompt is copy-pasteable.
@@ -439,8 +452,20 @@ his answers in **his words**, not your paraphrase:
 
 That last one is the whole grading constitution, asked of the one person whose answer counts.
 
-**Then recruit the ten testers** from his network and yours, and schedule them across the following
-week. End the day by writing the ledger's first dated rows and the week-3 plan.
+> **AMENDED 2026-08-05 (later) — do not recruit the ten testers.** The programme is suspended until
+> the redesigned surface exists (Stage R). Recruiting now spends ten hand-picked people, once, on a
+> door already measured at 0/10.
+>
+> **And move this sitting.** Junior should see the *redesign* at the point where it is playable but
+> still cheap to change — not today's build. So this day travels with Stage R rather than sitting on
+> Day 10. The six questions above are exactly right; they are worth asking around the object he will
+> actually be asked to approve.
+>
+> What still belongs on Day 10: **write the ledger's dated rows.** Row 54's answer, in writing, is
+> the point of Day 9 and it does not wait for anything.
+
+~~**Then recruit the ten testers** from his network and yours, and schedule them across the following
+week.~~ End the day by writing the ledger's first dated rows and the week-3 plan.
 
 ---
 
@@ -451,7 +476,7 @@ week. End the day by writing the ledger's first dated rows and the week-3 plan.
 - **Owned instructional audio, for the first time in the company's existence.**
 - A working instrument on two phones. ~~and a URL~~ — **no URL: D96 REJECTED.**
 - The master's assent gathered around a real object instead of a document.
-- Ten humans booked.
+- ~~Ten humans booked.~~ **Suspended** — the surface is being redone first.
 - Two ledger rows with dates on them — more measured evidence than the previous 145,680 words
   produced.
 

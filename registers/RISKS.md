@@ -1,9 +1,9 @@
-# Opanijé — Risk Register (#1–#37)
+# Opanijé — Risk Register (#1–#38)
 
 **Status.** Register of record for this series as of 2026-08-03, under D83 (Addendum 04 §7).
 **Supersedes.** The per-session tables in `sessions/` for this series, which remain readable as
 derivation history but are no longer the register.
-**Range.** #1 through #37. #1–#29 issued to 2026-08-03; #30–#37 added 2026-08-05.
+**Range.** #1 through #38. #1–#29 issued to 2026-08-03; #30–#38 added 2026-08-05.
 **Rule.** Rows are appended, never rewritten. A row's status may change; its claim may not.
 
 ---
@@ -95,6 +95,7 @@ The block boundaries thereafter are as each document states them and agree with 
 | 35 | **The door is not self-explanatory, and this is measured, not feared.** A first-time user on a physical device did not understand what to do, reported no gamified mechanic, and did not understand how to interact at all. **0/10.** | Redesign the door *before* Stage 2 rather than after, and write row 55's ≥7/10 criterion down before the ten testers arrive so the number is judged rather than negotiated. D94 addresses one half — the tested build had the play layer off. **Onboarding legibility is the other half and is a separate fix**: a first-time user who cannot tell what to touch fails the first session whether or not the game is on. | **OPEN — the estate's first measured failure.** Row 59. Gate 1 (`PLAN-03` §2) has *not* fired, because row 55 is defined on ten testers and a play-layer-on build — but this is its precursor, and PLAN-03 names it as the gate "most likely to be rationalized away". | TWO-WAY — the door is redesignable, and it is cheaper to redesign now than after Stage 3 distribution | BUILD-LOG 2026-08-05; row 59; D99 |
 | 36 | **D96's rejection leaves Release 1 with no iOS path and no no-install surface.** The web room was carrying both jobs at once: it was the iPhone version (no Mac, no Xcode, no signing identity on this machine) and the only artifact a person can tap from a WhatsApp forward without installing anything. | INPUT-90 — the founder names the iOS answer and the tap-to-play surface, or accepts Android-install-only for Release 1 with eyes open. | OPEN — opened *by* a founder ruling, which is the correct way for a risk to open. The consequence lands hardest on Stage 3's highest-leverage act: Junior's one voice note to 1,000+ former students now asks each of them to install an app rather than tap a link, and ledger row 57 is amended to say so. | TWO-WAY — the ruling is reversible and the web export still exists; what is closed is its promotion to strategy | BUILD-LOG 2026-08-05; D96; row 57 |
 | 37 | **D98's deferral keeps the single-machine total-loss exposure open and blocks any store upload.** One machine holds the code, every credential, the backup key and the signing key with no standby. D16 has carried this as the estate's highest-ranked overdue item for weeks. | INPUT-91 — the founder names when the escrow and the keystore happen. **The two halves are separable**: the D16 credential and backup-key escrow can be done without generating a production keystore, and closes most of the exposure on its own. | OPEN — deferred by founder ruling on 2026-08-05, recorded rather than argued. The deferral is legitimate; the exposure it leaves standing is recorded here so that it is not rediscovered as a surprise. | ONE-WAY in consequence — a signing key lost after publication cannot be recovered and the app can never be updated again; a disk lost before escrow ends the company | BUILD-LOG 2026-08-05; D98; D16 |
+| 38 | **A redesign with no measurement loop repeats the failure it exists to fix.** Row 59 was produced by handing a build to one unaided human. The redesign is being done because that measurement was bad — but the redesign itself has no scheduled measurement, because the tester programme that would provide one is suspended. | Re-measure on unaided first-time users *during* Stage R at whatever the smallest honest scale is — one or two people, informally, repeatedly — rather than waiting for the ten-tester cohort to resume. Row 60 is the row this converts. **The cheapest possible version of the loop that produced row 59 is the one that should run continuously.** | OPEN — opened 2026-08-05 with the suspension ruling. The suspension is correct; the gap it leaves is that the estate now has one measured failure and no scheduled way to learn whether it has been fixed. | TWO-WAY | BUILD-LOG 2026-08-05 (later); row 59; row 60 |
 
 
 **#30–#37 arrive with the build, and #35 is the only one already realised.** #30–#34 were issued by
@@ -109,7 +110,7 @@ recording what the ruling costs, which is what makes the ruling reversible on ev
 
 ## Gaps and irregularities in this series
 
-**No gaps.** Every number from #1 to #37 is located in the estate and carried above.
+**No gaps.** Every number from #1 to #38 is located in the estate and carried above.
 
 **One attribution conflict, recorded not repaired.** Addendum 01 §16 and `NUMBERING.md` both credit
 v2.0 with #1–#22. v2.0 §13 contains #1–#21; #22 is Mandate 01's, by D47. The count of numbers is

@@ -14,6 +14,14 @@ verifying every load-bearing claim in that plan against the actual code.
 > Passages superseded by that ruling are marked **AMENDED** inline. Where this document and
 > `../BUILD-LOG.md` disagree, **`BUILD-LOG.md` governs.**
 
+> ### ⚠️ Amended 2026-08-05 (later) — the tester programme is suspended
+>
+> Following ledger row 59's **0/10**, the founder ruled that **the interface, the UI/UX and every
+> tester-facing part of the app are redone and deeply reviewed before any human sees it again.**
+> Stage 2 is suspended, a new **Stage R** sits between Stage 1 and Stage 2, and Capture Day proceeds
+> unchanged. `../BUILD-LOG.md` governs.
+
+
 
 ---
 

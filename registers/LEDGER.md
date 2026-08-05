@@ -1,9 +1,9 @@
-# Opanijé — Evidence Ledger (rows 1–59)
+# Opanijé — Evidence Ledger (rows 1–60)
 
 **Status.** Register of record for this series as of 2026-08-03, under D83 (Addendum 04 §7).
 **Supersedes.** The per-session tables in `sessions/` for this series, which remain readable as
 derivation history but are no longer the register.
-**Range.** rows 1 through 59. Rows 1–51 issued to 2026-08-03; rows 52–59 added 2026-08-05.
+**Range.** rows 1 through 60. Rows 1–51 issued to 2026-08-03; rows 52–60 added 2026-08-05.
 **Rule.** Rows are appended, never rewritten. A row's status may change; its claim may not.
 
 ---
@@ -115,6 +115,7 @@ here are ledger rows and are unrelated to the R-series and the D-series.
 | 57 | Junior's former-student network forwards the link when he asks | ASSUMPTION | Stage 3, one voice note, measured in sessions within 7 days | TWO-WAY (derived) | PLAN-00 §6. **Amended on issue by D96's rejection: the link now points at a Play listing requiring an install rather than a tap-to-play surface, which changes what is being measured. Risk #36; INPUT-90** |
 | 58 | The real Android device distribution supports the generous binary window | ASSUMPTION | R75's two latency flags logged free from every Stage 2 tester device and from the first public build | TWO-WAY (derived) | PLAN-00 §6; R75 |
 | 59 | The Release 1 door is self-explanatory to an unaided first-time user | **FALSIFIED — MEASURED 2026-08-05, n=1.** A first-time user on a physical device did not understand what to do, reported that there was no gamified mechanic, and did not understand how to interact at all. Scored 0/10 | A redesigned door re-tested on unaided first-time users; row 55's ten-tester cohort is the formal test | TWO-WAY | BUILD-LOG 2026-08-05, founder-reported device test. **The first MEASURED row in this register.** The build tested had `playLayerEnabled` false, so it measures the play-layer-off product |
+| 60 | The **redesigned** tester-facing surface is self-explanatory to an unaided first-time user | ASSUMPTION | Stage R's redesign re-measured on unaided first-time users, then row 55's cohort. **This is the row that replaces row 59's falsification; 59 is retained, not edited** | TWO-WAY | BUILD-LOG 2026-08-05 (later), founder ruling suspending the tester programme |
 
 
 **Rows 52–59 arrive with the build, and one of them is measured.** Rows 52–58 were issued by
@@ -167,8 +168,8 @@ baseline, dated, before the numbers exist.
 measured evidence; rows 48–51 exist so the pilot and M1 are read as tests rather than verdicts.*
 Row 49 is the one that governs Fork L.
 
-**Numbering.** This register ends at row 59; the next ledger row is **60** (`NUMBERING.md`). No
-number in 1–59 is missing and none is reused. Row 21 appears as 21a and 21b by D12 and is counted
+**Numbering.** This register ends at row 60; the next ledger row is **61** (`NUMBERING.md`). No
+number in 1–60 is missing and none is reused. Row 21 appears as 21a and 21b by D12 and is counted
 once. Row 56 is **withdrawn on issue** under D96 and its number is retired, not reassigned.
 
 ---
