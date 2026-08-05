@@ -1,12 +1,13 @@
 # Opanijé — The Build Decisions
 
-**Status.** **RETURNED 2026-08-05 — 17 RATIFIED, D96 REJECTED, D98 DEFERRED, D94 PENDING.**
+**Status.** **RETURNED 2026-08-05 — 17 RATIFIED, D96 REJECTED, D98 DEFERRED, D94 SPLIT (D94a
+RATIFIED, D94b scheduled for Stage 3).**
 Written 2026-08-05, ratified the same day. The record of record is `../BUILD-LOG.md`.
 
 > ### ⚠️ Amended 2026-08-05 by the founder's ratification
 >
 > Put to the founder as `PLAN-00-DECISIONS.md` §8 and returned the same day. **Seventeen decisions
-> RATIFIED, D96 REJECTED, D98 DEFERRED, D94 PENDING.** A physical-device test the same day returned
+> RATIFIED, D96 REJECTED, D98 DEFERRED, and D94 SPLIT — D94a RATIFIED, D94b scheduled for Stage 3.** A physical-device test the same day returned
 > **0/10** and is recorded as **ledger row 59 — FALSIFIED, MEASURED**, the first measured row in the
 > company's history. The full record is `../BUILD-LOG.md`; the registers are updated.
 >

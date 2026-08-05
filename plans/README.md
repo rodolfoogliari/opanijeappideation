@@ -7,7 +7,7 @@ verifying every load-bearing claim in that plan against the actual code.
 > ### ⚠️ Amended 2026-08-05 by the founder's ratification
 >
 > Put to the founder as `PLAN-00-DECISIONS.md` §8 and returned the same day. **Seventeen decisions
-> RATIFIED, D96 REJECTED, D98 DEFERRED, D94 PENDING.** A physical-device test the same day returned
+> RATIFIED, D96 REJECTED, D98 DEFERRED, and D94 SPLIT — D94a RATIFIED, D94b scheduled for Stage 3.** A physical-device test the same day returned
 > **0/10** and is recorded as **ledger row 59 — FALSIFIED, MEASURED**, the first measured row in the
 > company's history. The full record is `../BUILD-LOG.md`; the registers are updated.
 >
@@ -71,15 +71,22 @@ orders ever, none completed.
 
 **Build the free instrument, give it away, and find out whether anyone plays it twice.**
 
-Ship the Room as a permanently free Android app *and* a link-playable web room at
-`opanije.com/toca` — one commons rhythm played by Junior, the echo loop switched on, no account, no
-checkout, no store required to try it. The web room is also the iOS version, because iOS is
-permanently infeasible from this machine.
+Ship the Room as a permanently free Android app — one commons rhythm played by Junior, the echo
+loop switched on, no account, no checkout, no store required to try it.
+
+> **AMENDED 2026-08-05.** As written this paragraph also commissioned *"a link-playable web room at
+> `opanije.com/toca`, which is also the iOS version"*. **D96 was REJECTED by the founder.** The web
+> room is neither the primary surface nor the iOS strategy, and **Release 1 has no iOS path at all**
+> — that is INPUT-90, and it is open. The Play listing carries Stage 3 alone.
+>
+> **Amended again the same day:** "the echo loop switched on" is **D94b**, which is scheduled for
+> Stage 3 and not yet ruled. What *is* ratified is D94a — the play layer on in tester builds.
 
 Then, only if it measures: activate the payment rail that has been sitting deployed and dormant, and
 sell the R$297 course.
 
-**Nine weeks to a public product. Seventeen to first money. Two to three days of Junior's recorded
+~~**Nine weeks to a public product. Seventeen to first money.**~~ **Withdrawn 2026-08-05 — Stage R
+has no estimate, so no total is claimable (`PLAN-01-BUILD.md`).** What stands: Two to three days of Junior's recorded
 time.** Every week of it on machinery already proven on this workstation.
 
 ---

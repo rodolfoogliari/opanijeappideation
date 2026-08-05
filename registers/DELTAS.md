@@ -152,7 +152,8 @@ every load-bearing claim in that plan line-by-line against the actual code (`VER
 `../AS-BUILT.md` and they are recoverable from git history at `e38917a`.** The citations above are
 kept as written, on this register's own precedent for the retired continuation prompts: a citation
 records where a claim came from, and one that is quietly rewritten stops being auditable.
-**Returned by the founder the same day**: seventeen RATIFIED, D96 REJECTED, D98 DEFERRED, D94 PENDING.
+**Returned by the founder the same day**: seventeen RATIFIED, D96 REJECTED, D98 DEFERRED, and D94
+**SPLIT** into D94a (RATIFIED) and D94b (scheduled for Stage 3).
 
 **This is the last block to enter this register.** D88 — ratified in this same block — freezes
 `DELTAS.md`. D84–D103 are carried here because they were numbered for it before the freeze took

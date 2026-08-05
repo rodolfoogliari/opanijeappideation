@@ -6,7 +6,7 @@ corrected against a line-level verification of the code.
 > ### ⚠️ Amended 2026-08-05 by the founder's ratification
 >
 > Put to the founder as `PLAN-00-DECISIONS.md` §8 and returned the same day. **Seventeen decisions
-> RATIFIED, D96 REJECTED, D98 DEFERRED, D94 PENDING.** A physical-device test the same day returned
+> RATIFIED, D96 REJECTED, D98 DEFERRED, and D94 SPLIT — D94a RATIFIED, D94b scheduled for Stage 3.** A physical-device test the same day returned
 > **0/10** and is recorded as **ledger row 59 — FALSIFIED, MEASURED**, the first measured row in the
 > company's history. The full record is `../BUILD-LOG.md`; the registers are updated.
 >
@@ -57,8 +57,10 @@ as much as to registers. Stages 0 and 1 run in parallel with it; Stage 2 waits f
 >   Stage 3 alone, Release 1 has no iOS path, and INPUT-90 asks the founder what replaces it.
 > - **Stage 0's escrow is deferred** (D98). Stage 3 cannot begin its store upload until it closes.
 
-**To a public product: ~9 weeks. To first money: ~17 weeks.** Two to three days of Junior's recorded
-time in total. Every week of it runs on machinery already proven on this workstation.
+~~**To a public product: ~9 weeks. To first money: ~17 weeks.**~~ **Withdrawn 2026-08-05 — see the
+amendment above. Stage R has no estimate, so no total is claimable.** What still stands: two to three
+days of Junior's recorded time in total, and that every week of it runs on machinery already proven
+on this workstation.
 
 Stage 4 is longer than Fable estimated, deliberately — see D93. Room's server seams are designed but
 entirely unwired; `createRoomApi` has never been called and `SERVER-CONTRACT.md` calls its endpoints
@@ -311,7 +313,9 @@ the one gate in the plan authorized to halt the launch, and it should be used if
 # Stage 3 — Public: the free instrument
 
 **Weeks:** 5–9.
-**Ships:** `opanije.com/toca` and the Play listing.
+**Ships:** ~~`opanije.com/toca` and~~ the Play listing. **AMENDED — D96 REJECTED: the web room is
+not shipped as a surface, and Release 1 has no iOS path (INPUT-90). D98's deferral additionally
+blocks the store upload until INPUT-91 closes, which makes this stage's ship list currently empty.**
 **Junior:** one voice note to his network. That single act is the entire seed strategy.
 
 ### What goes live
@@ -449,7 +453,7 @@ Print this. Each item has eaten weeks from someone.
 |---|---|---|
 | **Real-time audio DSP, a native low-latency engine, Oboe/AAudio, "just a small C++ mixer"** | Another pre-rendered file. Scheduled audio with the grid read from the authored render (G10/D60/R73). | The single most dangerous attraction in the estate. Nobody here can debug a buffer underrun. |
 | **Custom native modules / ejecting from Expo** | Expo config plugins — `with-verified-apk` already proves the pattern. If a capability isn't reachable in managed Expo, redesign the feature. | The moment `android/` stops being disposable prebuild output, every upgrade becomes archaeology. |
-| **iOS, in any form, including "just checking if it builds"** | The web room *is* the iPhone version (D96). | No Mac, no Xcode, no signing identity. Permanently infeasible from this machine. |
+| **iOS, in any form, including "just checking if it builds"** | **None as of 2026-08-05 — D96 was REJECTED, so the web room is no longer the answer. INPUT-90 is open and Release 1 currently has no iOS path.** | No Mac, no Xcode, no signing identity. Permanently infeasible from this machine — the *constraint* is unchanged; only the substitute was withdrawn. |
 | **A new backend, a Node server, any second stack on the VPS** | The existing mu-plugin PHP + `opanije-mobile/v1`. Every server feature is a new endpoint in that contract. | D91. 9,600 lines already written, deployed, and versioned. |
 | **Subscriptions, renewals, dunning** | One-time purchases. A manually-renewed season pass if the cycle ever sells. | Recurring billing is a company-sized project. |
 | **Google Play billing / IAP** | Web checkout (Pix), server-side entitlements, an app that sells nothing (D87). | Weeks of integration, 15–30% margin, an anti-steering brief — for a store with no audience. |

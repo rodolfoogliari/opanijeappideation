@@ -5,7 +5,7 @@
 > ### ⚠️ Amended 2026-08-05 by the founder's ratification
 >
 > Put to the founder as `PLAN-00-DECISIONS.md` §8 and returned the same day. **Seventeen decisions
-> RATIFIED, D96 REJECTED, D98 DEFERRED, D94 PENDING.** A physical-device test the same day returned
+> RATIFIED, D96 REJECTED, D98 DEFERRED, and D94 SPLIT — D94a RATIFIED, D94b scheduled for Stage 3.** A physical-device test the same day returned
 > **0/10** and is recorded as **ledger row 59 — FALSIFIED, MEASURED**, the first measured row in the
 > company's history. The full record is `../BUILD-LOG.md`; the registers are updated.
 >
@@ -31,15 +31,15 @@ Nothing here is measured by instinct or by feeling good about a demo. Each row n
 
 | When | Row | The claim being tested | Method | Target |
 |---|---|---|---|---|
-| **2026-08-05** | **59** | **The door is self-explanatory to an unaided first-time user** | Founder-reported device test, one first-time user, unaided | **FALSIFIED. 0/10.** The play layer was off in the tested build |
+| **2026-08-05** | **59** | **The door is self-explanatory to an unaided first-time user** | Founder-reported device test, one first-time user, unaided. **Not MEASURED — no device, build SHA or protocol recorded** | **FALSIFIED. 0/10.** A universal claim refuted by one counterexample. The play layer was off in the tested build |
 | **Day 2** | *primary evidence* | What the app feels like in a hand | You, one dated written note in `BUILD-LOG.md`, after playing twice on a real phone | No target — the first honest note in company history |
 | **Day 9** | **54** | Scheduled pre-rendered audio feels like **playing**, not miming | Two humans (you + Junior), separately, dated, in writing, before anyone else sees it | Both say playing, unprompted |
 | **Day 10** | **52** | The play layer reads as musical information, not a verdict on the player | Junior's words, written verbatim, phone in his hand | His assent, in his register |
 | **Stage R** | **60** | The **redesigned** door is self-explanatory to an unaided first-time user | One or two unaided first-time users, watched, repeatedly, throughout the redesign — the cheapest honest version of the act that produced row 59 | Reached the screen drum unaided. **This is Stage R's exit condition** |
 | ~~Stage 2~~ | **55** *(est. 46)* | A beginner goes voice → screen drum in one sitting, unaided | 10 testers, observed, yes/no each. **SUSPENDED 2026-08-05 — resumes when Stage R exits** | **≥7/10 — this gate can halt the launch** |
-| **Stage 2** | **48** | The echo loop reads as teaching, not as a test | Asked directly, 10 testers | Majority "teaching" |
-| **Stage 2** | **50, 53** | When the part thinned, the student understood why | Asked directly; `tap.ts` feeding measure logged alongside | Majority comprehension |
-| **Stage 2** | **58** | The real Android device distribution supports the generous binary window | R75's two latency flags logged from every tester device, free | Distribution known, no target |
+| ~~Stage 2~~ | **48** | The echo loop reads as teaching, not as a test | Asked directly, 10 testers. **SUSPENDED with the cohort** | Majority "teaching" |
+| ~~Stage 2~~ | **50, 53** | When the part thinned, the student understood why | Asked directly; `tap.ts` feeding measure logged alongside. **SUSPENDED with the cohort** | Majority comprehension |
+| ~~Stage 2~~ | **58** | The real Android device distribution supports the generous binary window | R75's two latency flags logged from every tester device, free. **SUSPENDED with the cohort** | Distribution known, no target |
 | **Stage 3** | **41** | First-session completion rate | First-party instrumentation, per R50 | **100 completed first sessions = gate to Stage 4** |
 | **Stage 3** | **24** | D7 return | First-party instrumentation | Any value — it is a baseline, not a bar |
 | ~~Stage 3~~ | ~~56~~ | ~~The web room converts a WhatsApp forward into a completed session~~ | **WITHDRAWN ON ISSUE — D96 REJECTED 2026-08-05.** The surface this row measures is not being built; the number is retired, not reused | — |
@@ -102,7 +102,7 @@ of build capacity closes them.
 | Consent scope, interactive + game use, in his own voice, signed before cameras roll | **Junior**, counsel drafts | **Capture Day morning** | Not recoverable. Re-consenting a master and reopening commercial terms from a weak position. Rank 1 of six by irrecoverability. |
 | Form assent on every screen-drum surface | **Junior** | Day 10 sitting | Charter §9 item 10 — the app cannot ship. This is a red line, not a preference. |
 | The partition, item by item, in his words | **Junior** | Capture Day, as he speaks | Irrecoverable context. The rulings can come later; being in the room with him cannot. |
-| The free set — what is given away permanently | **Founder** | ~~Day 4~~ **ANSWERED 2026-08-05** | Red line #5. One-way, forever. **Ijexá, two parts, two speeds, play layer on** — the last clause contingent on D94 (PENDING). INPUT-86. |
+| The free set — what is given away permanently | **Founder** | ~~Day 4~~ **ANSWERED 2026-08-05** | Red line #5. One-way, forever. **Ijexá, two parts, two speeds, play layer on** — the last clause contingent on D94b, which is scheduled for Stage 3. INPUT-86. |
 | GPL v3 vs relicensing the app subtree | **Founder + counsel** | Week 1 | Discovering it at store submission stalls the launch; discovering it after stalls it worse. |
 | Ten testers before the design filing (D103) | **Founder** | ~~Before Stage 2~~ **ANSWERED 2026-08-05 — risk accepted, D103 RATIFIED** | — |
 | **The iOS path and the no-install surface, after D96's rejection** | **Founder** | **Before Stage 3 is planned** | INPUT-90. Release 1 currently has neither, and Junior's voice note has nothing to point at that does not require an Android install. Risk #36. |
@@ -121,8 +121,10 @@ Carried from `METHOD.md` because they are the only thing that makes a ledger wor
    confident-looking estate with nothing underneath it.
 3. **A worker's write-up is a claim, not evidence** — including Claude's, including a subagent's,
    including this document's. Verify before relying.
-4. **An honest FALSIFIED is worth more than a hopeful ASSUMPTION.** Three rows are currently
-   FALSIFIED (27, 29, 30) and the estate is stronger for saying so.
+4. **An honest FALSIFIED is worth more than a hopeful ASSUMPTION.** **Four** rows are now FALSIFIED
+   — 27, 29, 30 and **59** — and the estate is stronger for saying so. Note that none of them, 59
+   included, carries MEASURED: row 59 refutes a universal claim on one counterexample, which is a
+   valid falsification and not a measurement.
 5. **Emulator evidence is not device evidence.** The two things only a human can verify — how the
    audio feels through a speaker and how touch latency feels under a finger — are founder-time,
    scheduled, never hoped for.

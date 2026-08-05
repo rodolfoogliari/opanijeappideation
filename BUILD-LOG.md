@@ -52,7 +52,7 @@ one-way.
 
 | | Ruling | Door |
 |---|---|---|
-| **D94a** — the play layer is ON in **tester builds**: Junior's Day 10 sitting and Stage 2's ten testers | **RATIFIED 2026-08-05** | **TWO-WAY.** Red line #5 does not attach — a hand-picked sideload is not the free tier, and D103 already ruled this same cohort is not "public" |
+| **D94a** — the play layer is ON in **tester builds**: Junior's Day 10 sitting and Stage 2's ten testers | **RATIFIED 2026-08-05** | **TWO-WAY.** Red line #5 makes permanent what is *given to the free tier*; a build handed to named individuals is not the free tier, is not published, and can be withdrawn by not issuing the next one. **The door label rests on that and on nothing else** |
 | **D94b** — the play layer default flips ON in the **public free room** | **PENDING — scheduled for Stage 3** | **ONE-WAY.** Red line #5 attaches: the free room would keep the echo loop, the fade and the closing facts permanently |
 
 **Why the split holds.** Every piece of evidence D94b needs is produced by D94a. Row 52 (Junior's
@@ -60,6 +60,12 @@ verdict on whether the play layer reads as musical information or as a verdict o
 (the fade), row 55 (≥7/10 to the screen drum) and Junior's form assent under INPUT-79 all come from
 ten sideloaded testers and one sitting — none of which touches the free tier. D94b is then taken at
 Stage 3 with that evidence in hand rather than in advance of it.
+
+> **A correction to an earlier draft of this entry, kept visible.** It justified D94a's TWO-WAY door
+> partly by citing D103 — *"D103 already ruled this cohort is not 'public'"*. That was importing a
+> ruling outside its scope: D103 ruled on **disclosure novelty for the industrial-design filing**, not
+> on red line #5's permanence test. The two questions share a cohort and nothing else. D94a's door
+> label stands on red line #5's own terms, above.
 
 **Charter §9 item 10 is discharged early rather than deferred.** Junior sees the play layer at the
 Day 10 sitting under D94a, which is *before* any public ship — so the gate that governs D94b is
@@ -112,13 +118,20 @@ primary evidence in the company's history, and it fails.**
 > The tester did not understand what to do. There was no gamified mechanic. They did not understand
 > how to interact at all. **0/10.**
 
-Recorded as **ledger row 59 — FALSIFIED, MEASURED, n=1, 2026-08-05**, and as **risk #35**.
+Recorded as **ledger row 59 — FALSIFIED, n=1, 2026-08-05** — and as **risk #35**.
+
+**Corrected 2026-08-05 after review: this row is not MEASURED and must not be cited as such.**
+`METHOD.md` §1 reserves MEASURED for completed transactions or observed cohorts; this is one
+founder-reported session with no device, build SHA or protocol recorded. **FALSIFIED is earned and is
+the stronger claim anyway** — the row asserts something universal ("self-explanatory to an unaided
+first-time user") and one counterexample refutes a universal. What a single tester cannot establish
+is the positive.
 
 **Three things this does and does not mean, kept separate on purpose.**
 
 1. **It is real and it is dated.** Under METHOD's honesty rules an honest FALSIFIED outranks a
-   hopeful ASSUMPTION. This is the estate's first MEASURED row after 51 unmeasured ones, and it
-   arrived as a negative. That is the register working, not failing.
+   hopeful assumption. It is the first row in 52 to carry a status won by contact with a human
+   outside the estate, and it arrived as a negative. That is the register working, not failing.
 
 2. **It does not close row 55.** Row 55 is defined as ten beginners on a play-layer-**on** build,
    observed, target ≥7/10. This was one tester on a play-layer-**off** build. It is a precursor
@@ -160,7 +173,7 @@ closed by this ruling.
 |---|---|
 | **Stage 2's ten-tester cohort** | **SUSPENDED**, not cancelled. No hand-picked tester receives a build until the redesigned surface exists |
 | **Ledger row 55** (≥7/10 to the screen drum) | Cannot be measured. It was always defined on ten testers; there are now none scheduled. **It stays HYPOTHESIS — do not mark it blocked, it is simply not yet testable** |
-| **Rows 48, 50, 53, 58** | Same — all Stage 2 instruments |
+| **Rows 48 and 50** (HYPOTHESIS) and **rows 53 and 58** (HYPOTHESIS as corrected 2026-08-05) | Same — all Stage 2 instruments, none measurable meanwhile |
 | **D103** (ten testers before the design filing) | Ratified and unspent. The accepted risk stands; nothing is currently drawing on it |
 | **D99's second handset** | Not urgent while nobody is testing. The founder's own device remains the build-check surface |
 
@@ -237,14 +250,49 @@ workstation build-trap detail that lives in the machine's own `CLAUDE.md`.
 lost, and everything is recoverable at `e38917a`. Not "nothing was dropped" — things were, and they
 were chosen.
 
-**Net: the estate goes from 267,697 words across 50 documents to 177470 across 39 — a 34% cut — and
+**Net: the estate goes from 267,697 words across 50 documents to 181,030 across 39 — a 34% cut — and
 loses no load-bearing fact that is not either duplicated elsewhere in it or preserved in git.**
 Measured, not estimated: 96,089 words removed, 5577 added. `AS-BUILT.md` is not a register and takes no numbered rows.
 
 *A caution for whoever reads this next:* the deleted set is where the estate's own compaction lived.
 If a future session wants the 32-document estate summarised again, **it should not regenerate it** —
-it should read `CHARTER.md` (two pages), `AS-BUILT.md` (what exists), `BUILD-LOG.md` (what was
-decided) and `plans/` (what to do). That is the whole working set, and it is 27909 words.
+it should read the working set: `CHARTER.md`, `METHOD.md` (§1's status labels and §5's vocabulary
+sheet — the ledger is unreadable without the first, and Stage R has no wording rule without the
+second), `AS-BUILT.md`, `BUILD-LOG.md`, `plans/`, and `registers/INPUTS.md` (the plans cite INPUT
+numbers constantly and this is the only place their text lives). **37978 words.**
+
+*An audit of the first version of this compaction found the four-document set could not answer its
+own assignments — it excluded every status-label definition, the vocabulary sheet binding every
+user-facing string Stage R will rewrite, and the text of the five INPUTs that travel with Junior's
+sitting. The set above is the corrected one.*
+
+---
+
+## 2026-08-05 (later) — Known stale, deliberately not edited
+
+Recorded rather than silently repaired.
+
+**`CHARTER.md` line 260 is stale and only the founder can fix it.** It reads: *"[the one-obligation
+rule] is genuinely strained by the monthly cycle (D81) and that strain is recorded as risk #29."*
+**D84 removed the monthly cycle from Release 1 and answered INPUT-82 NO-GO**, so for Release 1 that
+strain is gone — risk #29 is annotated accordingly, but the Charter is not.
+
+**It was not edited, and that is the rule working.** Charter §11: *"The Charter changes only by
+explicit founder ratification"*, and *"A delta that would change this file must say so in its own
+text."* **D84's text does not say so.** So the Charter stands as written and the discrepancy is
+recorded here instead. **This is an operator decision:** either ratify a one-line Charter amendment,
+or leave it — the strain returns when the cycle does, at 100 weekly actives, so leaving it is
+defensible.
+
+**`plan/` (singular) was not reconciled.** Its eight documents are the 2026-07/08 estate and none of
+them knows about the ratification — `ROADMAP.md` still carries the old sequence, and
+`PRODUCT-GOALS-VNEXT-CONSOLIDATED-V2.md` carries a VPS disk figure (73% full) that `AS-BUILT.md`
+supersedes (77%). They are **history under D88** and rewriting history is what this estate's own
+rules forbid. `README.md` now disambiguates `plan/` from `plans/` and says which wins.
+
+**`BACKLOG.md` was not reconciled item-by-item.** It carries a staleness banner naming exactly what
+it does not know. Reconciling it is itself an open task, and it is a real one: `README.md` routes
+"what is open right now" there.
 
 ---
 

@@ -32,6 +32,14 @@ collision.
 Recorded rather than silently repaired, because a quiet renumbering is how a register loses its
 authority.
 
+**Ledger row 56 is withdrawn on issue and its number is retired.** D96 was rejected by the founder
+on 2026-08-05, removing the web room — the surface row 56 existed to measure. The row is carried in
+`LEDGER.md` as withdrawn rather than deleted, and 56 is never reassigned. This is the first gap in
+this list created by a founder ruling rather than by a lost or duplicated document.
+
+**D94 has no undivided form after 2026-08-05.** It is split into D94a and D94b; see the note below.
+Cite the halves, never bare D94.
+
 **INPUT-29 is missing.** The v1.0 register runs INPUT-28 → INPUT-30 with no 29 and no note. It was
 either resolved in the third 2026-07-29 session or lost in consolidation. **Flagged, not invented** —
 the number stays retired and is not reassigned.

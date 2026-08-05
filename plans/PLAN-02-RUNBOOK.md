@@ -4,7 +4,7 @@
 > ### ⚠️ Amended 2026-08-05 by the founder's ratification
 >
 > Put to the founder as `PLAN-00-DECISIONS.md` §8 and returned the same day. **Seventeen decisions
-> RATIFIED, D96 REJECTED, D98 DEFERRED, D94 PENDING.** A physical-device test the same day returned
+> RATIFIED, D96 REJECTED, D98 DEFERRED, and D94 SPLIT — D94a RATIFIED, D94b scheduled for Stage 3.** A physical-device test the same day returned
 > **0/10** and is recorded as **ledger row 59 — FALSIFIED, MEASURED**, the first measured row in the
 > company's history. The full record is `../BUILD-LOG.md`; the registers are updated.
 >
@@ -99,11 +99,16 @@ estate's top overdue item for weeks (D16) and it takes hours, not days.
 Ask Claude, exactly:
 
 > I need to escrow our credentials off this machine. Walk me through, one step at a time: (1)
-> generating a **production** Android release keystore for the app `com.opanije.room`, (2) copying it
-> and the Borg backup repo key to two separate off-box locations, (3) restoring the backup passphrase
-> and verifying a test restore actually works. Critical constraint: **never print, log, or echo any
-> secret, passphrase, or key material to the terminal or to any file I might commit.** Tell me what
-> to type; where a secret is involved, tell me to type it myself and don't ask me to show you.
+> copying the Borg backup repo key and every stored credential to two separate off-box locations,
+> (2) restoring the backup passphrase and verifying a test restore actually works. Critical
+> constraint: **never print, log, or echo any secret, passphrase, or key material to the terminal or
+> to any file I might commit.** Tell me what to type; where a secret is involved, tell me to type it
+> myself and don't ask me to show you.
+
+> **The keystore step was removed from this prompt on 2026-08-05, not merely struck through below.**
+> D98 is DEFERRED, generating a production keystore is a **ONE-WAY** act, and this is a runbook whose
+> whole promise is that its prompts can be pasted without thinking. When INPUT-91 closes, add back:
+> *"and generate a production Android release keystore for `com.opanije.room`"* as step (1).
 
 ~~Do the release keystore in this same session (D98).~~ **Deferred 2026-08-05.** The APK you have
 today is a release variant signed with the **debug** key (`build-room-apk.sh:46`) — fine for handing
@@ -145,7 +150,7 @@ npm run gate          # lint + typecheck + test; expect 613 passed, 8 todo, 0 fa
 Then, one prompt at a time — never all four at once:
 
 > In `apps/opanije-room`: `createFakeRoomAudio()` is defined at `src/audio/engine.ts:107` and
-> imported by production code at `src/app/AppRuntime.tsx:25`, used as a fallback `?? createFakeRoomAudio()`
+> imported by production code at `src/runtime/AppRuntime.tsx:25`, used as a fallback `?? createFakeRoomAudio()`
 > at line 245. Move it behind a test/dev-only guard so production code cannot reach it, and add a test
 > that fails if it ever becomes reachable from production again. Then run `npm run gate`.
 
@@ -244,11 +249,11 @@ a drum toy and Opanijé.**
 
 **The original Day 3 prompt, retained — it is D94b's, and it runs at Stage 3:**
 
-> `playLayerEnabled` in `src/app/AppRuntime.tsx:239-242` is false unless `__DEV__` or
+> `playLayerEnabled` in `src/runtime/AppRuntime.tsx:239-242` is false unless `__DEV__` or
 > `EXPO_PUBLIC_ROOM_DEMO`. It gates the echo loop, the fade/thinning model, and the three-facts
 > closing screen — which are the actual product. I want the play layer ON in production builds.
 > Before you change anything: list every test that asserts the play layer is absent by default
-> (`src/app/__tests__/closing.test.tsx:234` is one), and every route that is demo-only. Then make the
+> (`src/__tests__/screens/closing.test.tsx:234` is one), and every route that is demo-only. Then make the
 > change and flip those tests to assert presence. Run `npm run gate`.
 
 Build, install, play. **This is the first time the game exists on a phone.**

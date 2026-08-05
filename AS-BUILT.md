@@ -23,8 +23,18 @@ immersion price matrix, and workstation build-trap detail that lives in the mach
 `CLAUDE.md`. **If a number is load-bearing and you cannot find it here, check `e38917a` before
 assuming it never existed.**
 
-**Status of everything on this page: VERIFIED-INTERNAL** (`METHOD.md` §1). It is self-audit, not
-independent audit. Line references were true at `4dde6752`.
+**Status and provenance, stated precisely because the line references are the point.**
+
+- **Facts about `apps/opanije-room`** were read in a **sparse** worktree at HEAD **`4dde6752`**, whose
+  sparse spec admits only `/apps/opanije-room/` and `/docs/`. Status **VERIFIED-INTERNAL**
+  (`METHOD.md` §1) — self-audit by inspection, not independent audit.
+- **Facts about `apps/opanije-mobile` and the WordPress estate** (§2 and §3 below) could not be read
+  there at all and were read in the full clone at HEAD **`99991cef`**. Same status. **Roughly half the
+  line citations on this page belong to that second tree, not the first** — check the right one.
+- **Facts about the live site and external channels** (§4, and the reach figures in particular) are
+  **VERIFIED-EXTERNAL** (`METHOD.md` §1) and carry their own re-verification requirement: follower
+  counts, search results and press claims drift, and the press claims were never independently
+  corroborated at all.
 
 ---
 
@@ -61,6 +71,29 @@ sideloading, **not store-submittable**. `android/` is gitignored, so it is untra
   interface has **no capture method** — red line #4 enforced in the type system.
 - Navigation, on-device persistence, PT/EN i18n, adaptive layout, large-text and reduced-motion
   handling, a takedown drill.
+
+### The 13 routes — the surface Stage R is redesigning
+
+| Route | State |
+|---|---|
+| `/` presentation | Explains the ~5-minute session, offers PT/EN. Silent by design |
+| `/signin` | **Stub.** Looks like Google, grants a local session only. Authenticates nothing |
+| `/intention` | Stores morning/afternoon/evening locally. **Schedules no actual notification** |
+| `/welcome` | Placeholder for Junior's future talking-head. Synthetic image, click sound. **No video, no real voice** |
+| `/choose-part` | One placeholder rhythm ("O toque livre"), Hand vs Stick, 3 provisional tempos |
+| `/room` | **The core loop.** Auto-conducts listen → together → your turn → together again → beat. The app keeps time; **it does not listen to or grade the user** |
+| `/drum` | Landscape, tappable zones with syllables, a lever changes zone count. **No mic, no correction, no scoring** |
+| `/closing` | Session facts only. No ranking |
+| `/ending` | Only after the final round. PT = invitation to next session; EN can open Salvador contact. **No price, no checkout** |
+| `/caderno` | Read-only automatic journal, persisted on device |
+| `/home` | Today's session, Caderno preview, rhythm map |
+| `/review`, `/past-the-door` | **Demo-only**, gated behind the build flag |
+
+**Bilingual by hand, not by library.** `strings.ts` is one hand-written table of ~713 lines — **no
+i18next, no ICU, no runtime translation layer** — with ~172 key-lines per locale and PT/EN key
+equality enforced structurally by `i18n.test.ts:48-59`. **Every user-facing string Stage R touches
+lives in that one file and must be added in both languages or the suite fails.** It is also where the
+Charter's vocabulary rule (METHOD §5) is enforced in practice.
 
 ### What is gated OFF in every ordinary build — the largest gap between code and product
 
@@ -144,6 +177,27 @@ This is the true size of "connect Room to a server", and it is greenfield behind
 Validation inside the seams is genuine — `validatePlayableRows` rejects rows without a server-resolved
 grant of `permanent-free`/`owned-course-line`; deep-freeze and partition checks are real. **The design
 work for going online is done; none of the implementation is.** Budget 5–7 vibecoding weeks (D93).
+
+### The web export — what was actually proven, and what was not
+
+`react-native-web` 0.21.0 is a real dependency and `expo export --platform web` **has executed**:
+`ACCEPTANCE.md:29` records every unauthenticated route reaching the signed-out guard, `/review`
+absent from the production route set, and Chrome reporting no uncaught JavaScript error.
+
+**But three caveats decide what that evidence is worth, and D96's rejection makes them live —
+INPUT-90 asks what replaces the web room, and this is the evidence about what the web room *is*:**
+
+1. **No web export persists on disk.** Both export scripts write into a `mktemp -d` that is cleaned
+   up. There is nothing to inspect or deploy right now.
+2. **The committed `dist/` is an Android export, not a web one** — its metadata carries an `android`
+   key and no `web` key, and `npm run build` is `expo export --platform android`.
+3. **The proof is workstation-shaped.** The walk script drives Chrome on the Windows side through a
+   `/mnt/c/...` path, and its own header warns it proves only that the export executes and routes —
+   *"nothing about Android, audio, layout, accessibility, lifecycle, input, GPU, or device
+   performance."*
+
+**So "the web room works" is true only in the sense that the bundle builds and the routes resolve.**
+Nobody has played a session in a browser.
 
 ### Sign-in exists and authenticates nothing
 
@@ -299,10 +353,24 @@ lines are never even parsed into scope. **Flipping to `'enabled'` is a one-token
 ~9,600 lines of PHP, Mercado Pago payment handling, an OAuth server and REST routes that have never
 run in production.** That needs its own staged activation, not a deploy.
 
-**Ratified commercial decisions already in place:** Mercado Pago (Pix + card + installments), price
-**R$297**, relocated off `/shop` onto the main install, first-party `/course/` members area, Google
-OAuth only, **Cloudflare Stream** for video (account provisioned), seller of record **CNPJ
-41.926.927/0001-34**, two products (1049 Afro-Bahia primary, 1050 Candomblé Nation upsell).
+**Ratified commercial decisions already in place, with their provenance ids** — cite these rather
+than re-deciding: rail **Mercado Pago** (Pix + card + installments) and price **R$297** (**SD-42**);
+relocated off `/shop` WooCommerce onto the main install with **Schema-2 per-course entitlements and
+no Woo order on the rail** (**SD-44**, PRs **#921**/**#925**, merged 2026-07-26); first-party
+`/course/` members area with **Google OAuth only, no passwords** (**DN-1**, an anti-piracy ruling);
+video on **Cloudflare Stream** (**DN-2**), account provisioned, embed host
+`customer-8mfjqskempcr62uf.cloudflarestream.com` — **a CSP entry the app will need**, with the account
+id and API token held as secrets in `/var/www/opanije-secrets/main.php`; native parked in favour of
+web for launch (**DN-3**); seller of record **CNPJ 41.926.927/0001-34**, blocked on the razão social
+plus counsel confirmations before the ToS identity slot can be filled; two products — **1049**
+Afro-Bahia primary, **1050** Candomblé Nation upsell.
+
+Room additionally sits behind an explicit **Phase-5 gate**: design freeze → GUI industrial-design
+filing → live privacy policy → store submission.
+
+**Two legacy 2023 WooCommerce products priced at 0 USD** share names with the two ratified SKUs —
+"Candomblé Nation Percussion Course" and "Afro-Bahia Percussion Course". Anything matching courses by
+title will collide with them.
 
 > **The `W1-CL-ENTITLE` per-course-entitlement defect does not exist at HEAD, and remediation
 > scheduled against it is wasted work.** `opanije_course_access_subject_holds_course()`
@@ -335,18 +403,37 @@ Very current — main pages modified July 2026, theme files 2–4 Aug 2026, the 
 hourly. The 2026 redesign is what is live. **`/shop` is stale by contrast** — products last touched
 2026-07-19, sitemaps dating to Jan 2023.
 
-**28 published pages + 6 journal posts + a 57-product `/shop`.** Legacy pages are still published and
+**28 published pages + 6 journal posts + a `/shop` of 57 published products (65 including drafts).**
+*(Three different counts circulate and they measure different things: **57** published shop products,
+**48** immersion SKUs — a subset, the camp matrix — and the **50-item** catalog exposed by the facts
+feed. They are not inconsistent; they are different sets.)* Legacy pages are still published and
 indexed: `/final37/`, `/legacy1/`, `/3323-2/` (all untitled), plus `/camp-options/`, `/plans/`, `/blog/`.
 
 ### Three offers; only one is buyable online
 
 1. **The Bahia immersion — the real revenue product.** 48 WooCommerce SKUs priced in **USD**, a matrix
-   of `single|couple` × `7|12 days` × `Essential|Bahia Plus|VIP` × `Nov|Dec|Jan|Feb`, **$800 → $4,800**.
+   of `single|couple` × `7|12 days` × `Essential|Bahia Plus|VIP` × `Nov|Dec|Jan|Feb`:
+
+   | Band | Range (USD) |
+   |---|---|
+   | Single, 7 days | $800 (Nov) – $1,400 (VIP) |
+   | Single, 12 days | $1,400 – $2,500 |
+   | Couple, 7 days | $1,500 – $2,700 |
+   | Couple, 12 days | $2,600 – **$4,800** (VIP) |
+
+   **Essential steps up month by month** (Nov cheapest, Feb dearest); **Plus and VIP are flat across
+   months.**
    Season 2026-11-09 → 2027-02-13. `/camp/` itself **shows no prices** — it routes to a Calendly
    consult, WhatsApp, or email capture. Pricing lives only in `/shop`.
 2. **The paid online course — R$297, with no working checkout.** Advertised with Pix and card, but
-   every primary CTA resolves to a WhatsApp link, and **no Pix/Mercado Pago/PagSeguro gateway is
-   installed on the site**. The paid course is sold by hand over WhatsApp.
+   every primary CTA resolves to a WhatsApp link. **The paid course is sold by hand over WhatsApp.**
+
+   **Be precise about the gateway — the two WordPress installs differ, and it changes what "activate
+   Pix" costs.** The **main** install has no site-level Pix gateway; its Mercado Pago rail is the
+   *mu-plugin* one in §3, deployed and dormant. **`/shop`** has `woocommerce-mercadopago`
+   **installed** and inactive, alongside Stripe, WooPayments and PayPal. So: **a Mercado Pago
+   integration already exists on this estate in two different forms and neither is transacting.**
+   Nothing needs procuring — this is activation work, not integration work.
 3. **The free email course** — one email field → a permanent **Google Classroom** link. Not a drip
    sequence; one link.
 
@@ -379,9 +466,16 @@ with Timbalada, played alongside Carlinhos Brown, Marisa Monte and Olodum, toure
 drum at age five (`/about/`), began at fourteen (`/camp/`), career began 1996 (facts feed). **Any app
 that syndicates this copy syndicates the contradiction.** Reconcile before reuse.
 
-**Vanderson "Macumbinha"** appears on `/camp/` only — absent from `/about/` and the facts feed. (Site
-spelling is "Macumbinha", not "Macumbinho".) **Rodolfo Celliert Ogliari — "Meu Velho Visconde"**,
-founder and operator.
+**Vanderson "Macumbinha"** appears on `/camp/` only — absent from `/about/` and the facts feed. The
+site is the only external evidence about him: a percussionist from the **Federação** neighbourhood
+who plays with **Timbalada** and teaches through the **Dendê Project**. (Site spelling is
+"Macumbinha", not "Macumbinho".) **This matters because INPUT-26 and INPUT-55 are open about him and
+this is all the estate has.**
+
+**Kalaban** — named only inside the founder's bio in the facts feed as a long-time collaborator. No
+page of his own. A third named person the estate carries almost nothing about.
+
+**Rodolfo Celliert Ogliari — "Meu Velho Visconde"**, founder and operator.
 
 ### Reach — the binding gap
 
@@ -421,6 +515,10 @@ Recorded because each one will otherwise be rediscovered as a surprise:
 | CPU | **2 cores** | load average **0.04** — effectively idle |
 | Disk | 38 GB | 28 GB used, **8.6 GB free (77% full)** — the nearest wall |
 
+> **Supersedes a stale figure that survives in four places.** `plan/PRODUCT-GOALS-VNEXT-CONSOLIDATED-V2.md`
+> carries **73% full** at four separate lines. **77% / 8.6 GB free, measured 2026-08-05, is the
+> current number.** `plan/` is history and was not rewritten; use this page for the VPS envelope.
+
 Running: nginx (80/443), MySQL 8 and Redis (both localhost only), PHP 8.3-FPM, an OmniRoute AI router
 on localhost, tailscaled, cron, unattended-upgrades. **Only 22, 80 and 443 are exposed.** Secrets live
 at `/var/www/opanije-secrets` (`600`, never in git). Three canonical repo checkouts under
@@ -434,6 +532,10 @@ entitlement checks, a webhook receiver, progress sync. **The rail for exactly th
 (DN-2); *8.6 GB free and 2 cores cannot serve HLS*. Nor any Android or iOS build (no JDK, no Android
 SDK — which is precisely why the mobile APK was untracked from git), nor a heavy Node runtime
 alongside the existing stack. **Treat ~8 GB as the working budget and do not stage media there.**
+
+**The tenancy boundary is closed by decision, with exactly two exceptions.** Cross-tenant paths
+between `opanije` and `opanije-outreach` are shut except two ratified read-only feeds: **DR-50** (the
+facts feed) and **DR-51** (leads). Anything proposing a third path is proposing a new decision.
 
 **Two sibling repos deploy to the same box** and are separate concerns, not part of the app:
 `opanije-outreach` (a zero-dependency PHP + SQLite cold-outreach and lead engine at `/var/www/outreach`,
@@ -475,7 +577,81 @@ exist. **No public route exposes it.**
 
 ---
 
-# 7 · The gaps that bind
+# 7 · What constrains what can be built
+
+**This section is a synthesis, not an observation** — it is the one part of this page that is not a
+measurement. It is carried because it existed nowhere else and a planner needs it before proposing
+anything. Each item names the decisions that bind it; those live in `registers/DECISIONS.md` and
+`registers/DELTAS.md`.
+
+### The fifteen decisions that most constrain what can be built
+
+1. **G2/D53 — vocalization replaces Western notation product-wide.** No tab, staff, grid or
+   piano-roll on any surface; every rhythm representation must be syllables.
+2. **D76 — the grading constitution.** Facts may drive sound but never a sentence: sustain visible,
+   precision audible, judgment human.
+3. **G9 as amended by D79.** Per-strike feedback is binary, generous and audible-only; only a
+   post-round aggregate is visible; **accuracy readouts are barred everywhere.**
+4. **G10/D60 with D77/D78 — scheduled, not triggered, and no fail state.** An in-window strike keeps
+   the part alive, it fades when unfed and returns when fed, and **the drum always sounds.**
+5. **E13 and red line #5 — the free tier is permanent.** Every free-tier inclusion is a one-way door.
+6. **G13/E20/D63–D64 — the first session runs the whole instrument at its simplest setting**, screen
+   drum included, which permanently places the advanced surface on the free tier.
+7. **G5/D55 — tap-along is the door and the app never measures the voice.**
+8. **R28 (narrowed) — nothing scores the player.** Layer 1 counts facts about your own play and never
+   entitles; Layer 2 is human attestation only.
+9. **A5 with D44 and R59 — Junior alone confers standing**, and the play layer must be a resettable
+   subsystem that never writes into Caderno tables.
+10. **G14/D65 — the stroke set is fixed at three zones (hand) and two (stick)**, labelled with
+    Junior's syllables and never English words. **This bounds the screen drum's entire interaction
+    vocabulary — and therefore bounds Stage R.**
+11. **G25/D73 with E17 — the commons is free, scarcity is priced.**
+12. **G15/D66 — no engagement mechanics on the free tier in Release 1**, with the
+    extrinsic-vs-legibility reading unconfirmed at INPUT-84.
+13. **G16/D67 with D80 — the count-in fires at every session start**, and the celebration object is
+    the new personal best, expressed in sound and light, not voice.
+14. **G1/D52 with E8 — the app opens rooms but never moves the student into one**, and parts stay
+    freely switchable in both directions at any time.
+15. **G6 with red line #1 — the screen drum cannot ship unshown to Junior.** G26 confirms it may
+    resemble a real drum seen from above; mockup assent (INPUT-69) is still outstanding.
+
+**Two open hazards carried with them.** **C23** — E2's named on-screen presence was voided by D38
+(the battery is Junior alone, layered) yet the presence lamp (E21) builds on it; whoever answers
+INPUT-88/INPUT-60 decides whether the lamp is one slot or the screen names musicians. **E15** stands
+while its justification — that Release 1 sells nothing — was removed by D37.
+
+### What is blocked on whom
+
+Reproduced because it is the fastest way to see that most open work waits on **one of two people**,
+not on engineering.
+
+| Blocked work | Waits on | Human |
+|---|---|---|
+| Capture Day | INPUT-21, -22, -23, -57, -59, -70, -74, -77, -80; R82; R88 | Junior + founder |
+| Those assets surviving at all | INPUT-44 escrow (risk #16, and D98 deferred it) | Founder |
+| R1's shape and its largest engineering item | INPUT-41; rows 27, 32; C17 | Junior (+ Vanderson) |
+| The echo loop's design | INPUT-78, then assent at INPUT-79 | Junior |
+| Shipping the screen drum (Charter §9 item 10) | INPUT-69, shown as a working object | Junior |
+| The usability pilot → rows 46, 48, 49, 50 | INPUT-72 | Junior |
+| The permanent free tier | INPUT-80 *(answered 2026-08-05)*, -52, -53 | Founder + Junior |
+| The play screen; C23 | INPUT-60 / INPUT-88 | Founder |
+| The grading layer at the free door | INPUT-84 | Founder |
+| Any filing or public use of the name | INPUT-32 first, then -31, -35 | Junior, then counsel |
+| Both store submissions | INPUT-39; INPUT-40 | Counsel; founder |
+| Publishing the standard | INPUT-83, -67 | Founder + counsel; Junior |
+| Any share surface | INPUT-71 | Founder + counsel |
+| Every play-layer string | INPUT-81 | Founder |
+| R1 shipping any consented material | The cross-system takedown (row 30, FALSIFIED) | Build side |
+
+**One finding sizes the whole standard workstream (D82/D85), and it is easy to miss:** *"No symbol
+table, grammar, file format, or machine encoding exists anywhere in the estate."* The syllable
+inventory is defined only by Junior's recorded performance. Where the publishable *structure* ends
+and the never-publishable *pedagogical sequence* begins is **undrawn** — INPUT-83's first job. D85
+froze publication, which is why this is background rather than urgent.
+
+---
+
+# 8 · The gaps that bind
 
 Ordered by how much they constrain a plan.
 
@@ -517,7 +693,7 @@ privacy-nutrition disclosures.
 
 ---
 
-# 8 · Capacity — what is cheap, expensive, and impossible
+# 9 · Capacity — what is cheap, expensive, and impossible
 
 The founder is not a software engineer and builds through Claude Code alone.
 
@@ -543,7 +719,7 @@ hardware*. Front-load the cheap column; schedule the expensive column around fou
 
 ---
 
-# 9 · Nine claims that were wrong — recorded so nobody re-derives them
+# 10 · Nine claims that were wrong — recorded so nobody re-derives them
 
 A design plan written from the estate alone made seventeen load-bearing claims about the code. **Nine
 were wrong or overstated.** They are listed here because the cost of each is real work scheduled
@@ -566,7 +742,7 @@ uncorrelated with the code. Verify before scheduling.
 
 ---
 
-# 10 · What could not be reached
+# 11 · What could not be reached
 
 Recorded rather than glossed, because an unmarked gap reads as a finding.
 

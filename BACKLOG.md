@@ -1,5 +1,26 @@
 # Opanijé — Backlog
 
+> ## ⚠️ STALE — this file predates the 2026-08-05 ratification
+>
+> It was written 2026-08-03 and **has not been reconciled with the D84–D103 block**. `README.md`
+> routes "what is open right now" here, so read this banner before anything below it.
+>
+> **What it does not know:**
+>
+> | | |
+> |---|---|
+> | **D84–D103** were ratified 2026-08-05 | 17 ratified, D96 rejected, D98 deferred, D94 split. See [`BUILD-LOG.md`](BUILD-LOG.md) |
+> | **The tester programme is suspended** | Ledger row 59 measured the door at 0/10 with one unaided user. The tester-facing surface is being redone — Stage R |
+> | **D84 answered INPUT-82 NO-GO** | The monthly master cycle is out of Release 1. Items below that treat it as live are superseded |
+> | **The free set is ruled** | Ijexá, two parts, two speeds — INPUT-80/INPUT-86 answered. Items below that carry it as owed are superseded |
+> | **D88 froze most registers** | New open items go to [`BUILD-LOG.md`](BUILD-LOG.md), not here |
+> | **What actually exists** | [`AS-BUILT.md`](AS-BUILT.md) — nine claims this estate believed about its own code were wrong |
+>
+> **The authoritative open list is now:** `BUILD-LOG.md` (rulings and their consequences),
+> `registers/INPUTS.md` (questions reserved to a named human, INPUT-85–92 added),
+> `registers/RISKS.md` (#30–#38 added) and `plans/`. **This file is retained as the 2026-08-03
+> snapshot, not extended** — reconciling it item-by-item is itself an open task.
+
 **Status.** The working surface. Constituted 2026-08-03 under **D83** (Game Addendum 04 §7), which
 split the charter from the backlog and put a door label on every open item.
 
