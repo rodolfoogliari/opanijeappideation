@@ -10,17 +10,52 @@ the registers of every decision and open question, and the session history that 
 **Restructured 2026-08-03 under D83.** Session prose used to be the register of record; it no longer
 is. The registers are.
 
+**The working set is six documents, not thirty-nine — 38,887 words.** Read these and you have what a
+planner needs. Everything else on this page is history, kept because it is auditable rather than
+because it must be read.
+
+| | Why it is in the set |
+|---|---|
+| [`CHARTER.md`](CHARTER.md) | Two pages. What cannot change |
+| [`METHOD.md`](METHOD.md) | **§1 defines every status label** (RULED / ASSUMPTION / HYPOTHESIS / MEASURED / FALSIFIED) and **§5 is the vocabulary sheet** — the one live review rule governing every user-facing string. Without §1 the ledger is unreadable; without §5 Stage R has no wording rule |
+| [`AS-BUILT.md`](AS-BUILT.md) | What actually exists — code, site, assets — and what constrains building |
+| [`BUILD-LOG.md`](BUILD-LOG.md) | What has been ruled since the freeze. **Governs on any disagreement** |
+| [`plans/`](plans/) | What to do, in order |
+| [`registers/INPUTS.md`](registers/INPUTS.md) | The questions reserved to a named human. The plans cite INPUT numbers constantly and this is the only place their text lives |
+
+**The estate stopped being the work on 2026-08-05.** D84–D103 were put to the founder and returned
+the same day — seventeen ratified, one rejected, one deferred, one held. D88 puts the register
+apparatus into maintenance mode: most of `registers/` is now frozen history, and build decisions go
+to [`BUILD-LOG.md`](BUILD-LOG.md). On the same day the company's **first MEASURED ledger row**
+arrived from a physical-device test, and it is **FALSIFIED** — a first-time user could not work out
+what to do (row 59). The founder then **suspended the tester programme and ordered the tester-facing
+surface redone** (`BUILD-LOG.md`). Start at [`plans/`](plans/), not here.
+
+**Compacted the same day.** Twelve documents of 2026-08-05 recon and compaction (96,089 words) were
+folded into `AS-BUILT.md` and removed; they are recoverable from git history at `e38917a`. The estate
+went from **267,697 words across 50 documents to 182,407 across 39** and lost no load-bearing fact that is
+not either duplicated elsewhere in it or preserved in git.
+
 ---
 
 ## Start here
 
 | If you want… | Read |
 |---|---|
+| **What to actually do next** | [`plans/`](plans/) — five documents: the ratified decisions, the five-stage build plan, a day-by-day runbook, and the scoreboard. **Written 2026-08-05, and the only part of this estate that is a plan of execution.** |
+| **What has been decided since the freeze** | [`BUILD-LOG.md`](BUILD-LOG.md) — the ratification record, the founder's rulings, and the first device evidence |
+| **What actually exists — the code, the site, the assets** | [`AS-BUILT.md`](AS-BUILT.md) — verified 2026-08-05. **Read this before planning anything.** It also lists the nine claims a plan got wrong, so nobody re-derives them |
 | **What can never change** | [`CHARTER.md`](CHARTER.md) — the one law, six red lines, the partition, the two ledgers, the grading constitution, the vocabulary rule |
-| **What is open right now** | [`BACKLOG.md`](BACKLOG.md) — every open item, door-labelled, by owner |
+| **What is open right now** | [`BACKLOG.md`](BACKLOG.md) — every open item, door-labelled, by owner. **Stale as of 2026-08-05: it predates the D84–D103 ratification. Read its banner first, then `BUILD-LOG.md`** |
 | **How the estate works** | [`METHOD.md`](METHOD.md) — epistemic labels, one-way/two-way doors, the monthly decision hour, numbering, session format |
 | **What the game is** | [`plan/THE-GAME.md`](plan/THE-GAME.md) — the assembled specification |
-| **What happens in what order** | [`plan/ROADMAP.md`](plan/ROADMAP.md) |
+| **What happens in what order** | [`plans/PLAN-01-BUILD.md`](plans/PLAN-01-BUILD.md) — the current sequence. ~~[`plan/ROADMAP.md`](plan/ROADMAP.md)~~ is the **superseded** one, kept as history |
+
+> **`plan/` and `plans/` are different directories and this trips people.** **`plan/`** (singular) is
+> the 2026-07/08 estate — the plan of record, the game, the standard, the shoot, the roadmap. It is
+> **history**: none of its eight documents knows about the ratification. **`plans/`** (plural) is the
+> 2026-08-05 build plan set and it is what you execute. Where they disagree, `plans/` and
+> `BUILD-LOG.md` win.
 | **The current state of any numbered item** | [`registers/`](registers/) |
 | **Why something was decided** | [`sessions/`](sessions/) — history, not the register |
 
@@ -93,14 +128,23 @@ cheapest path to changing it.
 
 ## The three deadlines that govern sequencing
 
-1. **Escrow, today.** Signing keystore and repository key off-box, backup passphrase restored. One
-   machine currently holds the code, every credential, the backup key and the signing key, with no
-   standby. Hours of work; it outranks everything (D16, risk #16, INPUT-44).
-2. **The M0 shoot.** The cameras stop. Decisions are ranked by what cannot be recovered afterward, not
-   by perceived value. Consent scope and item-by-item partition capture are the least recoverable and
-   the cheapest. See [`plan/M0-SHOOT.md`](plan/M0-SHOOT.md).
-3. **The GUI industrial design filing**, time-critical **before any screens go public** — and a mockup
-   is being built.
+> **AMENDED 2026-08-05 — all three were changed by the ratification block. Read the amendments,
+> not the originals.** [`BUILD-LOG.md`](BUILD-LOG.md) governs.
+
+1. ~~**Escrow, today.**~~ **Half deferred.** D98 deferred the production keystore, so no store upload
+   is possible until INPUT-91 closes and the total-loss exposure stays open (risk #37). **The D16
+   credential and backup-key escrow was not deferred and still outranks everything** — the two halves
+   are separable and the cheaper half closes most of the exposure.
+2. ~~**The M0 shoot.**~~ **Replaced by a lean Capture Day** (D86). The ranking rule is unchanged and
+   is the whole point: consent scope and item-by-item partition capture are the least recoverable and
+   the cheapest. **The four one-way parts were not cut.** See [`plan/M0-SHOOT.md`](plan/M0-SHOOT.md)
+   for the manifest and `plans/PLAN-01-BUILD.md` Stage 1 for the lean version.
+3. **The GUI industrial design filing** — the founder ruled 2026-08-05 to **accept the risk and ship**
+   if counsel's quote breaches the R$5,000 floor. And it is **not a mockup any more**: D89 ruled
+   `apps/opanije-room` is the product.
+4. **NEW — the tester-facing surface.** Ledger row 59 measured the current door at **0/10** with one
+   unaided user. The tester programme is suspended and the surface is being redone (**Stage R**).
+   Nothing goes to a human until it exits.
 
 ---
 
@@ -134,11 +178,11 @@ METHOD.md           how the estate works
 
 registers/          the register of record — current state of every numbered series
   DECISIONS.md        rulings A, session decisions S, game decisions G, experience decisions E
-  DELTAS.md           D1–D83 — proposed changes and their ratification state
-  INPUTS.md           INPUT-1–84 — questions reserved to a named human
+  DELTAS.md           D1–D103 — proposed changes and their ratification state (frozen, D88)
+  INPUTS.md           INPUT-1–92 — questions reserved to a named human (frozen, D88)
   RECOMMENDATIONS.md  R1–R88 — the PM's advice, and whether it was taken
-  LEDGER.md           rows 1–51 — load-bearing claims and what would convert them
-  RISKS.md            #1–#29
+  LEDGER.md           rows 1–60 — load-bearing claims and what would convert them (OPEN)
+  RISKS.md            #1–#38 (OPEN)
   FORKS.md            the fork board, A–L
   CONTRADICTIONS.md   C1–C23 and their dispositions
   NUMBERING.md        next number in every series; known gaps

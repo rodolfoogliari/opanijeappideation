@@ -1,9 +1,9 @@
-# Opanijé — Risk Register (#1–#29)
+# Opanijé — Risk Register (#1–#38)
 
 **Status.** Register of record for this series as of 2026-08-03, under D83 (Addendum 04 §7).
 **Supersedes.** The per-session tables in `sessions/` for this series, which remain readable as
 derivation history but are no longer the register.
-**Range.** #1 through #29.
+**Range.** #1 through #38. #1–#29 issued to 2026-08-03; #30–#38 added 2026-08-05.
 **Rule.** Rows are appended, never rewritten. A row's status may change; its claim may not.
 
 ---
@@ -14,6 +14,12 @@ being re-numbered — #11, #18, #23 and #25 — and a re-rating that keeps its n
 thing in the estate to miss, so each says so in its own row. Every risk's mitigation is carried as
 the issuing document stated it; where a later document weakened, strengthened or restated that
 mitigation, the change is in *Status* and the original stands in *Mitigation*.
+
+**A note on sources.** Several rows below cite `VERIFICATION.md`. **That file was deleted on
+2026-08-05 when the estate was compacted**; its findings are in `../AS-BUILT.md` and the file itself
+is recoverable at `e38917a`. Claim numbers ("Claim 8", "Claim 9") resolve only against that commit.
+The citations are kept as written because a citation records where a claim came from, and one that is
+quietly rewritten stops being auditable.
 
 **Wording.** Risk text is not softened. Where the estate wrote a failure mode in the harshest
 available terms — *the failure mode is not a bad Release 1; it is no Release 1* — the harsh version
@@ -50,7 +56,8 @@ v2.0. **The number is right and the attribution is wrong.** Recorded here rather
 silently: #1–#21 are v2.0's, #22 is Mandate 01's. No number is reused and none moves.
 
 The block boundaries thereafter are as each document states them and agree with `NUMBERING.md`:
-#23–#24 Addendum 01, #25 Addendum 02, #26 Addendum 03, #27–#29 Addendum 04. Next number is **#30**.
+#23–#24 Addendum 01, #25 Addendum 02, #26 Addendum 03, #27–#29 Addendum 04. #30–#38 were added
+2026-08-05 (`../BUILD-LOG.md`). **Next number is #39** (`NUMBERING.md`).
 
 ---
 
@@ -86,13 +93,32 @@ The block boundaries thereafter are as each document states them and agree with 
 | 26 | **M1 measures a product the engagement layer was never switched on in.** D66 keeps the free tier clean, which is correct under red line #5, but M1's two headline numbers are taken at the free door. Row 38 has neither counterfactual nor treatment. | R81 — label the baseline before the numbers exist. | OPEN — **restated.** Addendum 04 §5 amends R81: M1 now measures a product *with* a core game and an appointment, *without* the extrinsic toolkit, and must be recorded as exactly that, dated, before the numbers exist. Row 38's note amends with §5. "A baseline defined after the fact is not a baseline" (ROADMAP §5). Per-mechanic instrumentation (D50) still gets built and simply has nothing to report at the free door — "a finding rather than a gap." | ONE-WAY (derived — the labelling window closes the moment M1's numbers exist, and a baseline defined after the fact is not a baseline) | Addendum 03 §10, §17; Addendum 04 §5, §13; ROADMAP §5 |
 | 27 | **Sustain becomes a proxy score.** Players chase the hold the way they would an accuracy number, and pressure returns through the back door. | Nothing mid-play, monotonic display, no comparison, resettable ledger, and row 49's guilt items measured rather than assumed. | OPEN — the acknowledged price of D79, the one place Addendum 04 amends a founder ruling's scope (G9); put to the founder separately and **ratified 2026-08-03 (RULED)**. R83, R84 and R85 carry the mitigation, R86's vocabulary sheet stops classification leaking back through wording, R87 extends the pilot to ask whether the hold count reads as invitation or pressure, and ledger row 49 converts it. | ONE-WAY (derived — under §2 reading 2 the round facts, personal bests and lit map run wherever the game runs, including the free door, where red line #5 makes them permanent; that reading is itself open at INPUT-84) | Addendum 04 §14; §3.2, §3.3, §12, §13 |
 | 28 | **The standard outruns the corpus.** Publication invites adoption — including by FF1's incumbent — faster than the reference recordings and stewardship mature. | Publish the frame only; stewardship design inside INPUT-83; the corpus stays the priced scarcity. | OPEN — opened with D82's workstream, ADOPTED as plan-of-record. Scope, licence and timing are INPUT-83, founder and counsel together. Reads against #11, whose FF1 valence G22 flips. | ONE-WAY — D83 item 2 names publication of the standard and the fixed reference dialect (Junior's syllable set) as one-way doors | Addendum 04 §14; §6, §7 (D82, D83) |
-| 29 | **The cycle strains the one-obligation rule.** A monthly live event is a standing commitment on the two people who have the least slack. | INPUT-82 is a go/no-go with eyes open; the format may start as small as one hour; nothing else in this plan depends on it except Fork K's strongest answer. | OPEN — D81 is ADOPTED and contingent on INPUT-82's go/no-go, taken by the founder and Junior together. The Charter records the strain "rather than assumed away" (CHARTER §9). Note that the membership is sold from day one, so the promise starts before the go/no-go's format is settled. | ONE-WAY — stated: "**ONE-WAY** in obligation — a standing monthly commitment" (BACKLOG item 4); D81 carries "a membership sold day one is a standing promise" | Addendum 04 §14; §5 (D81); §11 (INPUT-82); CHARTER §9; BACKLOG item 4 |
+| 29 | **[EXPOSURE REMOVED FOR RELEASE 1 — D84 RATIFIED 2026-08-05: the monthly cycle is out of R1 and INPUT-82 is answered NO-GO. The risk is retained, not retired, because the cycle returns at 100 weekly actives.]** **The cycle strains the one-obligation rule.** A monthly live event is a standing commitment on the two people who have the least slack. | INPUT-82 is a go/no-go with eyes open; the format may start as small as one hour; nothing else in this plan depends on it except Fork K's strongest answer. | OPEN — D81 is ADOPTED and contingent on INPUT-82's go/no-go, taken by the founder and Junior together. The Charter records the strain "rather than assumed away" (CHARTER §9). Note that the membership is sold from day one, so the promise starts before the go/no-go's format is settled. | ONE-WAY — stated: "**ONE-WAY** in obligation — a standing monthly commitment" (BACKLOG item 4); D81 carries "a membership sold day one is a standing promise" | Addendum 04 §14; §5 (D81); §11 (INPUT-82); CHARTER §9; BACKLOG item 4 |
+| 30 | **The play layer has never been seen by a student.** All of its evidence is from tests written by the people who designed it. | Stage 2's ten humans, before public ship, with authority to stop the launch (row 55). **Scheduled as of 2026-08-05:** D94a puts the play layer into the tester builds and Junior's Day 10 sitting, so the mitigation is now a dated act rather than an intention — and it happens before D94b's one-way commitment rather than after it. | OPEN — and **sharpened by row 59**: the one device test run so far was on a build with the play layer *off*, so the exposure is two-sided. The layer is unseen, *and* the product without it has now been measured as a first-session failure. | ONE-WAY (derived — **D94b** puts the play layer at the free door, where red line #5 makes it permanent; **D94a** does not and is two-way) | PLAN-00 §7; BUILD-LOG 2026-08-05 |
+| 31 | **GPL v3 unresolved at store submission.** The repository is GPL v3 (`LICENSE.txt`), repo-wide, covering both apps. | INPUT-85, week 1, inside the single combined counsel brief. Opanijé appears to hold all copyright, so relicensing the app subtree is available — but it is a founder-and-counsel call, not a build call. | OPEN — **routed to counsel 2026-08-05.** Found in verification and **absent from the entire 145,680-word estate**, which is what makes it a risk rather than a task. | TWO-WAY, and sharply more expensive late — discovering it at submission stalls the launch; discovering it after stalls it worse | VERIFICATION; PLAN-00 §7 |
+| 32 | **Regenerating audio is coupled to an unresolved human decision.** `make-placeholder-audio.py:287-289` hard-fails while an arrangement gate is closed, and `assets.test.ts:490-523` fails closed on any asset change. | INPUT-87 settled *before* Capture Day, and the Day 7 rehearsal proves the whole chain on fake stems. | OPEN — if it is not settled, Capture Day's output cannot reach the app and Day 9 does not happen. The coupling is the risk: a code gate waiting on a form decision that only Junior can give. | TWO-WAY | PLAN-00 §7; VERIFICATION Claim 8 |
+| 33 | **Reviving `opanije-mobile`'s modules costs more than writing them fresh.** Parked under DN-3, CI reduced to `workflow_dispatch` after 30 consecutive typecheck failures, `node_modules` absent, current state unverified. | D90's two-day timebox per module, then write fresh against Room's own conventions. Mobile's version is a spec, not a dependency. | OPEN | TWO-WAY | PLAN-00 §7; VERIFICATION Claim 9 |
+| 34 | **The estate has more governance capacity than build capacity, and will refill the register the moment pressure appears.** This is the failure mode that produced 145,680 words and zero audio. | D88; `BUILD-LOG.md` is the only writable register on the build side and `LEDGER.md` the only one it adds rows to. | OPEN — structurally mitigated rather than solved. The mitigation is itself a register decision, which is the joke and also the point. | TWO-WAY | PLAN-00 §7 |
+| 35 | **The door is not self-explanatory, and this is measured, not feared.** A first-time user on a physical device did not understand what to do, reported no gamified mechanic, and did not understand how to interact at all. **0/10.** | Redesign the door *before* Stage 2 rather than after, and write row 55's ≥7/10 criterion down before the ten testers arrive so the number is judged rather than negotiated. D94a addresses one half — the tested build had the play layer off. **Onboarding legibility is the other half and is a separate fix**: a first-time user who cannot tell what to touch fails the first session whether or not the game is on. | **OPEN — the estate's first measured failure.** Row 59. Gate 1 (`PLAN-03` §2) has *not* fired, because row 55 is defined on ten testers and a play-layer-on build — but this is its precursor, and PLAN-03 names it as the gate "most likely to be rationalized away". | TWO-WAY — the door is redesignable, and it is cheaper to redesign now than after Stage 3 distribution | BUILD-LOG 2026-08-05; row 59; D99 |
+| 36 | **D96's rejection leaves Release 1 with no iOS path and no no-install surface.** The web room was carrying both jobs at once: it was the iPhone version (no Mac, no Xcode, no signing identity on this machine) and the only artifact a person can tap from a WhatsApp forward without installing anything. | INPUT-90 — the founder names the iOS answer and the tap-to-play surface, or accepts Android-install-only for Release 1 with eyes open. | OPEN — opened *by* a founder ruling, which is the correct way for a risk to open. The consequence lands hardest on Stage 3's highest-leverage act: Junior's one voice note to 1,000+ former students now asks each of them to install an app rather than tap a link, and ledger row 57 is amended to say so. | TWO-WAY — the ruling is reversible and the web export still exists; what is closed is its promotion to strategy | BUILD-LOG 2026-08-05; D96; row 57 |
+| 37 | **D98's deferral keeps the single-machine total-loss exposure open and blocks any store upload.** One machine holds the code, every credential, the backup key and the signing key with no standby. D16 has carried this as the estate's highest-ranked overdue item for weeks. | INPUT-91 — the founder names when the escrow and the keystore happen. **The two halves are separable**: the D16 credential and backup-key escrow can be done without generating a production keystore, and closes most of the exposure on its own. | OPEN — deferred by founder ruling on 2026-08-05, recorded rather than argued. The deferral is legitimate; the exposure it leaves standing is recorded here so that it is not rediscovered as a surprise. | ONE-WAY in consequence — a signing key lost after publication cannot be recovered and the app can never be updated again; a disk lost before escrow ends the company | BUILD-LOG 2026-08-05; D98; D16 |
+| 38 | **A redesign with no measurement loop repeats the failure it exists to fix.** Row 59 was produced by handing a build to one unaided human. The redesign is being done because that measurement was bad — but the redesign itself has no scheduled measurement, because the tester programme that would provide one is suspended. | Re-measure on unaided first-time users *during* Stage R at whatever the smallest honest scale is — one or two people, informally, repeatedly — rather than waiting for the ten-tester cohort to resume. Row 60 is the row this converts. **The cheapest possible version of the loop that produced row 59 is the one that should run continuously.** | OPEN — opened 2026-08-05 with the suspension ruling. The suspension is correct; the gap it leaves is that the estate now has one measured failure and no scheduled way to learn whether it has been fixed. | TWO-WAY | BUILD-LOG 2026-08-05 (later); row 59; row 60 |
+
+
+**#30–#38 arrive with the build, and #35 is the only one already realised.** #30–#34 were issued by
+`plans/PLAN-00-DECISIONS.md` §7 on 2026-08-05. **#35–#38 were not planned**: #35 came back from a
+physical-device test the same day; #36 and #37 were opened by the founder's own rulings on D96 and
+D98; **#38 was opened by the ruling that suspended the tester programme**, and names the gap that
+ruling leaves — a redesign with no measurement loop. A risk opened by a ruling is not an objection to the ruling — it is the estate
+recording what the ruling costs, which is what makes the ruling reversible on evidence later.
+
+**#35 is the one to read twice.** Everything else on this page is exposure. #35 is a measurement.
 
 ---
 
 ## Gaps and irregularities in this series
 
-**No gaps.** Every number from #1 to #29 is located in the estate and carried above.
+**No gaps.** Every number from #1 to #38 is located in the estate and carried above.
 
 **One attribution conflict, recorded not repaired.** Addendum 01 §16 and `NUMBERING.md` both credit
 v2.0 with #1–#22. v2.0 §13 contains #1–#21; #22 is Mandate 01's, by D47. The count of numbers is
@@ -122,4 +148,5 @@ is quietly rewritten stops being auditable. The documents remain recoverable fro
 commit `1bab3bb`. Where they are cited as an **earlier state** — C21 in particular — that is exactly
 the point of the citation: the prompt disagreed with the addendum, and the disagreement is the record.
 
-*Risk register, 2026-08-03. Register of record under D83. Next number: **#30** (`NUMBERING.md`).*
+*Risk register, 2026-08-03; extended 2026-08-05 to #38. Register of record under D83.
+Next number: **#39** (`NUMBERING.md`).*
