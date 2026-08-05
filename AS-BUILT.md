@@ -12,7 +12,16 @@ alone got nine of its seventeen load-bearing claims wrong. Read this before plan
 `VERIFICATION.md`, `MASTER-BRIEF.md`, `FABLE-PLAN.md` and `compacted/A`–`I` — into one file, and
 those twelve were removed once it existed. They were 96,089 words, of which the great majority was
 a compaction of documents that were already in this repository. They remain recoverable from git
-history at commit **`e38917a`**. Nothing unique to them was dropped; what was unique to them is here.
+history at commit **`e38917a`**.
+
+**An honest limit on that claim.** A first pass of this file *did* drop material, and an audit
+comparing every distinctive identifier and figure in the deleted set against the surviving tree found
+it. The load-bearing losses were restored — Room's documentation inventory, the VPS capacity envelope
+and what it can and cannot host, the salvage verdict, and the site's deployment debris. What remains
+dropped is deliberate: exact byte sizes of individual plugin files, theme filenames, the full
+immersion price matrix, and workstation build-trap detail that lives in the machine's own
+`CLAUDE.md`. **If a number is load-bearing and you cannot find it here, check `e38917a` before
+assuming it never existed.**
 
 **Status of everything on this page: VERIFIED-INTERNAL** (`METHOD.md` §1). It is self-audit, not
 independent audit. Line references were true at `4dde6752`.
@@ -184,6 +193,23 @@ no iOS, no real-latency, no low-tier evidence.
 *(As of 2026-08-05 this is partly discharged: a device test has been run. It returned 0/10 — ledger
 row 59, FALSIFIED. See `BUILD-LOG.md`.)*
 
+### Its own documentation — 21 files, two of which matter for what comes next
+
+`apps/opanije-room/docs/` carries 21 documents. Beyond `SERVER-CONTRACT.md`, `ACCEPTANCE.md` and
+`GATES.md` cited above: `ARCHITECTURE.md`, `ROUTE-TO-DONE.md`, `SPEC-COVERAGE.md`,
+`PRIVACY-NOTES.md`, `DEVICE-NOTES.md`, `SHOOT-LIST.md`, `DEVELOPING.md`.
+
+**Two are directly relevant to the surface redesign (Stage R) and should not be rediscovered:**
+
+- **`docs/MOCKUP-QUESTIONS.md`** — a **12-step script for the session with Junior**. It already exists.
+  Stage R needs exactly this and should start from it rather than writing another one.
+- **`docs/review/`** — ~11 review documents and a remediation plan from **8 numbered adversarial
+  review rounds (r1–r8)**. The app has already been reviewed hard, repeatedly. Anything Stage R is
+  about to "discover" about the code should be checked against these first.
+
+**Git recency: this is the active line of work, not an abandoned one** — the last Room commits are
+2026-08-04/05.
+
 ### 56 `GATE:` markers in shipping code
 
 Non-test `src/` carries 56 `GATE:` markers — founder-, counsel- or Junior-owned open decisions
@@ -225,6 +251,23 @@ It ships entirely on mocks: `repositoryMode: "mock"`, `apiBaseUrl: null`, `purch
 
 **Under D90 it is a parts donor, then archived — not deleted.** Budget a week per module, not a day,
 and if one resists for more than two days write it fresh against Room's conventions (risk #33).
+
+### The salvage verdict, carried forward verbatim because it is a standing instruction
+
+The recon that produced D89 and D90 reached one conclusion above the others, and it is worth having in
+front of anyone who is about to redesign a surface:
+
+> **Do not restart. Restarting buys a cleaner history and costs the product.**
+
+Not one base but two complementary ones. **Room is the product** — the only artifact containing the
+pedagogical invention, and the only thing Junior has ever had to react to. **Mobile is the plumbing**
+Room lacks. The real app is Room's screens on Mobile's spine, and Room already declares that seam.
+**The gap is integration work, not invention.**
+
+The honest counter-argument, also carried: Room brings heavy process weight — a gates register, an
+authority-pin system, adversarial review rounds, prohibition tests, a source seal. That machinery was
+right for a mockup guarding against overclaiming; carried into a shipping app run by one non-engineer
+it becomes friction. **Salvage the code and the audio; drop most of the ceremony.**
 
 ---
 
@@ -354,9 +397,53 @@ name. **Organic discoverability of the brand is effectively nil.** Press claims 
 Cultura Viva, IPHAN partnership, Festival Sur le Niger, Brazil–Ghana exchange) are the site's own and
 were **not** independently corroborated.
 
+### Deployment debris on the live site — small, real, and cheap to fix
+
+Recorded because each one will otherwise be rediscovered as a surprise:
+
+- **`node_modules` and `package-lock.json` are committed into the live theme directory** — the build
+  tree ships to production.
+- A **LearnPress LMS** was installed at some point; its options remain in the database though the
+  plugin is gone from `wp-content/plugins`.
+- A previous theme is retained in-tree as `themes/opanije-backup-20251111-125303`.
+- `/shop` is a **separate, older WordPress** with its own theme and 2023 sitemap — a visible seam
+  between the 2026 marketing site and the 2023 store.
+
 ---
 
-# 5 · Assets that exist and would not need building again
+# 5 · Where it can run — the VPS envelope
+
+`root@178.156.171.106`, Hetzner `ubuntu-2gb-ash-1`, Ashburn. **The "2GB" in the hostname is stale.**
+
+| Resource | Actual | Headroom |
+|---|---|---|
+| RAM | 7.6 GiB | 5.2 GiB available |
+| CPU | **2 cores** | load average **0.04** — effectively idle |
+| Disk | 38 GB | 28 GB used, **8.6 GB free (77% full)** — the nearest wall |
+
+Running: nginx (80/443), MySQL 8 and Redis (both localhost only), PHP 8.3-FPM, an OmniRoute AI router
+on localhost, tailscaled, cron, unattended-upgrades. **Only 22, 80 and 443 are exposed.** Secrets live
+at `/var/www/opanije-secrets` (`600`, never in git). Three canonical repo checkouts under
+`/root/repos`, plus an orchestration hub at `/root/orchestration` running an unattended worker that
+opens PRs and never merges them.
+
+**It could host** a small first-party API for the app behind the existing nginx — auth callbacks,
+entitlement checks, a webhook receiver, progress sync. **The rail for exactly that already exists.**
+
+**It could not host** video — lesson video is already correctly ruled onto **Cloudflare Stream**
+(DN-2); *8.6 GB free and 2 cores cannot serve HLS*. Nor any Android or iOS build (no JDK, no Android
+SDK — which is precisely why the mobile APK was untracked from git), nor a heavy Node runtime
+alongside the existing stack. **Treat ~8 GB as the working budget and do not stage media there.**
+
+**Two sibling repos deploy to the same box** and are separate concerns, not part of the app:
+`opanije-outreach` (a zero-dependency PHP + SQLite cold-outreach and lead engine at `/var/www/outreach`,
+deliberately held in a fleet-off state, which is its safe state) and `nginx` (source of truth for
+`/etc/nginx`, deployed by PR with a guarded `nginx -t` and auto-rollback). **Deploys go through the
+VPS, never from a workstation.**
+
+---
+
+# 6 · Assets that exist and would not need building again
 
 **Two things already ship that nothing in the public copy mentions.** A **real PWA** — service worker,
 both manifests, 192/512 icons including maskable, separate EN and PT-BR offline pages; the site is
@@ -388,7 +475,7 @@ exist. **No public route exposes it.**
 
 ---
 
-# 6 · The gaps that bind
+# 7 · The gaps that bind
 
 Ordered by how much they constrain a plan.
 
@@ -430,7 +517,7 @@ privacy-nutrition disclosures.
 
 ---
 
-# 7 · Capacity — what is cheap, expensive, and impossible
+# 8 · Capacity — what is cheap, expensive, and impossible
 
 The founder is not a software engineer and builds through Claude Code alone.
 
@@ -456,7 +543,7 @@ hardware*. Front-load the cheap column; schedule the expensive column around fou
 
 ---
 
-# 8 · Nine claims that were wrong — recorded so nobody re-derives them
+# 9 · Nine claims that were wrong — recorded so nobody re-derives them
 
 A design plan written from the estate alone made seventeen load-bearing claims about the code. **Nine
 were wrong or overstated.** They are listed here because the cost of each is real work scheduled
@@ -479,7 +566,7 @@ uncorrelated with the code. Verify before scheduling.
 
 ---
 
-# 9 · What could not be reached
+# 10 · What could not be reached
 
 Recorded rather than glossed, because an unmarked gap reads as a finding.
 

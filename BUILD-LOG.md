@@ -221,17 +221,30 @@ this same repository — they duplicated `README`, `CHARTER`, `plan/`, `register
 `plans/`, which was written from it and then corrected against the code. Only three of the twelve held
 original material: `VERIFICATION.md` and `compacted/H`–`I`.
 
-**Added — one file:** **`AS-BUILT.md`**, 4,771 words, carrying every unique finding from those three
-plus the nine wrong claims, so that no future plan re-derives them.
+**Added — one file:** **`AS-BUILT.md`**, carrying the unique findings from those three plus the nine
+wrong claims, so that no future plan re-derives them.
 
-**Net: the estate goes from 267,697 words across 50 documents to 176,379 across 39 — a 34% cut —
-and loses nothing that was not duplicated elsewhere in it or preserved in git.** Measured, not
-estimated: 96,089 words removed, 4,771 added. `AS-BUILT.md` is not a register and takes no numbered rows.
+**The first pass of it was lossy, and an audit caught that.** Comparing every distinctive identifier
+and figure in the deleted set against the surviving tree found material genuinely gone rather than
+merely restated. Restored: Room's 21-document inventory — including **`docs/MOCKUP-QUESTIONS.md`, an
+existing 12-step script for the session with Junior that Stage R should start from rather than
+rewrite**, and `docs/review/`'s 8 adversarial rounds; the VPS capacity envelope and what it can and
+cannot host; the *"do not restart"* salvage verdict; and the live site's deployment debris. Left
+dropped deliberately: per-file byte sizes, theme filenames, the full immersion price matrix, and
+workstation build-trap detail that lives in the machine's own `CLAUDE.md`.
+
+**The claim to make about this compaction is therefore the narrower one:** no load-bearing fact was
+lost, and everything is recoverable at `e38917a`. Not "nothing was dropped" — things were, and they
+were chosen.
+
+**Net: the estate goes from 267,697 words across 50 documents to 177470 across 39 — a 34% cut — and
+loses no load-bearing fact that is not either duplicated elsewhere in it or preserved in git.**
+Measured, not estimated: 96,089 words removed, 5577 added. `AS-BUILT.md` is not a register and takes no numbered rows.
 
 *A caution for whoever reads this next:* the deleted set is where the estate's own compaction lived.
 If a future session wants the 32-document estate summarised again, **it should not regenerate it** —
 it should read `CHARTER.md` (two pages), `AS-BUILT.md` (what exists), `BUILD-LOG.md` (what was
-decided) and `plans/` (what to do). That is the whole working set, and it is 26885 words.
+decided) and `plans/` (what to do). That is the whole working set, and it is 27909 words.
 
 ---
 

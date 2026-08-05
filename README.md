@@ -12,7 +12,7 @@ is. The registers are.
 
 **The working set is four documents, not thirty-two.** `CHARTER.md` (two pages, what cannot change),
 [`AS-BUILT.md`](AS-BUILT.md) (what exists), [`BUILD-LOG.md`](BUILD-LOG.md) (what was decided) and
-[`plans/`](plans/) (what to do). That is roughly 30,000 words and it is everything a planner needs.
+[`plans/`](plans/) (what to do). That is 27909 words and it is everything a planner needs.
 Everything else on this page is history, kept because it is auditable — not because it must be read.
 
 **The estate stopped being the work on 2026-08-05.** D84–D103 were put to the founder and returned
@@ -25,8 +25,8 @@ surface redone** (`BUILD-LOG.md`). Start at [`plans/`](plans/), not here.
 
 **Compacted the same day.** Twelve documents of 2026-08-05 recon and compaction (96,089 words) were
 folded into `AS-BUILT.md` and removed; they are recoverable from git history at `e38917a`. The estate
-went from **267,697 words across 50 documents to 176,379 across 39** and lost nothing that was not
-duplicated elsewhere in it.
+went from **267,697 words across 50 documents to 177470 across 39** and lost no load-bearing fact that is
+not either duplicated elsewhere in it or preserved in git.
 
 ---
 

@@ -36,12 +36,17 @@ verifying every load-bearing claim in that plan against the actual code.
 
 **Supporting material** (one directory up):
 
-- `FABLE-PLAN.md` — the design plan Fable 5 authored, 7,386 words. These plans build on it and
-  correct it where the code disagreed.
-- `VERIFICATION.md` — every claim in that plan checked against the code, line by line. Read this if
-  you ever doubt a number in these plans.
-- `MASTER-BRIEF.md` — the whole estate compacted to 42,554 words, plus the site and asset recon.
-- `compacted/` — the nine compaction documents that produced it.
+- [`../AS-BUILT.md`](../AS-BUILT.md) — **what actually exists**: the code, the live site, the assets,
+  and the nine claims an earlier plan got wrong. Read this if you ever doubt a number in these plans.
+- [`../BUILD-LOG.md`](../BUILD-LOG.md) — what has been ruled since. **It governs where it and these
+  plans disagree.**
+- [`../CHARTER.md`](../CHARTER.md) — two pages, and the only thing here that cannot be traded away.
+
+> **The four documents these plans were built from no longer exist on disk.** `FABLE-PLAN.md`
+> (the design plan), `VERIFICATION.md` (its claims checked against the code), `MASTER-BRIEF.md` and
+> `compacted/` were removed on 2026-08-05 when the estate was compacted — their unique content is in
+> `../AS-BUILT.md`, and they remain recoverable from git history at commit **`e38917a`**. Do not go
+> looking for them, and do not regenerate them.
 
 ---
 

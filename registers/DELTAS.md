@@ -148,6 +148,10 @@ estate's own reasoning where it states one; otherwise marked "(derived)". Closed
 **Issued** 2026-08-05 as `plans/PLAN-00-DECISIONS.md`, produced by compacting the 32-document estate
 (`MASTER-BRIEF.md`, `compacted/`), commissioning a design plan (`FABLE-PLAN.md`), and then verifying
 every load-bearing claim in that plan line-by-line against the actual code (`VERIFICATION.md`).
+**All four were removed later the same day when the estate was compacted; their unique content is in
+`../AS-BUILT.md` and they are recoverable from git history at `e38917a`.** The citations above are
+kept as written, on this register's own precedent for the retired continuation prompts: a citation
+records where a claim came from, and one that is quietly rewritten stops being auditable.
 **Returned by the founder the same day**: seventeen RATIFIED, D96 REJECTED, D98 DEFERRED, D94 PENDING.
 
 **This is the last block to enter this register.** D88 — ratified in this same block — freezes
