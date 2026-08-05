@@ -162,11 +162,26 @@ no seam — and that is what makes it shippable first.
 
 ### D94 — The play layer ships ON for students. **ONE-WAY (red line #5 attaches).** ⚠️ *The most important decision in this block.*
 
-> **PENDING as of 2026-08-05.** The founder held this one for a fuller account before ruling.
-> Nothing in the build proceeds against it in either direction. Ledger row 59's 0/10 was measured on
-> a build with this layer switched **off**, and the tester's own words were *"there was no gamified
-> mechanic"* — which is a literal description of `playLayerEnabled = false`, not an opinion about the
-> design. That makes this the highest-priority open decision in the estate.
+> **SPLIT 2026-08-05, and the ratified half is live.** Row 59's 0/10 was measured on a build with
+> this layer switched **off**, and the tester's own words were *"there was no gamified mechanic"* —
+> a literal description of `playLayerEnabled = false`, not an opinion about the design. The founder
+> ratified a split of this decision into its two halves:
+>
+> - **D94a — RATIFIED. TWO-WAY.** The play layer is on in **tester builds**: Junior's Day 10 sitting
+>   and Stage 2's ten testers. Red line #5 does not attach to a hand-picked sideload, and D103
+>   already ruled that cohort is not "public".
+> - **D94b — PENDING, scheduled for Stage 3. ONE-WAY.** The production default flips only with
+>   row 52, row 55 and the testers' answers in hand.
+>
+> Every piece of evidence D94b needs is produced by D94a, so the irreversible commitment is taken
+> *after* the evidence instead of before it. Charter §9 item 10 is discharged early — Junior sees it
+> at Day 10, under D94a.
+>
+> **D94a costs a bounded code change, not zero.** `EXPO_PUBLIC_ROOM_DEMO` gates the play layer
+> **and** the demonstration route tree (`REVIEW_ROUTE_TREE = ['review', 'past-the-door']`,
+> `_layout.tsx:48`), and `build-room-apk.sh:63-64` requires those surfaces stay off in anything a
+> student receives. The two gates are separated first; then tester builds carry the play layer with
+> `/review` off. See `../BUILD-LOG.md`.
 `playLayerEnabled` becomes true in production builds. The echo loop, the fade-and-rejoin, and the
 three-facts-plus-personal-best closing screen are the product; shipping them switched off ships a
 demo of a drum.
@@ -344,7 +359,7 @@ D90  opanije-mobile is a parts donor         [x] RATIFIED  [ ] REJECTED
 D91  mu-plugin rail is the backend           [x] RATIFIED  [ ] REJECTED   ← ONE-WAY
 D92  bundle id com.opanije.room              [x] RATIFIED  [ ] REJECTED   ← ONE-WAY at publish
 D93  seams unwired until Stage 4             [x] RATIFIED  [ ] REJECTED
-D94  play layer ships ON                     [ ] RATIFIED  [ ] REJECTED  ** PENDING**   ← ONE-WAY, read §3 twice
+D94  play layer ships ON                     [~] SPLIT: D94a RATIFIED / D94b PENDING (Stage 3)
 D95  fade stays binary for R1                [x] RATIFIED  [ ] REJECTED
 D96  web room is the iOS strategy            [ ] RATIFIED  [x] REJECTED
 D97  per-course purchases from day one       [x] RATIFIED  [ ] REJECTED

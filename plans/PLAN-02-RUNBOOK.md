@@ -203,12 +203,33 @@ a drum toy and Opanijé.**
 
 # Day 3 — Turn the product on, and order the kit
 
-> **AMENDED 2026-08-05 — D94 is PENDING. Do not make this change yet.** The founder held it for a
-> fuller account before ruling. The prompt below is correct and ready; it runs the day D94 is
-> ratified and not before. If D94 is rejected, Day 3's morning is spent on the door redesign instead
-> (INPUT-92), which the 0/10 makes the more urgent work either way.
+> **AMENDED 2026-08-05 — D94 was SPLIT. Day 3's work changed, and it is smaller.**
+>
+> **Do not flip the production default today.** That is **D94b**, and it is scheduled for Stage 3
+> with rows 52 and 55 in hand. The prompt below stays exactly as written and runs then.
+>
+> **What Day 3 does instead — D94a, RATIFIED.** Separate the two gates that
+> `EXPO_PUBLIC_ROOM_DEMO` currently sets at once, so a tester build can carry the play layer without
+> the demonstration surfaces. Verified this session: the flag sets `playLayerEnabled`
+> (`AppRuntime.tsx:241`) **and** the review route tree (`_layout.tsx:48`,
+> `routeTree.ts:8` — `['review', 'past-the-door']`), and `scripts/build-room-apk.sh:63-64` requires
+> the latter stay off in anything a student receives. Ask Claude:
+>
+> > In `apps/opanije-room`, `EXPO_PUBLIC_ROOM_DEMO` gates two independent things:
+> > `playLayerEnabled` at `src/runtime/AppRuntime.tsx:241`, and the demonstration route tree
+> > `REVIEW_ROUTE_TREE` at `src/app/_layout.tsx:48`. I need to hand ten testers a build with the
+> > play layer ON and `/review` and `/past-the-door` OFF. Separate the two gates with a new
+> > build-time opt-in for the play layer alone, keep the production default off for both, wire it
+> > through `scripts/build-room-apk.sh` beside `ROOM_DEMO`, and add a test that fails if a build
+> > with the play layer on also exposes the review routes. Then run `npm run gate`.
+>
+> Then build a tester APK with the play layer on and the review surfaces off, and **play it**. That
+> build — not today's — is what Junior sees on Day 10 and what the ten testers get at Stage 2.
+> The rest of Day 3 (the consent instrument, the kit order) is unchanged.
 
-This is D94, the heaviest decision in the block, and today is when it becomes code.
+~~This is D94, the heaviest decision in the block, and today is when it becomes code.~~
+
+**The original Day 3 prompt, retained — it is D94b's, and it runs at Stage 3:**
 
 > `playLayerEnabled` in `src/app/AppRuntime.tsx:239-242` is false unless `__DEV__` or
 > `EXPO_PUBLIC_ROOM_DEMO`. It gates the echo loop, the fade/thinning model, and the three-facts

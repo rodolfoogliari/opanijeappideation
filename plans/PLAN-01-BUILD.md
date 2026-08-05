@@ -208,8 +208,11 @@ echo), **INPUT-41**, **INPUT-62**, and **INPUT-88** (C23's presence question). T
 this itself — he answers around working objects, not around documents. Charter §9 item 10 makes this
 a gate, not a courtesy: no screen-drum surface ships without him having seen it.
 
-**D94 makes this sitting heavier than it looks.** The play layer is now on, so what he is approving
-is the game, not a drum. Row 52 is his verdict, in his words, written down: *does this read as
+**D94a makes this sitting heavier than it looks.** The play layer is on *in this build* — that is
+what D94a ratified on 2026-08-05, and it is two-way because a sideload is not the free tier. What
+Junior is approving is the game, not a drum. **His verdict here is also what D94b waits on**: the
+one-way commitment to put the play layer in the public free room is taken at Stage 3, with row 52 in
+hand rather than in advance of it. Row 52 is his verdict, in his words, written down: *does this read as
 musical information, or as a verdict on the player?*
 
 ### Then nine more
@@ -243,7 +246,8 @@ the one gate in the plan authorized to halt the launch, and it should be used if
 | Surface | What it is | Why it is first |
 |---|---|---|
 | ~~**The web room**~~ | ~~Room exported to web, behind `opanije.com/toca`~~ | **WITHDRAWN — D96 REJECTED 2026-08-05.** Not the iOS version and not the primary surface. Release 1 has no iOS path and no no-install surface; INPUT-90 asks what replaces them. The web export still exists as an artifact — what is withdrawn is its promotion to strategy. |
-| **The Play listing** | Under the CNPJ developer account, **production-keystore signed** | The second date. Offered only after someone has already played on the web. |
+| **The Play listing** | Under the CNPJ developer account, **production-keystore signed** | ~~The second date, offered only after someone has already played on the web.~~ **AMENDED — with D96 rejected this is the *only* public surface, and D98's deferral blocks its upload until INPUT-91 closes.** |
+| **D94b — the play layer in the public free room** | The production default flips on | **Taken here, not earlier.** One-way under red line #5. Decided with row 52 (Junior's verdict), row 55 (≥7/10) and the ten testers' answers in hand — all of them produced by D94a at Stage 2. |
 | **Instrumentation** | First-party only, per R50 — session started, first session completed, D7 return | The estate's two headline numbers finally get real values |
 
 **The store-listing checklist**, all of which is cheap but none of which can be skipped: production

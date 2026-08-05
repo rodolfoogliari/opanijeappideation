@@ -17,7 +17,8 @@ effect. Everything after them lands on this page.
 ## 2026-08-05 — Ratification of D84–D103
 
 Put to the founder as `plans/PLAN-00-DECISIONS.md` §8. Returned the same day.
-**Seventeen ratified, one rejected, one deferred, one held pending.**
+**Seventeen ratified, one rejected, one deferred, and one split into a ratified half and a
+scheduled half.**
 
 ```
 D84  monthly cycle out of R1                 [x] RATIFIED  2026-08-05
@@ -30,7 +31,7 @@ D90  opanije-mobile is a parts donor         [x] RATIFIED  2026-08-05
 D91  mu-plugin rail is the backend           [x] RATIFIED  2026-08-05   ← ONE-WAY
 D92  bundle id com.opanije.room              [x] RATIFIED  2026-08-05   ← ONE-WAY at publish
 D93  seams unwired until Stage 4             [x] RATIFIED  2026-08-05
-D94  play layer ships ON                     [ ] PENDING   — further explanation requested
+D94  play layer ships ON                     [~] SPLIT     — D94a RATIFIED, D94b PENDING
 D95  fade stays binary for R1                [x] RATIFIED  2026-08-05
 D96  web room is the iOS strategy            [x] REJECTED  2026-08-05   ← founder ruling
 D97  per-course purchases from day one       [x] RATIFIED  2026-08-05
@@ -44,10 +45,37 @@ D103 ten testers before the design filing    [x] RATIFIED  2026-08-05   ← foun
 
 ### The three that did not simply ratify
 
-**D94 — PENDING.** Not rejected and not deferred. The founder asked for a fuller account of what
-turning the play layer on actually commits the company to before ruling. Held open; nothing in the
-build proceeds against it either way. **This is now the highest-priority open decision in the
-estate**, for the reason in the device finding below.
+**D94 — SPLIT, and the ratified half is live.** The founder asked for a fuller account before
+ruling, then ratified a split of the decision into its reversible and irreversible halves. D94 as
+written bundled two commitments that do not have to be taken together, and only one of them is
+one-way.
+
+| | Ruling | Door |
+|---|---|---|
+| **D94a** — the play layer is ON in **tester builds**: Junior's Day 10 sitting and Stage 2's ten testers | **RATIFIED 2026-08-05** | **TWO-WAY.** Red line #5 does not attach — a hand-picked sideload is not the free tier, and D103 already ruled this same cohort is not "public" |
+| **D94b** — the play layer default flips ON in the **public free room** | **PENDING — scheduled for Stage 3** | **ONE-WAY.** Red line #5 attaches: the free room would keep the echo loop, the fade and the closing facts permanently |
+
+**Why the split holds.** Every piece of evidence D94b needs is produced by D94a. Row 52 (Junior's
+verdict on whether the play layer reads as musical information or as a verdict on the player), row 53
+(the fade), row 55 (≥7/10 to the screen drum) and Junior's form assent under INPUT-79 all come from
+ten sideloaded testers and one sitting — none of which touches the free tier. D94b is then taken at
+Stage 3 with that evidence in hand rather than in advance of it.
+
+**Charter §9 item 10 is discharged early rather than deferred.** Junior sees the play layer at the
+Day 10 sitting under D94a, which is *before* any public ship — so the gate that governs D94b is
+already satisfied when D94b comes up.
+
+**D94a is not free of code, and the reason is load-bearing.** `EXPO_PUBLIC_ROOM_DEMO=1` — the
+existing opt-in, and the one `plans/PLAN-02-RUNBOOK.md` Day 2 already uses — sets **two** gates, not
+one: `playLayerEnabled` (`AppRuntime.tsx:241`) **and** the demonstration route tree
+`REVIEW_ROUTE_TREE = ['review', 'past-the-door']` (`_layout.tsx:48`, `routeTree.ts:8`).
+`scripts/build-room-apk.sh:63-64` states the constraint in its own words: those surfaces *"are gated
+off by default and must stay that way in anything a student could receive."*
+
+A `ROOM_DEMO=1` build therefore hands ten testers the play layer **and** `/review` and INPUT-62's
+past-the-door proposal. **D94a's scope is to separate the two gates** — the play layer gets its own
+build-time opt-in, independent of the demonstration route tree — after which tester APKs carry the
+play layer with the review surfaces off. That is the whole of D94a's code, and it is bounded.
 
 **D96 — REJECTED.** The web room is *not* adopted as the iOS strategy and *not* adopted as the
 primary distribution surface. Founder ruling, no reason recorded, and none is owed. Consequences are
@@ -67,7 +95,7 @@ accordingly.
 
 | Item | Ruling | Register |
 |---|---|---|
-| The free set — what is given away permanently under red line #5 | **Ijexá, two parts (agogô + one drum part), two speeds, with the play layer on** | Answers INPUT-86 / INPUT-80. **ONE-WAY.** Note its play-layer clause is contingent on D94. |
+| The free set — what is given away permanently under red line #5 | **Ijexá, two parts (agogô + one drum part), two speeds.** Confirmed now | Answers INPUT-86 / INPUT-80. **ONE-WAY.** The *"with the play layer on"* clause is carried by **D94b** and settled at Stage 3 with rows 52 and 55 in hand — D94a does not touch the free set. |
 | Capture kit — USB interface, two mics, stands, headphones | **Approved, ~R$2–3k**, inside the existing M0 earmark. Reserve floor R$5,000 untouched. | The one operator spend consent in the plan set |
 | GUI design filing vs the R$5k floor (R37) | **Accept the risk and ship** if counsel's quote breaches the floor | Founder call, taken |
 | GPL v3 vs relicensing the app subtree | **Goes to counsel** in the single combined brief, week 1 | INPUT-85 routed |
@@ -98,7 +126,8 @@ Recorded as **ledger row 59 — FALSIFIED, MEASURED, n=1, 2026-08-05**, and as *
    not let it be argued away either.
 
 3. **"There was no gamified mechanic" is a literal description of the shipped build, not an opinion
-   about the design.** `playLayerEnabled` (`AppRuntime.tsx:239-242`) is false unless `__DEV__` or
+   about the design.** *(This finding is what D94a now answers: the next tester holds a build with
+   the play layer on.)* `playLayerEnabled` (`AppRuntime.tsx:239-242`) is false unless `__DEV__` or
    `EXPO_PUBLIC_ROOM_DEMO` is set. The tester was handed the drum toy. The echo loop, the
    fade-and-rejoin and the three-facts closing screen — the entire game the estate spent 145,680
    words inventing — were switched off in the artifact they held. **This is the single strongest

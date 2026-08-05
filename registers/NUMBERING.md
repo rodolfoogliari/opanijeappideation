@@ -90,6 +90,12 @@ The no-reuse rule survives the freeze and applies to the frozen series too. **Le
 withdrawn on issue** under D96 and its number is retired, not reassigned — the first entry in this
 file's gap list that was created by a founder ruling rather than by a lost document.
 
+**D94 is split, not renumbered.** On 2026-08-05 the founder ratified a split of D94 into **D94a**
+(the play layer in tester builds — RATIFIED, two-way) and **D94b** (the play layer in the public free
+room — PENDING, one-way under red line #5). No new number was drawn. This follows the estate's own
+precedent for ledger row 21, split into 21a and 21b by D12 and counted once. As with row 21, **there
+is no undivided D94 after this date** — cite D94a or D94b, never bare D94.
+
 ---
 
 *Numbering state, 2026-08-05. Under D88, update this file when a ledger row or risk is added; the
