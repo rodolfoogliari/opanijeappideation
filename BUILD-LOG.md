@@ -250,7 +250,7 @@ workstation build-trap detail that lives in the machine's own `CLAUDE.md`.
 lost, and everything is recoverable at `e38917a`. Not "nothing was dropped" — things were, and they
 were chosen.
 
-**Net: the estate goes from 267,697 words across 50 documents to 181,030 across 39 — a 34% cut — and
+**Net: the estate goes from 267,697 words across 50 documents to 181,484 across 39 — a 34% cut — and
 loses no load-bearing fact that is not either duplicated elsewhere in it or preserved in git.**
 Measured, not estimated: 96,089 words removed, 5577 added. `AS-BUILT.md` is not a register and takes no numbered rows.
 
@@ -259,7 +259,7 @@ If a future session wants the 32-document estate summarised again, **it should n
 it should read the working set: `CHARTER.md`, `METHOD.md` (§1's status labels and §5's vocabulary
 sheet — the ledger is unreadable without the first, and Stage R has no wording rule without the
 second), `AS-BUILT.md`, `BUILD-LOG.md`, `plans/`, and `registers/INPUTS.md` (the plans cite INPUT
-numbers constantly and this is the only place their text lives). **37978 words.**
+numbers constantly and this is the only place their text lives). **38,316 words.**
 
 *An audit of the first version of this compaction found the four-document set could not answer its
 own assignments — it excluded every status-label definition, the vocabulary sheet binding every

@@ -10,7 +10,7 @@ the registers of every decision and open question, and the session history that 
 **Restructured 2026-08-03 under D83.** Session prose used to be the register of record; it no longer
 is. The registers are.
 
-**The working set is six documents, not thirty-nine — 37978 words.** Read these and you have what a
+**The working set is six documents, not thirty-nine — 38,316 words.** Read these and you have what a
 planner needs. Everything else on this page is history, kept because it is auditable rather than
 because it must be read.
 
@@ -33,7 +33,7 @@ surface redone** (`BUILD-LOG.md`). Start at [`plans/`](plans/), not here.
 
 **Compacted the same day.** Twelve documents of 2026-08-05 recon and compaction (96,089 words) were
 folded into `AS-BUILT.md` and removed; they are recoverable from git history at `e38917a`. The estate
-went from **267,697 words across 50 documents to 181,030 across 39** and lost no load-bearing fact that is
+went from **267,697 words across 50 documents to 181,484 across 39** and lost no load-bearing fact that is
 not either duplicated elsewhere in it or preserved in git.
 
 ---
