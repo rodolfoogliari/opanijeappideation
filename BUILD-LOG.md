@@ -250,7 +250,7 @@ workstation build-trap detail that lives in the machine's own `CLAUDE.md`.
 lost, and everything is recoverable at `e38917a`. Not "nothing was dropped" — things were, and they
 were chosen.
 
-**Net: the estate goes from 267,697 words across 50 documents to 181,484 across 39 — a 34% cut — and
+**Net: the estate goes from 267,697 words across 50 documents to 182,407 across 39 — a 34% cut — and
 loses no load-bearing fact that is not either duplicated elsewhere in it or preserved in git.**
 Measured, not estimated: 96,089 words removed, 5577 added. `AS-BUILT.md` is not a register and takes no numbered rows.
 
@@ -259,7 +259,7 @@ If a future session wants the 32-document estate summarised again, **it should n
 it should read the working set: `CHARTER.md`, `METHOD.md` (§1's status labels and §5's vocabulary
 sheet — the ledger is unreadable without the first, and Stage R has no wording rule without the
 second), `AS-BUILT.md`, `BUILD-LOG.md`, `plans/`, and `registers/INPUTS.md` (the plans cite INPUT
-numbers constantly and this is the only place their text lives). **38,316 words.**
+numbers constantly and this is the only place their text lives). **38,887 words.**
 
 *An audit of the first version of this compaction found the four-document set could not answer its
 own assignments — it excluded every status-label definition, the vocabulary sheet binding every
@@ -272,17 +272,32 @@ sitting. The set above is the corrected one.*
 
 Recorded rather than silently repaired.
 
-**`CHARTER.md` line 260 is stale and only the founder can fix it.** It reads: *"[the one-obligation
-rule] is genuinely strained by the monthly cycle (D81) and that strain is recorded as risk #29."*
-**D84 removed the monthly cycle from Release 1 and answered INPUT-82 NO-GO**, so for Release 1 that
-strain is gone — risk #29 is annotated accordingly, but the Charter is not.
+**`CHARTER.md` was stale in three places, and the founder ratified the amendment.** Recorded here
+first as an operator decision, then taken: the founder authorised the edit explicitly on 2026-08-05.
+It is issued as **D104**.
 
-**It was not edited, and that is the rule working.** Charter §11: *"The Charter changes only by
-explicit founder ratification"*, and *"A delta that would change this file must say so in its own
-text."* **D84's text does not say so.** So the Charter stands as written and the discrepancy is
-recorded here instead. **This is an operator decision:** either ratify a one-line Charter amendment,
-or leave it — the strain returns when the cycle does, at 100 weekly actives, so leaving it is
-defensible.
+| Where | Was | Now |
+|---|---|---|
+| §2 | Item-by-item capture happens "at the **M0 shoot**" | "on the **capture day**" — D86 replaced the full production shoot with a lean one-day capture. What must be captured is unchanged; item-by-item partition capture remains one of the four one-way parts a lean day may not skip |
+| §9 | "build it, put it in the **mockup**, and take it to Junior" | "put it in the **app**" — D89 ruled `apps/opanije-room` is the product. The instruction is unchanged, only the word |
+| §10 | The one-obligation rule "**is** genuinely strained by the monthly cycle (D81)" | "**was** … for Release 1 the strain is removed" — D84 took the cycle out of R1 and answered INPUT-82 NO-GO. **Risk #29 is retained rather than retired**, because the strain returns with the cycle at 100 weekly actives |
+
+**Three procedural points, because amending a constitutional document is where process earns its
+keep.**
+
+1. **Explicit founder ratification was obtained** — §11 requires it and nothing less would do.
+2. **Junior's sign-off was not required and was not sought.** Red line #1 attaches where *sacred
+   material's form* is touched. None of the three edits touches form, the partition, or any mechanic
+   on sacred material; they are citation corrections following decisions already ratified.
+3. **It had to be a delta, and that reopened a register D88 had just closed.** §11: *"a delta that
+   would change this file must say so in its own text"*, and the Charter governs any disagreement —
+   so a Charter amendment cannot be a BUILD-LOG line. **D104 is therefore the single exception to
+   D88's freeze**, and `DELTAS.md` now stands closed to everything except Charter amendments. The
+   next such delta is D105.
+
+**What was deliberately not touched:** no red line, the one law, the partition, the two ledgers, the
+grading constitution, the vocabulary rule, the authority table, or §9's prohibition list. The Charter
+now carries its own amendment history at §11.
 
 **`plan/` (singular) was not reconciled.** Its eight documents are the 2026-07/08 estate and none of
 them knows about the ratification — `ROADMAP.md` still carries the old sequence, and

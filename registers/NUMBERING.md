@@ -13,7 +13,7 @@ collision.
 
 | Series | Last used | **Next** | Register |
 |---|---|---|---|
-| Deltas | **D103** | — *frozen under D88; use `../BUILD-LOG.md`* | `DELTAS.md` |
+| Deltas | **D104** | **D105** — *only for a `CHARTER.md` amendment; otherwise frozen under D88, use `../BUILD-LOG.md`* | `DELTAS.md` |
 | Inputs | **INPUT-92** | — *frozen under D88; use `../BUILD-LOG.md`* | `INPUTS.md` |
 | Recommendations | R88 | — *frozen under D88* | `RECOMMENDATIONS.md` |
 | Ledger rows | **60** | **61** | `LEDGER.md` — **the only register still taking new rows** |
@@ -76,7 +76,7 @@ are drawn from the table above rather than from the last session file.
 | D59–D60, INPUT-72, R73–R76, rows 44–45, #25, G9–G10, C21 | `sessions/GAME-ADDENDUM-02-…-2026-08-01.md` |
 | D61–D70, INPUT-73–77, R77–R82, rows 46–47, #26, G11–G19, E20, C22, Fork K | `sessions/GAME-ADDENDUM-03-…-2026-08-01.md` |
 | D71–D83, INPUT-78–84, R83–R88, rows 48–51, #27–#29, G20–G26, E21, Fork L | `sessions/GAME-ADDENDUM-04-…-2026-08-03.md` |
-| D84–D103, INPUT-85–92, rows 52–60, #30–#38 | `plans/PLAN-00-DECISIONS.md`, ratified 2026-08-05 — see `BUILD-LOG.md`. Rows 59, #35–#37 and INPUT-90–92 were **not** in the issuing document: they came from a device test and from the founder's rulings on D96 and D98 |
+| D84–D104, INPUT-85–92, rows 52–60, #30–#38 | `plans/PLAN-00-DECISIONS.md`, ratified 2026-08-05 — see `BUILD-LOG.md`. Rows 59, #35–#37 and INPUT-90–92 were **not** in the issuing document: they came from a device test and from the founder's rulings on D96 and D98 |
 
 Block boundaries are as each document states them. Where a document's own accounting disagreed with
 the next document's "continuing from", the discrepancy is noted in the relevant register rather than
@@ -93,6 +93,11 @@ in `../BUILD-LOG.md`** instead.
 
 Two series stay open, because they are how the estate learns rather than how it deliberates:
 **`LEDGER.md`** (next row **61**) and **`RISKS.md`** (next **#39**).
+
+**And one series is closed except for a single purpose.** `DELTAS.md` is frozen under D88 — but
+`CHARTER.md` §11 requires that any change to the Charter be recorded as a delta, and the Charter
+governs where it and another document disagree. So the D-series remains issuable **for Charter
+amendments and nothing else**. **D104** (2026-08-05) is the first; the next such delta is **D105**.
 
 The no-reuse rule survives the freeze and applies to the frozen series too. **Ledger row 56 is
 withdrawn on issue** under D96 and its number is retired, not reassigned — the first entry in this

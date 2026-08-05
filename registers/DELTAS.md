@@ -1,9 +1,11 @@
-# Opanijé — Delta Register (D1–D103)
+# Opanijé — Delta Register (D1–D104)
 
 **Status.** Register of record for this series as of 2026-08-03, under D83 (Addendum 04 §7).
 **Supersedes.** The per-session tables in `sessions/` for this series, which remain readable as
 derivation history but are no longer the register.
-**Range.** D1 through D103. D1–D83 issued to 2026-08-03; D84–D103 ratified 2026-08-05 and closing this register under D88.
+**Range.** D1 through D104. D1–D83 issued to 2026-08-03; D84–D103 ratified 2026-08-05 and closing
+this register under D88; **D104** amends `CHARTER.md` and is the one class of delta the freeze must
+still admit (`CHARTER.md` §11).
 **Rule.** Rows are appended, never rewritten. A row's status may change; its claim may not.
 
 ---
@@ -139,6 +141,7 @@ estate's own reasoning where it states one; otherwise marked "(derived)". Closed
 | D100 | Audio provenance stays enforced | — | When real stems replace the 72 synthetic WAVs the manifest is regenerated (`npm run publish:manifest`) and the sha256 chain in `assets.test.ts:490-523` stays on. Its failing closed **is the feature**: it is the thing that proves the audio in the build is the audio Junior consented to. Never disabled to make a build pass — regenerated | RATIFIED 2026-08-05 | TWO-WAY | PLAN-00 §4 |
 | D101 | `createFakeRoomAudio()` moves behind a dev guard | Defined at `engine.ts:107`, imported by production `AppRuntime.tsx:25`, live as `?? createFakeRoomAudio()` at `:245` | Guarded so production code cannot reach it, with a test that fails if it becomes reachable again. Verification's correction stands: `_layout.tsx:70-78` always injects the real engine, so **no runtime path selects the fake** — it is a source-edit-away hazard, not a live vulnerability. Fixed because a forged Caderno entry is permanent and the Caderno's defences guard against exported callers rather than a substituted engine | RATIFIED 2026-08-05 | TWO-WAY, half a day | PLAN-00 §4; VERIFICATION Claim 4 |
 | D102 | `verify-apk.sh` extends to `bundle*` before any Play upload | `plugins/with-verified-apk.js` guards only `assemble*` tasks and scans only `outputs/apk` | Extended to `bundle*` and `outputs/bundle`, and made CI-portable (it currently sources the workstation-absolute `$HOME/box/mobile-env.sh`). As written, **the RECORD_AUDIO tripwire — red line #4 in CI form — does not fire on the artifact Play actually requires** | RATIFIED 2026-08-05 | TWO-WAY, two hours | PLAN-00 §4; VERIFICATION Claim 5 |
+| D104 | **Amend `CHARTER.md`** for D84, D86 and D89 | §2 cites "the M0 shoot"; §9 says "put it in the mockup"; §10 records the one-obligation rule as strained by the monthly cycle (D81) | §2 cites "the capture day" (D86 replaced the full shoot with a lean day); §9 says "put it in the app" (D89: Room is the product, not a mockup); §10 records that D84 removes the cycle from Release 1 and therefore removes the strain, with risk #29 retained because the cycle returns at 100 weekly actives. **This delta changes `CHARTER.md` and says so, as §11 requires.** No red line, the one law, the partition, the two ledgers, the grading constitution, the vocabulary rule, the authority table or §9's prohibition list is touched; Junior's sign-off is not required because no sacred material's *form* is touched | **RATIFIED 2026-08-05 — explicit founder ratification, as `CHARTER.md` §11 requires** | TWO-WAY (derived — three citation corrections, each reversible by reverting the delta they follow) | CHARTER §11; BUILD-LOG 2026-08-05; D84, D86, D89 |
 | D103 | Ten NDA-free testers under a private-sideload exception | `build-room-apk.sh`'s header carries Build Handoff 01 §5 phase 5 verbatim: *"NOTHING THIS SCRIPT PRODUCES MAY GO PUBLIC. No tester access, no store listing, no screenshot leaving the estate before the industrial-design filing."* | The ten-tester sideload is ruled **not "public"**: hand-picked, individually known, receiving the APK directly, asked not to screenshot. The design filing protects against a competitor copying a published GUI; ten people in Junior's network are not that. The alternative inverts the plan's whole logic and delays the only evidence that matters | RATIFIED 2026-08-05 — **the founder accepted the risk explicitly**, which is why it is recorded here rather than buried in a build-script comment | TWO-WAY | PLAN-00 §4; BUILD-LOG 2026-08-05 |
 
 ---
@@ -155,9 +158,16 @@ records where a claim came from, and one that is quietly rewritten stops being a
 **Returned by the founder the same day**: seventeen RATIFIED, D96 REJECTED, D98 DEFERRED, and D94
 **SPLIT** into D94a (RATIFIED) and D94b (scheduled for Stage 3).
 
-**This is the last block to enter this register.** D88 — ratified in this same block — freezes
-`DELTAS.md`. D84–D103 are carried here because they were numbered for it before the freeze took
-effect. Every build decision after 2026-08-05 is one line in `../BUILD-LOG.md` instead.
+**This is the last block to enter this register, with exactly one exception.** D88 — ratified in this
+same block — freezes `DELTAS.md`. D84–D103 are carried here because they were numbered for it before
+the freeze took effect. Every build decision after 2026-08-05 is one line in `../BUILD-LOG.md`
+instead.
+
+**The exception is D104, and it is required rather than permitted.** `CHARTER.md` §11 states that *a
+delta that would change this file must say so in its own text*, and that where the Charter and any
+other document disagree the Charter governs. An amendment to the Charter therefore **cannot** be
+recorded as a BUILD-LOG line — it must be a delta. **So this register stays closed to everything
+except Charter amendments**, and D104 is the first of them.
 
 **A citation error in the issuing document, recorded rather than silently repaired.** `PLAN-00` §1
 under D84 refers to *"D89's Perguntas library"*. D89 in this register is the `opanije-room`-is-the-
@@ -214,8 +224,8 @@ commit `1bab3bb`. Where they are cited as an **earlier state** — C21 in partic
 the point of the citation: the prompt disagreed with the addendum, and the disagreement is the record.
 
 *Issued 2026-08-03 under D83 (Addendum 04 §7); extended and closed 2026-08-05 by the D84–D103
-ratification. Numbering state: last used **D103**, next **D104**; D94 is split into
-D94a and D94b and no new number was drawn for the split — but under D88 no D104 will be
+ratification. Numbering state: last used **D104**, next **D105** — issuable **only** for a further
+`CHARTER.md` amendment; D94 is split into D94a and D94b and no new number was drawn for the split — but under D88 no D104 will be
 issued, and build decisions go to `../BUILD-LOG.md`. Nothing in this register is measured evidence;
 no delta here touches a red line. The estate's first MEASURED row is ledger row 59, and it is
 FALSIFIED.*

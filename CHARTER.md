@@ -78,8 +78,11 @@ a recorded liturgical battery. Material Junior would never mark *playable-inside
 marked *gamifiable* and have a real game to be gamifiable into — in a form the partition itself
 already sanctions rather than one the product invented.
 
-Item-by-item capture happens at the M0 shoot (**INPUT-21**) and is irrecoverable context: the rulings
-can come later, being in the room with him cannot.
+Item-by-item capture happens on the capture day (**INPUT-21**) and is irrecoverable context: the
+rulings can come later, being in the room with him cannot. *(Amended 2026-08-05, D104 under D86: the
+full M0 production shoot was replaced for Release 1 by a lean one-day capture. That changed when and
+how the day happens, not what must be captured — item-by-item partition capture is one of the four
+one-way parts a lean day may not skip.)*
 
 ---
 
@@ -248,7 +251,9 @@ claims, public rank, comparison between students (G17), purchasable repair, and 
 touching the Caderno.
 
 **Everything not on this list is permitted.** Where a mechanic is arguable, build it, put it in the
-mockup, and take it to Junior — not to the product manager.
+app, and take it to Junior — not to the product manager. *(Amended 2026-08-05, D104 under D89:
+`apps/opanije-room` is the product, not a mockup. The instruction is unchanged — build it and take it
+to him around a working object — only the word is.)*
 
 ---
 
@@ -258,8 +263,10 @@ mockup, and take it to Junior — not to the product manager.
 Junior's own hours.
 
 **The one-obligation rule.** One new standing obligation at a time. Applied whenever scope additions
-are evaluated. It is genuinely strained by the monthly cycle (D81) and that strain is recorded as
-**risk #29** rather than assumed away.
+are evaluated. It was genuinely strained by the monthly cycle (D81), and that strain was recorded as
+**risk #29** rather than assumed away. *(Amended 2026-08-05, D104 under D84: the cycle is out of
+Release 1 and INPUT-82 is answered NO-GO, so for Release 1 the strain is removed. It returns when the
+cycle does, at 100 weekly-active students — which is why risk #29 is retained rather than retired.)*
 
 ---
 
@@ -272,6 +279,23 @@ Everything else in the estate is **proposed** until ratified, and proposals are 
 deltas in `registers/DELTAS.md`. A delta that would change this file must say so in its own text.
 
 **Where the Charter and any other document disagree, the Charter governs.**
+
+### Amendment history
+
+| Date | Delta | What changed | Ratified by |
+|---|---|---|---|
+| 2026-08-05 | **D104** | Three consequential edits, none touching a red line, the one law, the partition, the two ledgers, the grading constitution, the vocabulary rule, the authority table or §9's prohibition list: §2's capture reference follows D86 from "the M0 shoot" to "the capture day"; §9's closing instruction follows D89 from "the mockup" to "the app"; §10's one-obligation rule follows D84 in recording that the monthly cycle's strain is removed for Release 1. | Founder, explicitly, 2026-08-05 |
+
+**Junior's sign-off was not required for D104** and was not sought: red line #1 attaches where
+*sacred material's form* is touched, and none of the three edits touches form, partition, or any
+mechanic on sacred material.
+
+**Why D104 exists at all, when D88 froze the delta register.** D88 — ratified the same day — put
+`registers/DELTAS.md` into maintenance mode and said no D104 would be issued. But §11 above requires
+that *"a delta that would change this file must say so in its own text"*, and the line immediately
+above it makes the Charter govern any disagreement. **So the Charter's own requirement outranks
+D88's freeze**, and D104 is issued as the single exception D88 must yield to: the delta register is
+closed to everything except an amendment to this document.
 
 ---
 
