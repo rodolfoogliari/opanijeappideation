@@ -311,5 +311,11 @@ it does not know. Reconciling it is itself an open task, and it is a real one: `
 
 ---
 
+## 2026-08-15 — Capture Day production pack authored
+
+2026-08-15 — `plan/M0-PRODUCTION-PACK.md` created: run-of-show, deliverable spec, ingest/backup rule, in-room decision card (INPUT-23, INPUT-70) and consent-execution checklist for the lean Capture Day (D86). A new dated document; no existing register or `plan/` file edited. Logistics only — it decides nothing and closes no input. TWO-WAY.
+
+---
+
 *Opened 2026-08-05. Under D88 this is the only register the build side writes to; `LEDGER.md` is the
 only one it adds rows to.*
