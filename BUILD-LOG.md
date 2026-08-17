@@ -317,5 +317,58 @@ it does not know. Reconciling it is itself an open task, and it is a real one: `
 
 ---
 
+## 2026-08-15 — Ratification sweep: the founder's 2026-08-14 rulings
+
+Made in real operator turns during the 2026-08-14 workstation session (the mission-control board
+session) and carried here by that session's handoff record; this entry is the estate's durable copy.
+Nothing below issues a decision — this entry **records** rulings already made. The INPUT rows it
+names are updated in `registers/INPUTS.md` in the same commit; the frozen registers are cited,
+never edited.
+
+- **Consent scope — ALL AGREED, ratified by all parties.** Every use tier granted — playable-inside,
+  gamifiable, teachable, archive — with vocalizations covered **distinctly from speech**. INPUT-22 is
+  ANSWERED YES; no amend-and-re-consent cycle is needed before recording. What survives: INPUT-89's
+  instrument wording must name **vocalizations** explicitly rather than leaning on "voice"; INPUT-23
+  (stems) stays open and is decided in the room, on the day. Door: ONE-WAY (consent scope). D86's
+  lean Capture Day keeps all four one-way parts; this ruling clears the first of them.
+- **The commons is three rhythms: ijexá, congo, cabila.** Expands INPUT-80/INPUT-86's Ijexá-only
+  answer at rhythm level — the direction red line #5 permits (the house may give more, never less).
+  Junior's availability-and-teaching-order confirmation stays open for congo and cabila. Door:
+  ONE-WAY (red line #5 — permanent).
+- **The cycle is quarterly at R$97/quarter**, billed quarterly, Pix/Mercado Pago; founding members
+  keep the rate. Delegated to the lead, decided, and Junior ratified. Supersedes D84's monthly-shape
+  premise in part; the submission channel is the one open item. **Not addressed by the ruling and
+  flagged back to the founder in one line:** whether D84's Release-1 exclusion and its
+  100-weekly-actives return threshold still stand for the quarterly form. Door: TWO-WAY until sold;
+  toward founding members the rate is ONE-WAY once sold.
+- **Teaching language is pt-BR — and Junior's speaking voice is not used in the teaching layer, only
+  his vocalizations.** The spoken framing assets — the welcome, the narration, the invitation —
+  remain, and remain subtitle-bearing; INPUT-14's real scope is those assets alone. Door: TWO-WAY.
+- **Play-surface credit: credit the human, never the layer; the presence lamp shows live human
+  presence only.** Answers INPUT-88, and resolves the fork C23 records in favour of the
+  lamp-as-live-presence reading. Door: TWO-WAY while unpublished (red line #5 attaches when the
+  free room ships it).
+- **Takedown reach: everything Opanijé controls, explicitly excluding copies already on a device;
+  stated to the teller before consent; human counsel deferred to pre-publication.** Red line #6's
+  operating form gains its ruled scope; the cross-system build itself remains owed. Door: ONE-WAY
+  (it shapes what the teller is told before consent).
+- **Estate-level rulings recorded for completeness** (their operational homes are the hub, not this
+  repo): the D-U-N-S filing is done and the seller-of-record entity question is closed — holder and
+  seller are the same party; the on-hold WooCommerce orders are test data; the Zelle payee is a test
+  method to be removed; course products 1049/1050 are unpublished under a full backup gate;
+  ElevenLabs spend is deferred until footage is ready to cut; the BorgBase key is escrowed off-box
+  by the operator.
+
+**PROPOSED — the teaching travels without translation.** The lead's derivation from the rulings
+above, put up for ratification rather than asserted: because notation, teaching and input are one
+artifact in Junior's vocalization (G2, G3), and the play layer has no legend and no translation
+step, the instructional loop is **language-independent** — Portuguese-or-English is a property of
+the framing assets, not of the instruction. The estate has never written this down, and has never
+made the reach argument it implies (the standard's distribution case — THE-STANDARD §1.3 territory,
+recorded here because `plan/` is history under D88). It also narrows INPUT-14 as noted above.
+Status: PROPOSED until the founder and Junior ratify.
+
+---
+
 *Opened 2026-08-05. Under D88 this is the only register the build side writes to; `LEDGER.md` is the
 only one it adds rows to.*
