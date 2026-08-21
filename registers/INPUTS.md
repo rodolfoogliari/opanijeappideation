@@ -125,17 +125,19 @@ publication of the standard, and anything shot at M0 — and marked "(derived)".
 The list Addendum 04 §8 and §11 name as currently owed is marked **bold**; the remaining open rows
 follow, in numeric order.
 
-**Junior.** **INPUT-78** (classroom transcription) · **INPUT-79** (form assent on the rendered echo)
-· **INPUT-70** (stroke sample library) · **INPUT-77** (stroke vocabulary, his confirmation half) ·
-**INPUT-21** (five-value partition) · **INPUT-67** (confirmation of the reference dialect, the
-surviving half of a reframed item) · **INPUT-72** (rough prototype audio — blocks the pilot) · the
-mockup conversation: **INPUT-41**, **INPUT-52**, **INPUT-62**, **INPUT-69** (the last now small
-under G26). Also open and his: INPUT-12, INPUT-16, INPUT-17, INPUT-18, INPUT-20, INPUT-32,
-INPUT-57, INPUT-68.
+**Junior.** **INPUT-79** (form assent on the rendered echo) · **INPUT-70** (stroke sample library) ·
+**INPUT-77** (stroke vocabulary, his confirmation half) · **INPUT-21** (five-value partition) · the
+mockup conversation: **INPUT-41**, **INPUT-52**, **INPUT-69** (the last now small under G26).
+**INPUT-78, INPUT-67's confirmation half and INPUT-72 answered 2026-08-21** (Junior live via founder
+relay) and drop from this list; **INPUT-62 delegated 2026-08-21** and moves to the Founder line below
+as a PROPOSED response pending ratification. Also open and his: INPUT-12, INPUT-16, INPUT-17,
+INPUT-18, INPUT-20, INPUT-32, INPUT-57, INPUT-68.
 
-**Founder.** **INPUT-74** (count-in variant count) · **INPUT-80** (the commons list) · **INPUT-81**
+**Founder.** **INPUT-74** (count-in variant count) · **INPUT-62** (engagement-layer boundary —
+Junior delegated 2026-08-21; PROPOSED response pending founder ratification) · **INPUT-81**
 (vocabulary sheet approval) · **INPUT-82** (the cycle go/no-go) · **INPUT-84** (confirm the G15
-reading). Also open and his: INPUT-1, INPUT-2, INPUT-3, INPUT-4, INPUT-5, INPUT-6, INPUT-7,
+reading). **INPUT-80 CLOSED both halves 2026-08-21** and drops from this list. Also open and his:
+INPUT-1, INPUT-2, INPUT-3, INPUT-4, INPUT-5, INPUT-6, INPUT-7,
 INPUT-8, INPUT-10, INPUT-11, INPUT-14, INPUT-15, INPUT-19, INPUT-22, INPUT-23, INPUT-24, INPUT-26,
 INPUT-28, INPUT-40, INPUT-42, INPUT-43, INPUT-44, INPUT-45, INPUT-48, INPUT-49, INPUT-50, INPUT-51,
 INPUT-53, INPUT-55, INPUT-56, INPUT-59, INPUT-60, INPUT-61, INPUT-75.
@@ -164,9 +166,12 @@ INPUT-71 (sharing and export, non-urgent, held in the brief by R78).
 | INPUT-63 | CLOSED — the app may advance the student | RULED 2026-07-31; D51 | Mandate 01 §9 |
 | INPUT-64 | ANSWERED for Release 1; open beyond it | G17 / D68 | Addendum 03 §6.1, §14 |
 | INPUT-66 | ANSWERED — no engagement mechanics on the free tier in Release 1 | G15 / D66 | Addendum 03 §10, §14 |
-| INPUT-67 | REFRAMED — reference dialect inside a frame; confirmation still owed | Addendum 04 §6 | Addendum 04 §6, §8 |
+| INPUT-67 | REFRAMED, confirmation half ANSWERED 2026-08-21 — syllables agudo='tá', médio='tu', grave='dum'; stroke/part mapping stays with the founder via INPUT-77 | Addendum 04 §6; Junior live via founder relay | Addendum 04 §6, §8 |
+| INPUT-72 | GRANTED 2026-08-21 — test-grade audience only, never public | Junior live via founder relay | Addendum 04 §8, §9, §11 |
 | INPUT-73 | ANSWERED — the celebration object is the new personal best | D80 | Addendum 04 §10, §11 |
 | INPUT-76 | ANSWERED — the library stays in the shoot; C22 resolved (derived) | D77 | Addendum 04 §8, §10 |
+| INPUT-78 | ANSWERED 2026-08-21 — classroom sequence recorded; INPUT-79 stays open | Junior live via founder relay | Addendum 04 §4.1, §8, §9, §11 |
+| INPUT-80 | CLOSED both halves 2026-08-21 — commons list (founder 2026-08-14) and teaching order/availability (Junior 2026-08-21) both settled | D94a/INPUT-86; Junior live via founder relay | Addendum 04 §5, §9, §11 |
 
 ---
 
