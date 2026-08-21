@@ -370,5 +370,15 @@ Status: PROPOSED until the founder and Junior ratify.
 
 ---
 
+## 2026-08-21 — Junior live via founder relay: five settled facts
+
+- **INPUT-72 GRANTED**: rough-audio audience is "sim, apresente roteiro pra gravar" — test-grade only, never public; roteiro delivered same day. Door: ONE-WAY.
+- **INPUT-78 ANSWERED**: classroom sequence is (1) solfejo apresenta, (2) solfejo+tambor, (3) solfejo do ritmo, (4) toque do ritmo; INPUT-79 stays open. Door: ONE-WAY (derived).
+- **INPUT-67 confirmation half ANSWERED**: register syllables agudo='tá', médio='tu', grave='dum' ("diferença tonal"); stroke/part mapping (INPUT-77) stays with the founder. Door: ONE-WAY.
+- **INPUT-80 Junior's half CLOSED**: comfortable teaching all rhythms, order ijexá→congo→cabila correct; his standing ruling — availability/comfort is never re-asked. Door: ONE-WAY (red line #5).
+- **INPUT-62 DELEGATED** by Junior ("decide for us"); PROPOSED in response, owner Founder for ratification: return invitation freezes at one quiet card/room-stays-open/one return action, with its never-list as the permanent boundary. Door: TWO-WAY (derived).
+
+---
+
 *Opened 2026-08-05. Under D88 this is the only register the build side writes to; `LEDGER.md` is the
 only one it adds rows to.*
