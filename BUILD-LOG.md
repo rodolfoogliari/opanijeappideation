@@ -380,5 +380,15 @@ Status: PROPOSED until the founder and Junior ratify.
 
 ---
 
+## 2026-08-30 — Five rulings threaded from the opanije repo (2026-08-28/29)
+
+- **2026-08-28**: founder ruled the stroke vocabulary — hand slap='Tá', tone='Tu', bass='Dum'; sticks skin='Tá', rim='Ti' (opanije `GATES.md:42`, wired `zones.ts:10`).
+- **2026-08-28**: operator ruled sacred-status control — catalog rows may read `cleared-by-operator` to render; the gate still fails closed on everything else (opanije `GATES.md:46`, `toque-echo-reference.py:89`).
+- **2026-08-28**: operator picked Home bento option C (opanije `GATES.md:57`, wired opanije #1323).
+- **2026-08-29**: operator ruled the Cidade→RODA rename — label-deep only, keys/routes/testIDs stay `cidade` (opanije `GATES.md:58`).
+- **2026-08-29**: operator re-deferred the three Room evidence acts to 2026-09-16 (opanije #1325).
+
+---
+
 *Opened 2026-08-05. Under D88 this is the only register the build side writes to; `LEDGER.md` is the
 only one it adds rows to.*
