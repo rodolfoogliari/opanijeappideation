@@ -380,5 +380,16 @@ Status: PROPOSED until the founder and Junior ratify.
 
 ---
 
+## 2026-08-28 — Founder, via operator: INPUT-77's naming half
+
+- **INPUT-77 founder's naming half ANSWERED**: on the hand drum slap='Tá', tone='Tu', bass='Dum'; on
+  the sticks the skin carries 'Tá' and the rim keeps its standing 'Ti' — no vocable was invented for
+  it. Wired into the app (opanije `src/data/catalog.ts`, `src/domain/zones.ts`;
+  `apps/opanije-room/docs/GATES.md:42`). **Junior's confirmation against the solfejo, the half INPUT-77
+  reserves to him, is not addressed by this ruling and stays OPEN** — it is ONE-WAY and must still be
+  asked at the M0 shoot. Door: ONE-WAY (shot at M0).
+
+---
+
 *Opened 2026-08-05. Under D88 this is the only register the build side writes to; `LEDGER.md` is the
 only one it adds rows to.*

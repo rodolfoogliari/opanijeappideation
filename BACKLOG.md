@@ -73,7 +73,8 @@ three-option treatment.**
 - **INPUT-70** · The stroke sample library — which drums, which strokes, and whether any is off-limits
   to isolated sampling under the partition.
 - **INPUT-77** · Which instruments take which stroke vocabulary, and whether the reference instrument
-  needs one of its own. Founder names it; **Junior confirms against the solfejo**.
+  needs one of its own. **Founder named it 2026-08-28** (via operator; `registers/INPUTS.md`
+  INPUT-77); **Junior's confirmation against the solfejo is still owed**.
 - **R82** · Confirm the **tempo ladder** first-hand. The pedagogical half is MASTER-CONFIRMED — slowing
   a toque is normal — but the specific ladder is still *relayed*, and twelve of the shoot's passes
   depend on it.
@@ -117,7 +118,7 @@ Junior's formal input is a **governance gate, not a consultation** (`CHARTER.md`
 | **INPUT-79** | Form assent on the **rendered echo** — that the voice withdrawing is his teaching and not a trick played on it | Two-way (assent, not capture) | Settling D74 |
 | **INPUT-69** | Form assent on the **screen drum** — a glass surface standing in for a drum, over his material. *Now small under G26*, which settled the direction. Shown as a working mockup, never described | Two-way | Shipping the surface (prohibition #10) |
 | **INPUT-70** | The stroke sample library — which drums, which strokes, what is off-limits to sampling | **ONE-WAY** | The M0 shoot |
-| **INPUT-77** | Which instruments take which stroke vocabulary; the reference instrument's own | **ONE-WAY** | The M0 shoot |
+| **INPUT-77** | Which instruments take which stroke vocabulary; the reference instrument's own. Founder named it 2026-08-28; Junior's confirmation against the solfejo is still owed | **ONE-WAY** | The M0 shoot |
 | **INPUT-21** | The five-value partition, per item, at the shoot, with the vocalization tier live | **ONE-WAY** | The M0 shoot |
 | **INPUT-67** | The reference dialect confirmation | **ONE-WAY** | The standard's publication |
 | **INPUT-52** | The free rhythm's partition value | **ONE-WAY** | The free tier |
