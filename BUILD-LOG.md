@@ -392,3 +392,60 @@ Status: PROPOSED until the founder and Junior ratify.
 
 *Opened 2026-08-05. Under D88 this is the only register the build side writes to; `LEDGER.md` is the
 only one it adds rows to.*
+
+## 2026-08-31 — INPUT-62 ratified
+
+- **INPUT-62 RATIFIED** (founder delegation in a live turn — "decide for me" — lead ratified the
+  PROPOSED response as written): the return invitation freezes at its demonstrated form — one
+  quiet card, room-remains-open, one return action; the never-list (pontos, sequência, meta,
+  prêmio, reconhecimento do mestre, posição, comparação entre estudantes, leitura de tempo) is
+  the permanent boundary; any widening requires a new founder+Junior decision. Door: TWO-WAY
+  (derived — no free-tier engagement layer survives G15/D66).
+
+## 2026-08-31 — the ratification set closed (founder, live turn)
+
+- **INPUT-19 RATIFIED**: the narrow no-digital-skill reading (R11) stands — usable without
+  digital skill never means feature removal, only never-mandatory-to-play. Door: TWO-WAY.
+- **INPUT-24 RATIFIED**: tier 3 is the product's base; tiers 1–2 are the on-ramp. Door: TWO-WAY.
+- **INPUT-28 RATIFIED**: A14 reads as a proprietary interactive product, never a points layer —
+  coherent with INPUT-62's boundary ratified the same day. Door: TWO-WAY.
+- **INPUT-26 ANSWERED**: Vanderson's role is PONTUAL (per project, when called); terms agreed
+  per project; Release 1 does not depend on him. Feeds INPUT-3; narrows INPUT-55. Door: TWO-WAY.
+
+## 2026-08-31 — the business-facts interview (founder, live turn)
+
+- **INPUT-1 ANSWERED**: no email list exists. **INPUT-7 ANSWERED**: no grants tracked now.
+- **INPUT-4 ANSWERED**: fixed costs ~R$1,500/month; rises to R$5-6k with course-launch
+  social-media work. **INPUT-8 ANSWERED**: no company account, no treasury — costs leave the
+  founder's personal account; course revenue will land at the seller CNPJ (Junior's company),
+  an asymmetry the terms memo must reconcile.
+- **INPUT-5 PARTIAL**: immersion window = maybe January next year; capacity/supplier cost open.
+- **INPUT-3 + INPUT-61 FACT**: terms are oral, 50/50, founder and Junior, nothing written.
+  Junior delegated terms to the founder; founder delegated the WRITTEN FORM to the lead, with
+  brainstorm + double-blind review, ruling to be recorded when made.
+- **INPUT-10/11 DELEGATED** (same turn): private-class prices in both price worlds + the
+  never-cross rule's operating form — lead decides via the same brainstorm + double-blind.
+
+## 2026-08-31 — two delegated rulings (double-blind adjudicated) + the MEI answer
+
+- **INPUT-10/11 RULED** (founder delegated live; two blind Opus lenses, lead adjudicated):
+  private classes — presencial R$500 single / R$1.800 month (4x), online R$400 / R$1.500 month,
+  60 min both, prepaid packs, BRL only, never printed. Never-cross operating form: one premium
+  sheet for the master's time (floor R$1.800/month), no arithmetic bridge, quote totals never
+  rates, no discounts (move to a group format instead), no free trial class, the founder quotes
+  — the master never says a number, institutional inquiries route to B2B, one repricing date.
+  Buyer-indexed dual pricing REJECTED (community-reputation risk lands on the master).
+  30-day market falsifier recorded. Doors: TWO-WAY (prices), the quoting protection ONE-WAY
+  socially. Full adjudication: workstation ~/scratch/doc-revamp-2026-08-31/ADJUDICATION-2026-08-31.md.
+- **INPUT-3/61 WRITTEN FORM RULED** (same process): "Acordo entre os fundadores" drafted —
+  memory-not-contract, pt-BR authoritative, 9 sections; costs-reimbursed-first with worked
+  example; ONE monthly statement both see (the load-bearing clause); monthly settlement;
+  reserve 10% of net to 3 months of costs; personal money in = recorded loan; possession-is-
+  not-ownership sentence; Junior's red lines verbatim-faithful; mutual veto on the name at
+  exit; subordinate-to-the-word clause. DRAFT-ACORDO-FUNDADORES-2026-08-31.md (this repo,
+  DRAFT — the two humans read it ALOUD together first; the money clause is SAID before it is
+  sent; counsel before signatures carry weight).
+- **MEI ceiling ANSWERED (founder, live):** not a problem for now — plan: shift part of the
+  receipts to a second MEI (his brother's, with headroom) or simply start paying taxes past
+  the ceiling. R$65k-annualised watch stays armed machine-side; contador/counsel question only
+  when the shift becomes live.
