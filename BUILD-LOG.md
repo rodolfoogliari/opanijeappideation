@@ -425,3 +425,27 @@ only one it adds rows to.*
   brainstorm + double-blind review, ruling to be recorded when made.
 - **INPUT-10/11 DELEGATED** (same turn): private-class prices in both price worlds + the
   never-cross rule's operating form — lead decides via the same brainstorm + double-blind.
+
+## 2026-08-31 — two delegated rulings (double-blind adjudicated) + the MEI answer
+
+- **INPUT-10/11 RULED** (founder delegated live; two blind Opus lenses, lead adjudicated):
+  private classes — presencial R$500 single / R$1.800 month (4x), online R$400 / R$1.500 month,
+  60 min both, prepaid packs, BRL only, never printed. Never-cross operating form: one premium
+  sheet for the master's time (floor R$1.800/month), no arithmetic bridge, quote totals never
+  rates, no discounts (move to a group format instead), no free trial class, the founder quotes
+  — the master never says a number, institutional inquiries route to B2B, one repricing date.
+  Buyer-indexed dual pricing REJECTED (community-reputation risk lands on the master).
+  30-day market falsifier recorded. Doors: TWO-WAY (prices), the quoting protection ONE-WAY
+  socially. Full adjudication: workstation ~/scratch/doc-revamp-2026-08-31/ADJUDICATION-2026-08-31.md.
+- **INPUT-3/61 WRITTEN FORM RULED** (same process): "Acordo entre os fundadores" drafted —
+  memory-not-contract, pt-BR authoritative, 9 sections; costs-reimbursed-first with worked
+  example; ONE monthly statement both see (the load-bearing clause); monthly settlement;
+  reserve 10% of net to 3 months of costs; personal money in = recorded loan; possession-is-
+  not-ownership sentence; Junior's red lines verbatim-faithful; mutual veto on the name at
+  exit; subordinate-to-the-word clause. DRAFT-ACORDO-FUNDADORES-2026-08-31.md (this repo,
+  DRAFT — the two humans read it ALOUD together first; the money clause is SAID before it is
+  sent; counsel before signatures carry weight).
+- **MEI ceiling ANSWERED (founder, live):** not a problem for now — plan: shift part of the
+  receipts to a second MEI (his brother's, with headroom) or simply start paying taxes past
+  the ceiling. R$65k-annualised watch stays armed machine-side; contador/counsel question only
+  when the shift becomes live.
