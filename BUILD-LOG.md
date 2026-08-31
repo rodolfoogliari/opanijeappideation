@@ -392,3 +392,12 @@ Status: PROPOSED until the founder and Junior ratify.
 
 *Opened 2026-08-05. Under D88 this is the only register the build side writes to; `LEDGER.md` is the
 only one it adds rows to.*
+
+## 2026-08-31 — INPUT-62 ratified
+
+- **INPUT-62 RATIFIED** (founder delegation in a live turn — "decide for me" — lead ratified the
+  PROPOSED response as written): the return invitation freezes at its demonstrated form — one
+  quiet card, room-remains-open, one return action; the never-list (pontos, sequência, meta,
+  prêmio, reconhecimento do mestre, posição, comparação entre estudantes, leitura de tempo) is
+  the permanent boundary; any widening requires a new founder+Junior decision. Door: TWO-WAY
+  (derived — no free-tier engagement layer survives G15/D66).
