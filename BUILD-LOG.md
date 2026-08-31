@@ -411,3 +411,17 @@ only one it adds rows to.*
   coherent with INPUT-62's boundary ratified the same day. Door: TWO-WAY.
 - **INPUT-26 ANSWERED**: Vanderson's role is PONTUAL (per project, when called); terms agreed
   per project; Release 1 does not depend on him. Feeds INPUT-3; narrows INPUT-55. Door: TWO-WAY.
+
+## 2026-08-31 — the business-facts interview (founder, live turn)
+
+- **INPUT-1 ANSWERED**: no email list exists. **INPUT-7 ANSWERED**: no grants tracked now.
+- **INPUT-4 ANSWERED**: fixed costs ~R$1,500/month; rises to R$5-6k with course-launch
+  social-media work. **INPUT-8 ANSWERED**: no company account, no treasury — costs leave the
+  founder's personal account; course revenue will land at the seller CNPJ (Junior's company),
+  an asymmetry the terms memo must reconcile.
+- **INPUT-5 PARTIAL**: immersion window = maybe January next year; capacity/supplier cost open.
+- **INPUT-3 + INPUT-61 FACT**: terms are oral, 50/50, founder and Junior, nothing written.
+  Junior delegated terms to the founder; founder delegated the WRITTEN FORM to the lead, with
+  brainstorm + double-blind review, ruling to be recorded when made.
+- **INPUT-10/11 DELEGATED** (same turn): private-class prices in both price worlds + the
+  never-cross rule's operating form — lead decides via the same brainstorm + double-blind.
