@@ -401,3 +401,13 @@ only one it adds rows to.*
   prêmio, reconhecimento do mestre, posição, comparação entre estudantes, leitura de tempo) is
   the permanent boundary; any widening requires a new founder+Junior decision. Door: TWO-WAY
   (derived — no free-tier engagement layer survives G15/D66).
+
+## 2026-08-31 — the ratification set closed (founder, live turn)
+
+- **INPUT-19 RATIFIED**: the narrow no-digital-skill reading (R11) stands — usable without
+  digital skill never means feature removal, only never-mandatory-to-play. Door: TWO-WAY.
+- **INPUT-24 RATIFIED**: tier 3 is the product's base; tiers 1–2 are the on-ramp. Door: TWO-WAY.
+- **INPUT-28 RATIFIED**: A14 reads as a proprietary interactive product, never a points layer —
+  coherent with INPUT-62's boundary ratified the same day. Door: TWO-WAY.
+- **INPUT-26 ANSWERED**: Vanderson's role is PONTUAL (per project, when called); terms agreed
+  per project; Release 1 does not depend on him. Feeds INPUT-3; narrows INPUT-55. Door: TWO-WAY.
