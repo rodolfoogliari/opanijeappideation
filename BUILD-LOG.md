@@ -387,6 +387,20 @@ Status: PROPOSED until the founder and Junior ratify.
 - **2026-08-28**: operator picked Home bento option C (opanije `GATES.md:57`, wired opanije #1323). Door: TWO-WAY.
 - **2026-08-29**: operator ruled the Cidade→RODA rename — label-deep only, keys/routes/testIDs stay `cidade` (opanije `GATES.md:58`). Door: TWO-WAY.
 - **2026-08-29**: operator re-deferred the three Room evidence acts to 2026-09-16 (opanije #1325). Door: TWO-WAY.
+- **2026-09-17**: RE-0 gate sweep landed (opanije #1414): 81 scanner hits → 73 in-code `GATE:` markers — 4 lexical
+  false positives excluded from the scan (a `GRADLE_GATE:` type literal and one assertion string), 4 answered markers
+  converted to dated references (the three lines below), and every remaining register row in the Room's `GATES.md`
+  dated 2026-09-17 with its owner (counsel 20 · founder ~32 · Junior ~15 markers by subject). D88's count of 56 was
+  stale. Door: TWO-WAY (register and comments only; no gate's question was answered in code).
+- **2026-09-17**: the `GATE: INPUT-47` marker in the Room's `src/media/renderSource.ts` became a dated reference to the
+  2026-08-15 takedown-reach ruling above (copies already on a device are excluded; a durable local copy would be a
+  download and is not designed). Door: TWO-WAY.
+- **2026-09-17**: the two `GATE: D45` markers in the Room's `src/platform/notifications.ts` became dated references to
+  D45 as founder-decided (permission asked at the moment that converts best, subject to platform rules; the exact
+  screen is a revisable mockup detail, not a held gate). Door: TWO-WAY.
+- **2026-09-17**: the `GATE: R54/D48/S2` marker in the Room's `src/theme/theme.ts` became a dated statement of fact:
+  the external design track delivered `opanije-theme@1.0.0` (S2 founder-decided; `src/theme/dsTokens.ts` is its RN
+  binding). Door: TWO-WAY.
 
 ---
 
